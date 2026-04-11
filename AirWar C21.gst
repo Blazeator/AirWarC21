@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gameSystem id="sys-6b94-3646-c6d2-7038" name="AirWar C21" battleScribeVersion="2.03" revision="1" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profileTypes>
-    <profileType name="Aeronave" id="4b46-8607-d6d7-b593" hidden="false" sortIndex="1">
+    <profileType name="Aeronave" id="4b46-8607-d6d7-b593" hidden="false" sortIndex="1" kind="model">
       <characteristicTypes>
         <characteristicType name="Mn" id="e8bf-0ebd-7756-e33c"/>
         <characteristicType name="Mx" id="5f6e-31c2-db64-82eb"/>
@@ -24,7 +24,7 @@
         <characteristicType name="Notas" id="f5eb-9c5a-bf5f-227f" kind="longText"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Misiles Aire-Aire" id="c79e-c810-7f3d-db48" hidden="false" sortIndex="4">
+    <profileType name="Misiles Aire-Aire" id="c79e-c810-7f3d-db48" hidden="false" sortIndex="5" kind="weapon">
       <characteristicTypes>
         <characteristicType name="Guiado" id="d330-28ec-342f-04bd"/>
         <characteristicType name="Aspecto" id="df38-cf14-507f-65b0"/>
@@ -36,7 +36,7 @@
         <characteristicType name="Año" id="081c-87c4-e7ab-042b"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Gun-Pods" id="a529-9bd9-9e00-0ee8" hidden="false" sortIndex="3">
+    <profileType name="Gun-Pods" id="a529-9bd9-9e00-0ee8" hidden="false" sortIndex="4" kind="weapon">
       <characteristicTypes>
         <characteristicType name="Dados" id="83fc-d3b4-ca65-cf13"/>
         <characteristicType name="Municion" id="48cc-0be4-5a6f-0777"/>
@@ -45,7 +45,7 @@
         <characteristicType name="Notas" id="0850-03fe-d7bf-b7bb"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Armas Aire-Tierra" id="7ee2-b0ca-5c4b-195a" hidden="false" sortIndex="5">
+    <profileType name="Armas Aire-Tierra" id="7ee2-b0ca-5c4b-195a" hidden="false" sortIndex="6" kind="weapon">
       <characteristicTypes>
         <characteristicType name="Clase" id="7c8b-20de-f3ac-5f1c"/>
         <characteristicType name="Alcance" id="c158-dfbb-2e5b-d8f0"/>
@@ -60,7 +60,7 @@
         <characteristicType name="Notas" id="1d5d-5067-b071-a2e1"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="SAM" id="2386-e6db-16e9-6fe2" hidden="false">
+    <profileType name="SAM" id="2386-e6db-16e9-6fe2" hidden="false" kind="model" sortIndex="10">
       <characteristicTypes>
         <characteristicType name="Guiado" id="75b7-c429-4591-c6bb"/>
         <characteristicType name="Aspecto" id="492d-fd44-4328-d821"/>
@@ -77,7 +77,7 @@
         <characteristicType name="Año" id="b94b-4246-c8ee-9682"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Cañones AA" id="3b95-f4fa-ba05-1232" hidden="false">
+    <profileType name="Cañones AA" id="3b95-f4fa-ba05-1232" hidden="false" kind="model" sortIndex="9">
       <characteristicTypes>
         <characteristicType name="Control Disparo" id="7190-09e9-e40b-2b37"/>
         <characteristicType name="Alcance" id="cd28-b7d4-7fd5-91c7"/>
@@ -91,13 +91,13 @@
         <characteristicType name="Año" id="6b62-fe7d-3462-24d1"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Adiestramiento del Piloto" id="7baf-f845-4400-5d60" hidden="false" sortIndex="2">
+    <profileType name="Adiestramiento del Piloto" id="7baf-f845-4400-5d60" hidden="false" sortIndex="3" kind="model">
       <characteristicTypes>
         <characteristicType name="Modificador de Habilidad" id="730c-f4e8-5b77-eb49"/>
         <characteristicType name="Modificador Dados de Armas" id="90d0-084e-0aad-928e"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Bomba de Racimo" id="767d-2c9a-5275-6eb4" hidden="false">
+    <profileType name="Bomba de Racimo" id="767d-2c9a-5275-6eb4" hidden="false" kind="weapon">
       <characteristicTypes>
         <characteristicType name="Clase" id="422e-7970-6330-dc23"/>
         <characteristicType name="Alcance" id="1dee-9b88-dd06-126c"/>
@@ -112,7 +112,7 @@
         <characteristicType name="Notas" id="3606-43cb-cfc6-7668"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Bomba Guiada Electro-Optico (TV)" id="d078-b60a-e284-6081" hidden="false">
+    <profileType name="Bomba Guiada Electro-Optico (TV)" id="d078-b60a-e284-6081" hidden="false" kind="weapon">
       <characteristicTypes>
         <characteristicType name="Clase" id="d5c0-e3c9-057c-0071"/>
         <characteristicType name="Alcance" id="b3c0-7493-7641-aa7f"/>
@@ -127,7 +127,7 @@
         <characteristicType name="Notas" id="5c0f-ff72-a6f2-1d49"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Misil Aire-Tierra Guiado" id="bfc2-4351-39e8-d69c" hidden="false">
+    <profileType name="Misil Aire-Tierra Guiado" id="bfc2-4351-39e8-d69c" hidden="false" kind="weapon">
       <characteristicTypes>
         <characteristicType name="Clase" id="6319-7f6e-0bf0-fee0"/>
         <characteristicType name="Alcance" id="860f-1130-db2c-8b80"/>
@@ -142,7 +142,7 @@
         <characteristicType name="Notas" id="208e-31db-73e5-28ab"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Bomba Guiada Laser" id="6dfb-bb3e-73cc-7fda" hidden="false">
+    <profileType name="Bomba Guiada Laser" id="6dfb-bb3e-73cc-7fda" hidden="false" kind="weapon">
       <characteristicTypes>
         <characteristicType name="Clase" id="a53b-7e89-d21e-9b20"/>
         <characteristicType name="Alcance" id="ed12-0d5b-92cd-bd6a"/>
@@ -157,7 +157,7 @@
         <characteristicType name="Notas" id="8938-9408-ed0a-d28f"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Bomba Guiada GPS" id="fd66-3cc8-5114-b9cf" hidden="false">
+    <profileType name="Bomba Guiada GPS" id="fd66-3cc8-5114-b9cf" hidden="false" kind="weapon">
       <characteristicTypes>
         <characteristicType name="Clase" id="704e-e5a9-c2ee-9512"/>
         <characteristicType name="Alcance" id="c161-2c6e-23c6-7338"/>
@@ -172,7 +172,7 @@
         <characteristicType name="Notas" id="18f4-5b46-79b6-4ffd"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Bomba no Guiada" id="ce0f-db55-fb5b-49b1" hidden="false">
+    <profileType name="Bomba no Guiada" id="ce0f-db55-fb5b-49b1" hidden="false" kind="weapon">
       <characteristicTypes>
         <characteristicType name="Clase" id="584b-998f-91ba-35bf"/>
         <characteristicType name="Alcance" id="7064-a7da-f2c3-8616"/>
@@ -187,7 +187,7 @@
         <characteristicType name="Notas" id="beb1-5e5a-b0c1-1184"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Cohete no Guiado" id="36e6-86cb-9691-a512" hidden="false">
+    <profileType name="Cohete no Guiado" id="36e6-86cb-9691-a512" hidden="false" kind="weapon">
       <characteristicTypes>
         <characteristicType name="Clase" id="b921-f6d3-48c0-6a70"/>
         <characteristicType name="Alcance" id="ba4b-ea0f-e548-75d2"/>
@@ -202,7 +202,7 @@
         <characteristicType name="Notas" id="7748-ebc3-d108-5963"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Pod Cohetes no Guiados" id="f854-9488-c6c0-a63b" hidden="false">
+    <profileType name="Pod Cohetes no Guiados" id="f854-9488-c6c0-a63b" hidden="false" kind="weapon">
       <characteristicTypes>
         <characteristicType name="Clase" id="95fe-894a-0cbc-1347"/>
         <characteristicType name="Alcance" id="5965-b8e9-52af-ad01"/>
@@ -217,15 +217,37 @@
         <characteristicType name="Notas" id="0a28-5e0a-dc26-2739"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Accesorios" id="78ec-4e9c-1403-c071" hidden="false" sortIndex="6">
+    <profileType name="Accesorios" id="78ec-4e9c-1403-c071" hidden="false" sortIndex="7" kind="model">
       <characteristicTypes>
-        <characteristicType id="f528-97d9-25c6-5180" kind="longText"/>
+        <characteristicType name="Definicion" id="16b4-4f76-0b05-191e"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Objetivo Terrestre" id="d4cc-b5fe-0a05-1a8f" hidden="false">
+    <profileType name="Objetivo Terrestre" id="d4cc-b5fe-0a05-1a8f" hidden="false" sortIndex="8" kind="model">
       <characteristicTypes>
         <characteristicType name="Clase" id="6a47-59f3-7502-3dc7"/>
+        <characteristicType name="DP" id="37d2-0831-258a-a03f"/>
         <characteristicType name="Descripcion" id="14b5-c31c-37f4-2ccd" kind="longText"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Helicoptero" id="4423-81db-b9ae-0264" hidden="false" sortIndex="2" kind="model">
+      <characteristicTypes>
+        <characteristicType name="Mn" id="d862-264b-03cd-683e"/>
+        <characteristicType name="Mx" id="f0e3-fa42-82a3-3a74"/>
+        <characteristicType name="Acc1/Acc2" id="274e-3481-f234-ecf1"/>
+        <characteristicType name="Dec" id="bbfa-be1e-d28f-9ff1"/>
+        <characteristicType name="Ma" id="9f12-7cdd-164f-ceb9"/>
+        <characteristicType name="Gn" id="067a-8dca-fc38-fc06"/>
+        <characteristicType name="Am" id="c8c5-6205-596f-4648"/>
+        <characteristicType name="DP" id="1435-a5d3-f1a5-a0f7"/>
+        <characteristicType name="Cf" id="0a51-4ca0-5c35-b67f"/>
+        <characteristicType name="Fl" id="870b-6933-d3aa-1260"/>
+        <characteristicType name="ECM" id="1cf9-e356-6fb4-2328"/>
+        <characteristicType name="Rdr" id="1ff9-bd02-8701-d289"/>
+        <characteristicType name="Sz" id="193c-453e-90a9-1dbb"/>
+        <characteristicType name="Sp" id="f0cd-d861-df5f-057a"/>
+        <characteristicType name="Ld" id="b248-927a-589e-024b"/>
+        <characteristicType name="Año" id="10de-ac7f-26b0-4dee"/>
+        <characteristicType name="Notas" id="201c-4acd-06f8-db93" kind="longText"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -247,7 +269,7 @@
             <infoLink name="Bueno" id="784e-631f-a843-3a96" hidden="false" type="profile" targetId="c586-5729-3bc8-4a19"/>
           </infoLinks>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Normal" hidden="false" id="90f7-39e2-b5f5-e2b0" sortIndex="3">
+        <selectionEntry type="upgrade" import="true" name="Normal" hidden="false" id="90f7-39e2-b5f5-e2b0" sortIndex="3" defaultAmount="1">
           <infoLinks>
             <infoLink name="Normal" id="e379-d5d5-9734-f5e6" hidden="false" type="profile" targetId="3b0c-8b53-942f-f7cb"/>
           </infoLinks>
@@ -795,6 +817,62 @@
         <characteristic name="Modificador Dados de Armas" typeId="90d0-084e-0aad-928e">-1d6</characteristic>
       </characteristics>
     </profile>
+    <profile name="Cargado" typeId="4b46-8607-d6d7-b593" typeName="Aeronave" hidden="false" id="dd0c-1ac2-5bea-a9e4">
+      <characteristics>
+        <characteristic name="Mn" typeId="e8bf-0ebd-7756-e33c">+1</characteristic>
+        <characteristic name="Mx" typeId="5f6e-31c2-db64-82eb">-2</characteristic>
+        <characteristic name="Pw" typeId="8341-e4bd-623a-3ad1">-1 LVL</characteristic>
+        <characteristic name="Acc1/Acc2" typeId="bf71-8a86-757c-5e7c">-1/-1</characteristic>
+        <characteristic name="Dec" typeId="b043-fe11-ef69-4f57"/>
+        <characteristic name="Ma" typeId="1307-88ae-ee70-3c7c">-1 LVL</characteristic>
+        <characteristic name="Gn" typeId="b171-916a-4ab1-ff51"/>
+        <characteristic name="Am" typeId="2d03-abee-3bdd-695e"/>
+        <characteristic name="Bm" typeId="ce01-ca82-f06c-0d5a"/>
+        <characteristic name="DP" typeId="53b6-9553-455d-4abb"/>
+        <characteristic name="Cf" typeId="16c2-b7e6-5db7-7e68"/>
+        <characteristic name="Fl" typeId="4509-bc00-110c-183a"/>
+        <characteristic name="ECM" typeId="676a-801b-f0a3-9cc6"/>
+        <characteristic name="Rdr" typeId="5ce8-5771-857e-04a1"/>
+        <characteristic name="Sz" typeId="7204-bfdd-ccd8-77c5"/>
+        <characteristic name="Sp" typeId="d29d-ff32-75aa-1a1b"/>
+        <characteristic name="Ld" typeId="bb2b-8dd8-456f-a06b"/>
+        <characteristic name="Año" typeId="7fb1-e1cc-6c9c-9a54"/>
+        <characteristic name="Notas" typeId="f5eb-9c5a-bf5f-227f"/>
+      </characteristics>
+    </profile>
+    <profile name="Ligeramente Cargado" typeId="4b46-8607-d6d7-b593" typeName="Aeronave" hidden="false" id="10e0-ab09-3b25-8d80">
+      <characteristics>
+        <characteristic name="Mn" typeId="e8bf-0ebd-7756-e33c"/>
+        <characteristic name="Mx" typeId="5f6e-31c2-db64-82eb">-1</characteristic>
+        <characteristic name="Pw" typeId="8341-e4bd-623a-3ad1"/>
+        <characteristic name="Acc1/Acc2" typeId="bf71-8a86-757c-5e7c"/>
+        <characteristic name="Dec" typeId="b043-fe11-ef69-4f57"/>
+        <characteristic name="Ma" typeId="1307-88ae-ee70-3c7c"/>
+        <characteristic name="Gn" typeId="b171-916a-4ab1-ff51"/>
+        <characteristic name="Am" typeId="2d03-abee-3bdd-695e"/>
+        <characteristic name="Bm" typeId="ce01-ca82-f06c-0d5a"/>
+        <characteristic name="DP" typeId="53b6-9553-455d-4abb"/>
+        <characteristic name="Cf" typeId="16c2-b7e6-5db7-7e68"/>
+        <characteristic name="Fl" typeId="4509-bc00-110c-183a"/>
+        <characteristic name="ECM" typeId="676a-801b-f0a3-9cc6"/>
+        <characteristic name="Rdr" typeId="5ce8-5771-857e-04a1"/>
+        <characteristic name="Sz" typeId="7204-bfdd-ccd8-77c5"/>
+        <characteristic name="Sp" typeId="d29d-ff32-75aa-1a1b"/>
+        <characteristic name="Ld" typeId="bb2b-8dd8-456f-a06b"/>
+        <characteristic name="Año" typeId="7fb1-e1cc-6c9c-9a54"/>
+        <characteristic name="Notas" typeId="f5eb-9c5a-bf5f-227f"/>
+      </characteristics>
+    </profile>
+    <profile name="Dispensador de Sonoboyas" typeId="78ec-4e9c-1403-c071" typeName="Accesorios" hidden="false" id="a389-5485-d10c-a30e">
+      <characteristics>
+        <characteristic name="Definicion" typeId="16b4-4f76-0b05-191e">Dispositivo de sonar desechable lanzado para detectar, localizar y rastrear submarinos y barcos enemigos. Al tocar el agua, despliega un hidrófono bajo la superficie y transmite datos acústicos por radio a un operador.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Equipo Escucha Submarino" typeId="78ec-4e9c-1403-c071" typeName="Accesorios" hidden="false" id="7227-0677-30fa-d8cd">
+      <characteristics>
+        <characteristic name="Definicion" typeId="16b4-4f76-0b05-191e">Dispositivo activo/pasivo desplegado desde helicópteros para la guerra antisubmarina (ASW).</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="AA-8 Aphid (R-60M)" hidden="false" id="c8a1-c1e2-10c6-e3c6">
@@ -814,7 +892,7 @@
       </profiles>
       <comment>IR</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="b0ae-0a0a-2902-ec31" primary="true" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="b0ae-0a0a-2902-ec31" primary="true" name="Rusia / URSS"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AA-8 Aphid (R-60MK)" hidden="false" id="2fbc-1c91-7036-2135">
@@ -834,7 +912,7 @@
       </profiles>
       <comment>IR</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="da87-1aa6-2a57-ad90" primary="true" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="da87-1aa6-2a57-ad90" primary="true" name="Rusia / URSS"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AA-8 Aphid (R-60T)" hidden="false" id="ddf8-2a26-a11d-1437">
@@ -854,7 +932,7 @@
       </profiles>
       <comment>IR</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="8d60-bf38-be8e-b54d" primary="true" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="8d60-bf38-be8e-b54d" primary="true" name="Rusia / URSS"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AA-9 Amos (R-33)" hidden="false" id="463e-5e8e-41ef-3728">
@@ -874,7 +952,7 @@
       </profiles>
       <comment>ARH</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="0c86-a4db-1769-1092" primary="true" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="0c86-a4db-1769-1092" primary="true" name="Rusia / URSS"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AA-10A Alamo (R-27T)" hidden="false" id="fd66-8b87-ec53-ec32">
@@ -894,7 +972,7 @@
       </profiles>
       <comment>IR</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="6e3f-1843-16ef-7e94" primary="true" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="6e3f-1843-16ef-7e94" primary="true" name="Rusia / URSS"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AA-10B Alamo (R-27R)" hidden="false" id="48cf-c7e6-a70a-2eb6">
@@ -914,7 +992,7 @@
       </profiles>
       <comment>SARH</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="eec6-a1eb-a1e5-7786" primary="true" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="eec6-a1eb-a1e5-7786" primary="true" name="Rusia / URSS"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AA-10C Alamo (R-27ER)" hidden="false" id="ef58-d8c2-98f1-9e51">
@@ -934,7 +1012,7 @@
       </profiles>
       <comment>SARH</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="2c5b-0c74-6607-1423" primary="true" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="2c5b-0c74-6607-1423" primary="true" name="Rusia / URSS"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AA-10D Alamo (R-27ET)" hidden="false" id="92fa-4366-b455-2f15">
@@ -954,7 +1032,7 @@
       </profiles>
       <comment>IR</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="bd77-4056-2b3b-1e9f" primary="true" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="bd77-4056-2b3b-1e9f" primary="true" name="Rusia / URSS"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AA-10E Alamo (R-27EM)" hidden="false" id="d3ed-03d8-335a-b295">
@@ -974,7 +1052,7 @@
       </profiles>
       <comment>SARH</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="f1a6-9b01-b042-6257" primary="true" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="f1a6-9b01-b042-6257" primary="true" name="Rusia / URSS"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AA-10F Alamo (R-27AE)" hidden="false" id="92f5-4d89-7d63-cc1f">
@@ -994,7 +1072,7 @@
       </profiles>
       <comment>ARH</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="69f6-d437-94cb-052c" primary="true" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="69f6-d437-94cb-052c" primary="true" name="Rusia / URSS"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AA-11 Archer (R-73)" hidden="false" id="b360-e9b4-ab58-fb45">
@@ -1014,7 +1092,7 @@
       </profiles>
       <comment>IR</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="8d59-7cc6-f57e-9706" primary="true" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="8d59-7cc6-f57e-9706" primary="true" name="Rusia / URSS"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AA-11 Archer (R-73M)" hidden="false" id="d73c-8986-76be-cf6f">
@@ -1034,7 +1112,7 @@
       </profiles>
       <comment>IR</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="693e-caf5-700b-ed74" primary="true" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="693e-caf5-700b-ed74" primary="true" name="Rusia / URSS"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AA-11 Archer (R-74EM)" hidden="false" id="04bd-0fee-c827-1aaf">
@@ -1054,7 +1132,7 @@
       </profiles>
       <comment>IR</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="1d7a-2818-4621-b658" primary="true" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="1d7a-2818-4621-b658" primary="true" name="Rusia / URSS"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AA-12 Adder (R-77M)" hidden="false" id="6188-aa3d-4ba4-b325">
@@ -1074,7 +1152,7 @@
       </profiles>
       <comment>ARH</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="9a34-dfac-120d-3b68" primary="true" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="9a34-dfac-120d-3b68" primary="true" name="Rusia / URSS"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AA-12 Adder (R-77)" hidden="false" id="d674-ae18-3a32-d5e0">
@@ -1094,7 +1172,7 @@
       </profiles>
       <comment>ARH</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="9ee5-1127-da06-b0e6" primary="true" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="9ee5-1127-da06-b0e6" primary="true" name="Rusia / URSS"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AS-18 Kazoo (Kh-59M)" hidden="false" id="599c-5d62-2180-8b42">
@@ -1117,7 +1195,7 @@
       </profiles>
       <comment>MSL CRU</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="f989-203e-49db-a087" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="f989-203e-49db-a087" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="5ab0-3a0d-af61-92c1" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
     </selectionEntry>
@@ -1141,7 +1219,7 @@
       </profiles>
       <comment>MSL  AT LAS</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="873b-1cf2-1b14-3c24" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="873b-1cf2-1b14-3c24" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="293b-3a7e-3767-d465" primary="true" name="Arma Aire-Tierra"/>
         <categoryLink targetId="e6aa-09d3-85a9-c834" id="5cab-07ac-e258-67f9" primary="false" name="Arma Guiado Laser"/>
       </categoryLinks>
@@ -1166,7 +1244,7 @@
       </profiles>
       <comment>MSL AR</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="74de-16e4-9fd1-a2e7" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="74de-16e4-9fd1-a2e7" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="f16b-65a3-dedf-8b98" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
     </selectionEntry>
@@ -1190,7 +1268,7 @@
       </profiles>
       <comment>BMB G LAS</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="e359-9c8e-3e40-d299" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="e359-9c8e-3e40-d299" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="8ef7-0317-75a6-cd8f" primary="true" name="Arma Aire-Tierra"/>
         <categoryLink targetId="e6aa-09d3-85a9-c834" id="62c8-4abb-93f3-7e31" primary="false" name="Arma Guiado Laser"/>
       </categoryLinks>
@@ -1215,7 +1293,7 @@
       </profiles>
       <comment>BMB G LAS</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="3b3a-bda6-f865-19e6" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="3b3a-bda6-f865-19e6" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="8869-76f3-549d-0cac" primary="true" name="Arma Aire-Tierra"/>
         <categoryLink targetId="e6aa-09d3-85a9-c834" id="b69a-72cf-88ae-b44b" primary="false" name="Arma Guiado Laser"/>
       </categoryLinks>
@@ -1237,7 +1315,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="e315-ed23-d76e-cb5d" primary="true" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="e315-ed23-d76e-cb5d" primary="true" name="Estados Unidos"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AIM-9X Sidewinder" hidden="false" id="dba4-eacb-3888-cbc4">
@@ -1257,7 +1335,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="9f3d-ad21-3302-2c5e" primary="true" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="9f3d-ad21-3302-2c5e" primary="true" name="Estados Unidos"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AIM-9L Sidewinder" hidden="false" id="fa98-54ec-0792-dce7">
@@ -1277,7 +1355,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="d0cc-049e-acc6-96bd" primary="true" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="d0cc-049e-acc6-96bd" primary="true" name="Estados Unidos"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AIM-9J Sidewinder" hidden="false" id="ebee-e082-5981-ea74">
@@ -1297,7 +1375,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="d63e-072d-5b89-4ccb" primary="true" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="d63e-072d-5b89-4ccb" primary="true" name="Estados Unidos"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AIM-9H Sidewinder" hidden="false" id="02b9-2605-0121-8d66">
@@ -1317,7 +1395,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="69db-47c4-d019-876f" primary="true" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="69db-47c4-d019-876f" primary="true" name="Estados Unidos"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AIM-9G Sidewinder" hidden="false" id="3d40-0883-0d3f-d18e">
@@ -1337,7 +1415,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="516f-cfa7-1c07-233d" primary="true" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="516f-cfa7-1c07-233d" primary="true" name="Estados Unidos"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AIM-7P Sparrow III" hidden="false" id="2b71-1208-9795-2d1e">
@@ -1357,7 +1435,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="2e1f-e52d-d5b4-7ed6" primary="true" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="2e1f-e52d-d5b4-7ed6" primary="true" name="Estados Unidos"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AIM-7A Sparrow I" hidden="false" id="0e1e-6a9b-75db-b917">
@@ -1377,7 +1455,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="c8e2-70a6-2a18-6392" primary="true" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="c8e2-70a6-2a18-6392" primary="true" name="Estados Unidos"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AIM-7C Sparrow III" hidden="false" id="4779-21ec-d4d2-8cc5">
@@ -1397,7 +1475,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="c0f2-09ee-0fdc-e027" primary="true" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="c0f2-09ee-0fdc-e027" primary="true" name="Estados Unidos"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AIM-7D Sparrow III" hidden="false" id="7104-b3b8-3b2b-48cf">
@@ -1417,7 +1495,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="c26e-25a4-1a32-e81b" primary="true" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="c26e-25a4-1a32-e81b" primary="true" name="Estados Unidos"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AIM-7E Sparrow III" hidden="false" id="e54d-f400-9777-83e2">
@@ -1437,7 +1515,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="e1bf-7be1-cdc7-b95b" primary="true" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="e1bf-7be1-cdc7-b95b" primary="true" name="Estados Unidos"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AIM-7E2 Sparrow III" hidden="false" id="b3ab-9df8-aa18-11b4">
@@ -1457,7 +1535,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="9f92-8adc-a288-0753" primary="true" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="9f92-8adc-a288-0753" primary="true" name="Estados Unidos"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AIM-7F Sparrow III" hidden="false" id="e384-88d8-c251-a87b">
@@ -1477,7 +1555,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="bcaa-f918-0643-2763" primary="true" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="bcaa-f918-0643-2763" primary="true" name="Estados Unidos"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AIM-7M Sparrow III" hidden="false" id="f9ae-cbf5-aa1f-7f97">
@@ -1497,7 +1575,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="e91f-0b76-523c-f7eb" primary="true" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="e91f-0b76-523c-f7eb" primary="true" name="Estados Unidos"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AIM-9N Sidewinder (export)" hidden="false" id="be89-99dd-1e3f-6008">
@@ -1517,7 +1595,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="1a31-4ffa-3624-4cfe" primary="true" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="1a31-4ffa-3624-4cfe" primary="true" name="Estados Unidos"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AIM-9M Sidewinder" hidden="false" id="1648-0a77-4985-1e90">
@@ -1537,7 +1615,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="44ef-6812-da50-5a01" primary="true" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="44ef-6812-da50-5a01" primary="true" name="Estados Unidos"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AIM-54C Phoenix" hidden="false" id="5385-6ff7-d108-0857">
@@ -1557,7 +1635,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="abb6-7db6-7424-78e5" primary="true" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="abb6-7db6-7424-78e5" primary="true" name="Estados Unidos"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AIM-54A Phoenix" hidden="false" id="475e-492d-937a-d27a">
@@ -1577,7 +1655,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="b63d-26e8-e53e-5286" primary="true" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="b63d-26e8-e53e-5286" primary="true" name="Estados Unidos"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AIM-120C AMRAAM" hidden="false" id="f2a2-0d29-757e-4b6f">
@@ -1597,7 +1675,7 @@
       </profiles>
       <comment>ARH</comment>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="72ef-6ab9-372d-2dcf" primary="true" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="72ef-6ab9-372d-2dcf" primary="true" name="Estados Unidos"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AIM-120A/B AMRAAM" hidden="false" id="de57-8ebe-5340-d0f7">
@@ -1617,7 +1695,7 @@
       </profiles>
       <comment>ARH</comment>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="dff9-f8ff-3166-c0a9" primary="true" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="dff9-f8ff-3166-c0a9" primary="true" name="Estados Unidos"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="ASRAAM" hidden="false" id="30dc-98d1-af7d-b649">
@@ -1637,7 +1715,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="7b3b-7df2-52f8-d929" id="bea2-3804-59bf-df99" primary="true" name="RAF (Reino Unido)"/>
+        <categoryLink targetId="7b3b-7df2-52f8-d929" id="bea2-3804-59bf-df99" primary="true" name="Reino Unido"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Meteor" hidden="false" id="4467-9260-d849-3d6b">
@@ -1657,13 +1735,13 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="7b3b-7df2-52f8-d929" id="c458-4eac-86cc-efd8" primary="true" name="RAF (Reino Unido)"/>
+        <categoryLink targetId="7b3b-7df2-52f8-d929" id="c458-4eac-86cc-efd8" primary="true" name="Reino Unido"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="IRIS-T" hidden="false" id="27b9-aac0-3a1a-39f3">
       <comment>IR</comment>
       <categoryLinks>
-        <categoryLink targetId="4dc9-6605-f3ed-0f29" id="57fa-7cc9-5800-77e8" primary="true" name="Luftwaffe (Alemania)"/>
+        <categoryLink targetId="4dc9-6605-f3ed-0f29" id="57fa-7cc9-5800-77e8" primary="true" name="Alemania"/>
       </categoryLinks>
       <profiles>
         <profile name="IRIS-T" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="8adb-e360-c804-4496">
@@ -1775,8 +1853,9 @@
     <selectionEntry type="upgrade" import="true" name="Brimstone" hidden="false" id="9166-4bcf-5329-d3ab">
       <comment>MSL AT</comment>
       <categoryLinks>
-        <categoryLink targetId="7b3b-7df2-52f8-d929" id="d34e-47ec-aef9-bcf7" primary="false" name="RAF (Reino Unido)"/>
+        <categoryLink targetId="7b3b-7df2-52f8-d929" id="d34e-47ec-aef9-bcf7" primary="false" name="Reino Unido"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="d5b6-2984-32d2-2070" primary="true" name="Arma Aire-Tierra"/>
+        <categoryLink targetId="e6aa-09d3-85a9-c834" id="26f0-855d-c89f-817b" primary="false" name="Arma Guiado Laser"/>
       </categoryLinks>
       <profiles>
         <profile name="Brimstone" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="3d8f-83fc-fe4c-d130">
@@ -1799,7 +1878,7 @@
     <selectionEntry type="upgrade" import="true" name="ALARM ~" hidden="false" id="1c28-4576-7c99-a80e">
       <comment>MSL AR</comment>
       <categoryLinks>
-        <categoryLink targetId="7b3b-7df2-52f8-d929" id="c857-b2e5-0cba-5107" primary="false" name="RAF (Reino Unido)"/>
+        <categoryLink targetId="7b3b-7df2-52f8-d929" id="c857-b2e5-0cba-5107" primary="false" name="Reino Unido"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="00d3-abca-641c-b829" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <profiles>
@@ -1823,7 +1902,7 @@
     <selectionEntry type="upgrade" import="true" name="AGM-65F Maverick" hidden="false" id="4aa5-0893-b61a-692b">
       <comment>MSL  AT IR</comment>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="b5c3-d451-78b0-35ee" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="b5c3-d451-78b0-35ee" primary="false" name="Estados Unidos"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="5d1e-94d4-4ccd-6ede" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <profiles>
@@ -1847,7 +1926,7 @@
     <selectionEntry type="upgrade" import="true" name="AGM-65A Maverick" hidden="false" id="e126-6660-6f4e-7f85">
       <comment>MSL  AT TV</comment>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="76e2-7df4-97e3-e177" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="76e2-7df4-97e3-e177" primary="false" name="Estados Unidos"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="cd83-5cc8-27d6-71b3" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <profiles>
@@ -1871,7 +1950,7 @@
     <selectionEntry type="upgrade" import="true" name="AGM-65B Maverick" hidden="false" id="e26c-7724-4277-6e45">
       <comment>MSL  AT TV</comment>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="cd13-121c-761a-5726" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="cd13-121c-761a-5726" primary="false" name="Estados Unidos"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="c9ce-1020-422b-77dc" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <profiles>
@@ -1895,7 +1974,7 @@
     <selectionEntry type="upgrade" import="true" name="AGM-65D Maverick" hidden="false" id="8840-4e3b-a0b5-6e3a">
       <comment>MSL  AT IR</comment>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="54ee-0475-b186-e6be" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="54ee-0475-b186-e6be" primary="false" name="Estados Unidos"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="4f49-3ca0-4004-5c3f" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <profiles>
@@ -1919,7 +1998,7 @@
     <selectionEntry type="upgrade" import="true" name="AGM-65E Maverick" hidden="false" id="c760-f3d1-4bb5-c6ae">
       <comment>MSL  AT LAS</comment>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="ebd9-382d-db34-f8a6" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="ebd9-382d-db34-f8a6" primary="false" name="Estados Unidos"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="80d6-2bd4-e7b7-e9e5" primary="true" name="Arma Aire-Tierra"/>
         <categoryLink targetId="e6aa-09d3-85a9-c834" id="b702-9d28-d5d8-e7a7" primary="false" name="Arma Guiado Laser"/>
       </categoryLinks>
@@ -1944,7 +2023,7 @@
     <selectionEntry type="upgrade" import="true" name="AGM-88 HARM ~" hidden="false" id="17c9-41eb-5b91-b21c">
       <comment>MSL AR</comment>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="5190-0cc3-baca-6d1d" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="5190-0cc3-baca-6d1d" primary="false" name="Estados Unidos"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="d491-8b5e-91af-5af3" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <profiles>
@@ -1984,7 +2063,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="2446-1af0-1e56-251c" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="2446-1af0-1e56-251c" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="d328-fa82-c365-23f7" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <comment>BMB</comment>
@@ -2008,7 +2087,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="a208-b423-735b-0734" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="a208-b423-735b-0734" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="ec1d-61fe-cff5-6ff5" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <comment>BMB</comment>
@@ -2032,7 +2111,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="022c-9eb8-74c0-70fc" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="022c-9eb8-74c0-70fc" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="f017-a539-7a39-636d" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <comment>BMB</comment>
@@ -2057,7 +2136,7 @@
       </profiles>
       <comment>BMB G TV</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="24d2-b1c1-298f-b33f" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="24d2-b1c1-298f-b33f" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="72d6-aa69-bae8-0cd9" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
     </selectionEntry>
@@ -2081,7 +2160,7 @@
       </profiles>
       <comment>BMB G TV</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="b0d2-ba4d-81d9-c6e0" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="b0d2-ba4d-81d9-c6e0" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="c4c9-2d50-da17-6594" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
     </selectionEntry>
@@ -2105,7 +2184,7 @@
       </profiles>
       <comment>MSL CRU</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="bd70-aad0-8d4d-7d74" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="bd70-aad0-8d4d-7d74" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="cc8c-6c6b-8dfe-ce3f" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
     </selectionEntry>
@@ -2129,7 +2208,7 @@
       </profiles>
       <comment>MSL AR</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="ac19-f93a-62ab-d5a4" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="ac19-f93a-62ab-d5a4" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="ee9a-dc13-14e4-8567" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
     </selectionEntry>
@@ -2150,7 +2229,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="a459-b1c2-e9d5-fdc9" primary="true" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="a459-b1c2-e9d5-fdc9" primary="true" name="Estados Unidos"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AIM-9P4 Sidewinder (export)" hidden="false" id="8cf7-ef6f-3517-7410">
@@ -2170,7 +2249,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="041c-4e13-1f4c-aa44" primary="true" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="041c-4e13-1f4c-aa44" primary="true" name="Estados Unidos"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="GBU-10 C/B Paveway II 2000 lb LGB ^" hidden="false" id="795e-9aed-b749-18e3">
@@ -2194,7 +2273,7 @@
       </profiles>
       <categoryLinks>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="89ea-658e-00cd-838d" primary="true" name="Arma Aire-Tierra"/>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="de36-b4e2-a45e-f9d2" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="de36-b4e2-a45e-f9d2" primary="false" name="Estados Unidos"/>
         <categoryLink targetId="e6aa-09d3-85a9-c834" id="e65d-a870-a67e-68e4" primary="false" name="Arma Guiado Laser"/>
       </categoryLinks>
     </selectionEntry>
@@ -2218,7 +2297,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="4188-106e-d12a-b715" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="4188-106e-d12a-b715" primary="false" name="Estados Unidos"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="dfc6-8351-686a-4043" primary="true" name="Arma Aire-Tierra"/>
         <categoryLink targetId="e6aa-09d3-85a9-c834" id="c86c-4b16-75eb-e133" primary="false" name="Arma Guiado Laser"/>
       </categoryLinks>
@@ -2243,7 +2322,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="9387-5989-7115-efa4" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="9387-5989-7115-efa4" primary="false" name="Estados Unidos"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="b712-eae7-aa18-6dd4" primary="true" name="Arma Aire-Tierra"/>
         <categoryLink targetId="e6aa-09d3-85a9-c834" id="9d19-cdb7-bc5a-261b" primary="false" name="Arma Guiado Laser"/>
       </categoryLinks>
@@ -2268,7 +2347,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="1882-0112-fcb3-a38b" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="1882-0112-fcb3-a38b" primary="false" name="Estados Unidos"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="b2b4-2778-6123-aa75" primary="true" name="Arma Aire-Tierra"/>
         <categoryLink targetId="e6aa-09d3-85a9-c834" id="8632-86d2-0c0c-e4eb" primary="false" name="Arma Guiado Laser"/>
       </categoryLinks>
@@ -2293,7 +2372,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="fcf9-9ff5-b1d5-4754" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="fcf9-9ff5-b1d5-4754" primary="false" name="Estados Unidos"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="2440-fb74-78ce-0f26" primary="true" name="Arma Aire-Tierra"/>
         <categoryLink targetId="e6aa-09d3-85a9-c834" id="f83a-c389-e013-f308" primary="false" name="Arma Guiado Laser"/>
       </categoryLinks>
@@ -2318,7 +2397,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="5d6a-2384-a463-5f0c" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="5d6a-2384-a463-5f0c" primary="false" name="Estados Unidos"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="e54c-1f73-29f4-0d2c" primary="true" name="Arma Aire-Tierra"/>
         <categoryLink targetId="e6aa-09d3-85a9-c834" id="d16f-5204-a902-9f34" primary="false" name="Arma Guiado Laser"/>
       </categoryLinks>
@@ -2326,7 +2405,7 @@
     <selectionEntry type="upgrade" import="true" name="Taurus KEPD 350" hidden="false" id="e041-e48e-42fa-eaaf">
       <comment>MSL CRU</comment>
       <categoryLinks>
-        <categoryLink targetId="4dc9-6605-f3ed-0f29" id="5503-3364-c360-0603" primary="false" name="Luftwaffe (Alemania)"/>
+        <categoryLink targetId="4dc9-6605-f3ed-0f29" id="5503-3364-c360-0603" primary="false" name="Alemania"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="882f-deb7-cb04-a7f9" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <profiles>
@@ -2350,7 +2429,7 @@
     <selectionEntry type="upgrade" import="true" name="CBU-87 CEM 950 lb Mixed cluster" hidden="false" id="0337-7441-37a5-94e2">
       <comment>BMB RAC</comment>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="4417-5f06-5b23-3022" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="4417-5f06-5b23-3022" primary="false" name="Estados Unidos"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="8d71-819c-18da-e400" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <profiles>
@@ -2374,7 +2453,7 @@
     <selectionEntry type="upgrade" import="true" name="CBU-58 800 lb Anti-pers cluster" hidden="false" id="31b6-38dc-5e67-6ab1">
       <comment>BMB RAC</comment>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="9376-720c-250e-e42e" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="9376-720c-250e-e42e" primary="false" name="Estados Unidos"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="8ffe-222c-950d-0e8d" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <profiles>
@@ -2398,7 +2477,7 @@
     <selectionEntry type="upgrade" import="true" name="BLU-1 750 lb napalm *" hidden="false" id="9482-b412-7b5f-9195">
       <comment>BMB NPL</comment>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="1166-a95c-817e-d514" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="1166-a95c-817e-d514" primary="false" name="Estados Unidos"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="d13f-e642-64bf-02d3" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <profiles>
@@ -2422,7 +2501,7 @@
     <selectionEntry type="upgrade" import="true" name="CBU-20 Rockeye 500 lb Anti-tank cluster" hidden="false" id="9c42-ee16-2aaa-5c8e">
       <comment>BMB RAC</comment>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="9dbf-ecae-35f0-9713" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="9dbf-ecae-35f0-9713" primary="false" name="Estados Unidos"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="2807-bcb2-1172-1355" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <profiles>
@@ -2446,7 +2525,7 @@
     <selectionEntry type="upgrade" import="true" name="CBU-52 750 lb Anti-pers cluster" hidden="false" id="3f40-24f5-0e91-a62c">
       <comment>BMB RAC</comment>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="bed0-4210-7b5a-3acf" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="bed0-4210-7b5a-3acf" primary="false" name="Estados Unidos"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="b049-0805-951f-d12b" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <profiles>
@@ -2470,7 +2549,7 @@
     <selectionEntry type="upgrade" import="true" name="Mk84 2000 lb bomb^" hidden="false" id="6ca5-f4d9-ec5b-99d1">
       <categoryLinks>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="7ca3-0e09-68a9-e57f" primary="true" name="Arma Aire-Tierra"/>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="88dc-477f-ed91-7072" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="88dc-477f-ed91-7072" primary="false" name="Estados Unidos"/>
       </categoryLinks>
       <profiles>
         <profile name="Mk84 2000 lb bomb^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="482e-aa5d-1324-026e">
@@ -2494,7 +2573,7 @@
     <selectionEntry type="upgrade" import="true" name="Mk83 1000 lb high drag bomb" hidden="false" id="4f21-9ab3-cfeb-67cd">
       <categoryLinks>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="8dec-0848-61d1-4009" primary="true" name="Arma Aire-Tierra"/>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="c4fc-0b4d-f4a6-92ac" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="c4fc-0b4d-f4a6-92ac" primary="false" name="Estados Unidos"/>
       </categoryLinks>
       <profiles>
         <profile name="Mk83 1000 lb high drag bomb" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="a884-6071-6fcb-f9c1">
@@ -2518,7 +2597,7 @@
     <selectionEntry type="upgrade" import="true" name="Mk83 1000 lb bomb^" hidden="false" id="5de4-c6d5-4668-0615">
       <categoryLinks>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="5c45-e992-cca2-4bfa" primary="true" name="Arma Aire-Tierra"/>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="1ee9-21ae-aa76-3222" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="1ee9-21ae-aa76-3222" primary="false" name="Estados Unidos"/>
       </categoryLinks>
       <profiles>
         <profile name="Mk83 1000 lb bomb^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="7c52-4fd1-b3ff-c6d8">
@@ -2542,7 +2621,7 @@
     <selectionEntry type="upgrade" import="true" name="GBU-31/B JDAM 2000 lb penetrator ^" hidden="false" id="54fa-2f32-585d-62fd">
       <categoryLinks>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="ae0e-c70a-c4bb-3e33" primary="true" name="Arma Aire-Tierra"/>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="a2df-1b94-ef65-7f3a" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="a2df-1b94-ef65-7f3a" primary="false" name="Estados Unidos"/>
       </categoryLinks>
       <comment>BMB G GPS</comment>
       <profiles>
@@ -2566,7 +2645,7 @@
     <selectionEntry type="upgrade" import="true" name="GBU-31/B JDAM 2000 lb bomb ^" hidden="false" id="f356-c940-f25d-fdff">
       <categoryLinks>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="835f-f62d-4632-70c0" primary="true" name="Arma Aire-Tierra"/>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="b70a-a7b2-b817-fc6c" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="b70a-a7b2-b817-fc6c" primary="false" name="Estados Unidos"/>
       </categoryLinks>
       <comment>BMB G GPS</comment>
       <profiles>
@@ -2590,7 +2669,7 @@
     <selectionEntry type="upgrade" import="true" name="GBU-32/B JDAM 1000 lb bomb ^" hidden="false" id="96e9-9fb7-0b6b-80cc">
       <categoryLinks>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="097e-f5bd-5356-2318" primary="true" name="Arma Aire-Tierra"/>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="382b-8b0a-61f0-cc7e" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="382b-8b0a-61f0-cc7e" primary="false" name="Estados Unidos"/>
       </categoryLinks>
       <comment>BMB G GPS</comment>
       <profiles>
@@ -2614,7 +2693,7 @@
     <selectionEntry type="upgrade" import="true" name="GBU-35/B JDAM 1000 lb penetrator ^" hidden="false" id="bc74-96e8-63a5-fa84">
       <categoryLinks>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="dac5-e3ff-5e59-4790" primary="true" name="Arma Aire-Tierra"/>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="f5c5-5e2d-a79c-456a" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="f5c5-5e2d-a79c-456a" primary="false" name="Estados Unidos"/>
       </categoryLinks>
       <comment>BMB G GPS</comment>
       <profiles>
@@ -2638,7 +2717,7 @@
     <selectionEntry type="upgrade" import="true" name="GBU-38/B JDAM 500 lb bomb ^" hidden="false" id="67d2-d3b6-1c5f-3c40">
       <categoryLinks>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="6684-5884-ef35-a01b" primary="true" name="Arma Aire-Tierra"/>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="14cf-379d-5d08-0054" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="14cf-379d-5d08-0054" primary="false" name="Estados Unidos"/>
       </categoryLinks>
       <comment>BMB G GPS</comment>
       <profiles>
@@ -2680,7 +2759,7 @@
       </profiles>
       <categoryLinks>
         <categoryLink targetId="0789-bad8-7d9f-78ba" id="c54b-2e94-f7cf-4a03" primary="true" name="Cohetes/GunPod/ECM"/>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="64d5-7591-acd1-5bfa" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="64d5-7591-acd1-5bfa" primary="false" name="Estados Unidos"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Rockets Hydra 70 Pod of 19x2.75&quot; FFAR" hidden="false" id="13a7-56c2-9e89-974e">
@@ -2704,14 +2783,14 @@
       </profiles>
       <categoryLinks>
         <categoryLink targetId="0789-bad8-7d9f-78ba" id="12f3-66cd-7dc5-6ffa" primary="true" name="Cohetes/GunPod/ECM"/>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="81c1-ffc3-fa49-9045" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="81c1-ffc3-fa49-9045" primary="false" name="Estados Unidos"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Storm Shadow" hidden="false" id="7c81-1842-22bb-40d8">
       <comment>MSL CRU</comment>
       <categoryLinks>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="4fd0-eb73-46c4-4175" primary="true" name="Arma Aire-Tierra"/>
-        <categoryLink targetId="7b3b-7df2-52f8-d929" id="a5eb-adf5-e968-a0c8" primary="false" name="RAF (Reino Unido)"/>
+        <categoryLink targetId="7b3b-7df2-52f8-d929" id="a5eb-adf5-e968-a0c8" primary="false" name="Reino Unido"/>
       </categoryLinks>
       <profiles>
         <profile name="Storm Shadow" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="1660-1501-c23a-327e">
@@ -2752,7 +2831,7 @@
       </profiles>
       <categoryLinks>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="b49b-22e3-e315-ec42" primary="true" name="Arma Aire-Tierra"/>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="af42-5f6f-f463-08db" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="af42-5f6f-f463-08db" primary="false" name="Estados Unidos"/>
         <categoryLink targetId="e6aa-09d3-85a9-c834" id="a060-fec2-5882-67da" primary="false" name="Arma Guiado Laser"/>
       </categoryLinks>
     </selectionEntry>
@@ -2798,7 +2877,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AA-6 Acrid (R-40T)" hidden="false" id="7bad-0269-23f5-e591">
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="8f01-e628-e449-5fb4" primary="true" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="8f01-e628-e449-5fb4" primary="true" name="Rusia / URSS"/>
       </categoryLinks>
       <comment>IR</comment>
       <profiles>
@@ -2818,7 +2897,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AA-6 Acrid (R-40R)" hidden="false" id="dbc3-0106-3848-4a35">
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="136b-8c71-87c8-3a8f" primary="true" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="136b-8c71-87c8-3a8f" primary="true" name="Rusia / URSS"/>
       </categoryLinks>
       <comment>SARH</comment>
       <profiles>
@@ -2838,7 +2917,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AA-7 Apex (R-23T)" hidden="false" id="5a22-fed6-cafd-b026">
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="5a14-fc1b-022f-e4b4" primary="true" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="5a14-fc1b-022f-e4b4" primary="true" name="Rusia / URSS"/>
       </categoryLinks>
       <comment>IR</comment>
       <profiles>
@@ -2858,7 +2937,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AA-7 Apex (R-23R)" hidden="false" id="3958-3aec-bd64-0993">
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="25cd-7203-55ad-2a71" primary="true" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="25cd-7203-55ad-2a71" primary="true" name="Rusia / URSS"/>
       </categoryLinks>
       <comment>SARH</comment>
       <profiles>
@@ -2878,7 +2957,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AA-7 Apex (R-24T)" hidden="false" id="e130-f0be-b3f4-aa51">
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="3e11-2c46-7367-7759" primary="true" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="3e11-2c46-7367-7759" primary="true" name="Rusia / URSS"/>
       </categoryLinks>
       <comment>IR</comment>
       <profiles>
@@ -2898,7 +2977,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AA-7 Apex (R-24R)" hidden="false" id="e079-90e3-9694-3e5d">
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="d9aa-bcb4-f418-c8da" primary="true" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="d9aa-bcb4-f418-c8da" primary="true" name="Rusia / URSS"/>
       </categoryLinks>
       <comment>SARH</comment>
       <profiles>
@@ -2936,7 +3015,7 @@
       </profiles>
       <comment>MSL  AT LAS</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="f483-8a7c-8fe9-287a" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="f483-8a7c-8fe9-287a" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="c559-197f-7308-fed5" primary="true" name="Arma Aire-Tierra"/>
         <categoryLink targetId="e6aa-09d3-85a9-c834" id="ef4f-843f-d0b4-19d5" primary="false" name="Arma Guiado Laser"/>
       </categoryLinks>
@@ -2960,7 +3039,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="0e3d-368b-cf79-7aa8" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="0e3d-368b-cf79-7aa8" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="7f7c-b899-679d-2fb9" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <comment>BMB</comment>
@@ -2968,7 +3047,7 @@
     <selectionEntry type="upgrade" import="true" name="RBK-250 Anti-tank cluster" hidden="false" id="58be-89ea-cacb-1cdd">
       <comment>BMB RAC</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="1622-99fc-4b9b-ca00" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="1622-99fc-4b9b-ca00" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="3930-28f9-73bf-4583" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <profiles>
@@ -2992,7 +3071,7 @@
     <selectionEntry type="upgrade" import="true" name="RBK-250 Anti-pers cluster" hidden="false" id="b70e-e90b-9399-2b43">
       <comment>BMB RAC</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="a043-b30d-5f83-4378" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="a043-b30d-5f83-4378" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="c652-d41d-4583-e41c" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <profiles>
@@ -3015,7 +3094,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="RBK-500 500 kg Mixed cluster" hidden="false" id="a1db-b06f-78ac-59d9">
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="c681-8802-70f0-b863" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="c681-8802-70f0-b863" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="2ca4-1884-d2ae-8b85" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <comment>BMB RAC</comment>
@@ -3039,7 +3118,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="RBK-500 330 kg Anti-pers cluster" hidden="false" id="0029-e972-4a18-0ef2">
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="015c-3c1a-5326-9675" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="015c-3c1a-5326-9675" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="aad5-5c1f-8db7-a0c6" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <comment>BMB RAC</comment>
@@ -3063,7 +3142,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="RBK-500 500 kg Anti-tank cluster" hidden="false" id="3580-ebb5-98c5-d2a8">
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="39cf-2651-d22d-3fbe" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="39cf-2651-d22d-3fbe" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="2446-3de3-1d76-6158" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <comment>BMB RAC</comment>
@@ -3088,7 +3167,7 @@
     <selectionEntry type="upgrade" import="true" name="Rockets S-5 Pod of 32x57mm" hidden="false" id="d4c1-5fa8-1ce8-9e1e">
       <comment>UG RKT</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="1bf4-3953-ba0c-0630" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="1bf4-3953-ba0c-0630" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="0789-bad8-7d9f-78ba" id="8be4-b681-a836-d05a" primary="true" name="Cohetes/GunPod/ECM"/>
       </categoryLinks>
       <profiles>
@@ -3112,7 +3191,7 @@
     <selectionEntry type="upgrade" import="true" name="Rockets S-5 Pod of 8x57mm" hidden="false" id="9662-0ba6-5dbf-55d4">
       <comment>UG RKT</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="5d32-5d05-b523-30ee" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="5d32-5d05-b523-30ee" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="0789-bad8-7d9f-78ba" id="1289-7379-f974-c2cf" primary="true" name="Cohetes/GunPod/ECM"/>
       </categoryLinks>
       <profiles>
@@ -3136,7 +3215,7 @@
     <selectionEntry type="upgrade" import="true" name="Rockets S-5 Pod of 16x57mm" hidden="false" id="6b91-05d6-4bd6-be98">
       <comment>UG RKT</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="5468-b106-1c0b-c1b0" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="5468-b106-1c0b-c1b0" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="0789-bad8-7d9f-78ba" id="83d2-c58b-5ef1-c3a5" primary="true" name="Cohetes/GunPod/ECM"/>
       </categoryLinks>
       <profiles>
@@ -3160,7 +3239,7 @@
     <selectionEntry type="upgrade" import="true" name="Rockets S-8 Pod of 20x80mm" hidden="false" id="8b0c-75d4-9d8a-c4ff">
       <comment>UG RKT</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="b144-f361-c0bf-0560" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="b144-f361-c0bf-0560" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="0789-bad8-7d9f-78ba" id="71ee-4938-47e9-aa0b" primary="true" name="Cohetes/GunPod/ECM"/>
       </categoryLinks>
       <profiles>
@@ -3184,7 +3263,7 @@
     <selectionEntry type="upgrade" import="true" name="Rockets S-8 Pod of 7x80mm" hidden="false" id="a257-ac61-f4dc-37f3">
       <comment>UG RKT</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="9312-3534-bda9-f3cc" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="9312-3534-bda9-f3cc" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="0789-bad8-7d9f-78ba" id="1bad-3cf3-4869-59ea" primary="true" name="Cohetes/GunPod/ECM"/>
       </categoryLinks>
       <profiles>
@@ -3208,7 +3287,7 @@
     <selectionEntry type="upgrade" import="true" name="Rockets S-13 Pod of 5x122mm" hidden="false" id="9d7c-5c99-b6da-b853">
       <comment>UG RKT</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="01f8-4709-dfd2-47cc" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="01f8-4709-dfd2-47cc" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="0789-bad8-7d9f-78ba" id="0015-529b-6314-f34f" primary="true" name="Cohetes/GunPod/ECM"/>
       </categoryLinks>
       <profiles>
@@ -3232,7 +3311,7 @@
     <selectionEntry type="upgrade" import="true" name="Rocket S-24 240mm" hidden="false" id="f8a2-c6d1-51d1-cbf1">
       <comment>UG RKT</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="f294-f976-8643-41cd" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="f294-f976-8643-41cd" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="0789-bad8-7d9f-78ba" id="4db7-7c6d-ad1b-74ff" primary="true" name="Cohetes/GunPod/ECM"/>
       </categoryLinks>
       <profiles>
@@ -3256,7 +3335,7 @@
     <selectionEntry type="upgrade" import="true" name="Rocket S-25 266mm" hidden="false" id="9881-6801-4f04-c2bd">
       <comment>UG RKT</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="1675-5ebb-c6ef-7f70" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="1675-5ebb-c6ef-7f70" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="0789-bad8-7d9f-78ba" id="6166-5c03-9b58-69b5" primary="true" name="Cohetes/GunPod/ECM"/>
       </categoryLinks>
       <profiles>
@@ -3280,7 +3359,7 @@
     <selectionEntry type="upgrade" import="true" name="BetAB-500 500 kg penetrator^" hidden="false" id="dfe9-e275-03b1-2123">
       <comment>BMB</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="ebb7-923c-d194-f1e4" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="ebb7-923c-d194-f1e4" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="37a5-8166-ac1b-6f0d" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <profiles>
@@ -3304,7 +3383,7 @@
     <selectionEntry type="upgrade" import="true" name="BetAB-250 250 kg penetrator^" hidden="false" id="17d1-4043-5857-9e3b">
       <comment>BMB</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="f6d5-00f0-2d9b-c3e5" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="f6d5-00f0-2d9b-c3e5" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="95a1-d7ab-144c-a8fa" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <profiles>
@@ -3345,7 +3424,7 @@
       </profiles>
       <comment>BMB G GPS</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="99aa-3ab8-03e5-77a3" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="99aa-3ab8-03e5-77a3" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="2b07-a170-3edf-b337" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
     </selectionEntry>
@@ -3369,7 +3448,7 @@
       </profiles>
       <comment>BMB G TV</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="f2e4-840c-068d-c4d5" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="f2e4-840c-068d-c4d5" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="e609-8843-51b3-f8d7" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
     </selectionEntry>
@@ -3393,7 +3472,7 @@
       </profiles>
       <comment>BMB G LAS</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="c33a-2a58-b08b-f9c3" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="c33a-2a58-b08b-f9c3" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="0006-2820-b130-68d3" primary="true" name="Arma Aire-Tierra"/>
         <categoryLink targetId="e6aa-09d3-85a9-c834" id="3968-8a3a-0b61-48b8" primary="false" name="Arma Guiado Laser"/>
       </categoryLinks>
@@ -3403,7 +3482,7 @@
       <profiles>
         <profile name="Tanque de combustible" typeId="78ec-4e9c-1403-c071" typeName="Accesorios" hidden="false" id="c538-2a84-51d7-6fc3">
           <characteristics>
-            <characteristic typeId="f528-97d9-25c6-5180">Tanque de combustible desechable de diversa capacidad.</characteristic>
+            <characteristic name="Definicion" typeId="16b4-4f76-0b05-191e">Tanque de combustible de diversa capacidad</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3411,11 +3490,41 @@
     <selectionEntry type="upgrade" import="true" name="AGM-65D Maverick (x3)" hidden="false" id="2d71-2e5a-ea08-ae35">
       <comment>MSL  AT IR</comment>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="0c44-59c6-f3be-ba7b" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="0c44-59c6-f3be-ba7b" primary="false" name="Estados Unidos"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="c436-2a08-67e7-a689" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <profiles>
-        <profile name="AGM-65D Maverick (x3)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="cd8d-5a59-03b4-1640">
+        <profile name="AGM-65D Maverick" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="42df-66aa-3083-ffa0">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Misil Aire-Tierra Guiado IR</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">24&quot;</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">1</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">9+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">5+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">5+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1986</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1">Noche/mal tiempo</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="AGM-65D Maverick" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="0a7f-9b74-5daf-f873">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Misil Aire-Tierra Guiado IR</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">24&quot;</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">1</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">9+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">5+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">5+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1986</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1">Noche/mal tiempo</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="AGM-65D Maverick" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="c536-c728-6f8d-738f">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Misil Aire-Tierra Guiado IR</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">24&quot;</characteristic>
@@ -3435,7 +3544,37 @@
     <selectionEntry type="upgrade" import="true" name="Mk82 500 lb bomb ^ (x3)" hidden="false" id="62ad-30d9-a67f-1728">
       <comment>BMB</comment>
       <profiles>
-        <profile name="Mk82 500 lb bomb ^ (x3)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="4392-aa47-ada5-d7f4">
+        <profile name="Mk82 500 lb bomb ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="a6a6-79d5-0af1-5da4">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">10+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">11+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1950s</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="Mk82 500 lb bomb ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="350e-f4bb-ce4b-c2ea">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">10+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">11+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1950s</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="Mk82 500 lb bomb ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="5537-2af2-021b-1203">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -3455,7 +3594,37 @@
     <selectionEntry type="upgrade" import="true" name="Mk82 500 lb high drag bomb (x3)" hidden="false" id="4252-0ab4-d15f-5cd8">
       <comment>BMB</comment>
       <profiles>
-        <profile name="Mk82 500 lb high drag bomb (x3)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="78a9-5089-df32-33aa">
+        <profile name="Mk82 500 lb high drag bomb" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="369c-98de-4951-4446">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">10+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">11+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">14+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1950s</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="Mk82 500 lb high drag bomb" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="adc1-80cf-2e92-a7ce">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">10+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">11+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">14+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1950s</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="Mk82 500 lb high drag bomb" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="f5ed-4d50-e769-2c03">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -3475,7 +3644,19 @@
     <selectionEntry type="upgrade" import="true" name="AIM-9L Sidewinder (x2)" hidden="false" id="222c-54c2-9e3d-99b5">
       <comment>IR</comment>
       <profiles>
-        <profile name="AIM-9L Sidewinder (x2)" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="d744-2be5-98ba-6a90">
+        <profile name="AIM-9L Sidewinder" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="62ca-a54a-f280-adc9">
+          <characteristics>
+            <characteristic name="Guiado" typeId="d330-28ec-342f-04bd">IR</characteristic>
+            <characteristic name="Aspecto" typeId="df38-cf14-507f-65b0">all</characteristic>
+            <characteristic name="Fijado" typeId="40ea-d002-71e1-18d1">3+</characteristic>
+            <characteristic name="Alcance" typeId="b603-fd28-7c64-5eff">5&quot; - 22&quot;</characteristic>
+            <characteristic name="Impacto" typeId="50db-d680-dfb0-9524">2+</characteristic>
+            <characteristic name="Daño" typeId="d3bc-50d0-3fe7-6eea">1d10</characteristic>
+            <characteristic name="Carga" typeId="29fb-36fb-5550-619c">0.5</characteristic>
+            <characteristic name="Año" typeId="081c-87c4-e7ab-042b">1977</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="AIM-9L Sidewinder" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="8201-5c49-e95c-3782">
           <characteristics>
             <characteristic name="Guiado" typeId="d330-28ec-342f-04bd">IR</characteristic>
             <characteristic name="Aspecto" typeId="df38-cf14-507f-65b0">all</characteristic>
@@ -3489,13 +3670,25 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="43c3-5ed5-1c1b-ad4a" primary="true" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="43c3-5ed5-1c1b-ad4a" primary="true" name="Estados Unidos"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AIM-9M Sidewinder (x2)" hidden="false" id="2d6a-c788-1d0a-6c83">
       <comment>IR</comment>
       <profiles>
-        <profile name="AIM-9M Sidewinder (x2)" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="1d91-45f5-f069-a445">
+        <profile name="AIM-9M Sidewinder" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="df81-703c-30bf-2f89">
+          <characteristics>
+            <characteristic name="Guiado" typeId="d330-28ec-342f-04bd">IR</characteristic>
+            <characteristic name="Aspecto" typeId="df38-cf14-507f-65b0">all</characteristic>
+            <characteristic name="Fijado" typeId="40ea-d002-71e1-18d1">3+</characteristic>
+            <characteristic name="Alcance" typeId="b603-fd28-7c64-5eff">5&quot; - 22&quot;</characteristic>
+            <characteristic name="Impacto" typeId="50db-d680-dfb0-9524">2+</characteristic>
+            <characteristic name="Daño" typeId="d3bc-50d0-3fe7-6eea">1d10</characteristic>
+            <characteristic name="Carga" typeId="29fb-36fb-5550-619c">0.5</characteristic>
+            <characteristic name="Año" typeId="081c-87c4-e7ab-042b">1984</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="AIM-9M Sidewinder" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="8ae7-e876-aeec-5ee1">
           <characteristics>
             <characteristic name="Guiado" typeId="d330-28ec-342f-04bd">IR</characteristic>
             <characteristic name="Aspecto" typeId="df38-cf14-507f-65b0">all</characteristic>
@@ -3509,13 +3702,43 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="1eb1-8f09-60d6-21db" primary="true" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="1eb1-8f09-60d6-21db" primary="true" name="Estados Unidos"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="GBU-12/B Paveway I 500 lb LGB ^ (x3)" hidden="false" id="5658-3d77-bfc4-0656">
       <comment>BMB G LAS</comment>
       <profiles>
-        <profile name="GBU-12/B Paveway I 500 lb LGB ^ (x3)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="a0c0-fb32-13ef-c478">
+        <profile name="GBU-12/B Paveway I 500 lb LGB ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="272a-8fde-54a6-a3ef">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Guiada Laser</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">5+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">6+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">6+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d10</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1968</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="GBU-12/B Paveway I 500 lb LGB ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="d150-d2e7-343a-e52e">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Guiada Laser</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">5+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">6+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">6+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d10</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1968</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="GBU-12/B Paveway I 500 lb LGB ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="9c29-308e-39ec-7651">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Guiada Laser</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -3533,14 +3756,14 @@
       </profiles>
       <categoryLinks>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="76b7-c601-3751-1723" primary="true" name="Arma Aire-Tierra"/>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="a7a0-9108-f90f-3c34" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="a7a0-9108-f90f-3c34" primary="false" name="Estados Unidos"/>
         <categoryLink targetId="e6aa-09d3-85a9-c834" id="a44f-ffdb-5d5f-8cf0" primary="false" name="Arma Guiado Laser"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="CBU-103/B WCMD cluster" hidden="false" id="fada-bc5e-f1da-e6ab">
       <categoryLinks>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="bbaf-839d-2331-a3e7" primary="true" name="Arma Aire-Tierra"/>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="8644-bae3-98db-b9e4" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="8644-bae3-98db-b9e4" primary="false" name="Estados Unidos"/>
       </categoryLinks>
       <profiles>
         <profile name="CBU-103/B WCMD cluster" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="363e-f197-b4dc-4839">
@@ -3563,7 +3786,19 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AIM-120A/B AMRAAM (x2)" hidden="false" id="a465-0d7c-a51f-7963">
       <profiles>
-        <profile name="AIM-120A/B AMRAAM (x2)" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="b0da-12d3-7f83-4544">
+        <profile name="AIM-120A/B AMRAAM" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="8309-3a92-bcbd-f4b7">
+          <characteristics>
+            <characteristic name="Guiado" typeId="d330-28ec-342f-04bd">ARH</characteristic>
+            <characteristic name="Aspecto" typeId="df38-cf14-507f-65b0">all</characteristic>
+            <characteristic name="Fijado" typeId="40ea-d002-71e1-18d1">radar</characteristic>
+            <characteristic name="Alcance" typeId="b603-fd28-7c64-5eff">5&quot; - 42&quot;</characteristic>
+            <characteristic name="Impacto" typeId="50db-d680-dfb0-9524">4+</characteristic>
+            <characteristic name="Daño" typeId="d3bc-50d0-3fe7-6eea">2d6</characteristic>
+            <characteristic name="Carga" typeId="29fb-36fb-5550-619c">1</characteristic>
+            <characteristic name="Año" typeId="081c-87c4-e7ab-042b">1991 / 93</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="AIM-120A/B AMRAAM" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="b621-51fe-432f-34a5">
           <characteristics>
             <characteristic name="Guiado" typeId="d330-28ec-342f-04bd">ARH</characteristic>
             <characteristic name="Aspecto" typeId="df38-cf14-507f-65b0">all</characteristic>
@@ -3578,12 +3813,24 @@
       </profiles>
       <comment>ARH</comment>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="ac9c-44ae-7ead-e3a6" primary="true" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="ac9c-44ae-7ead-e3a6" primary="true" name="Estados Unidos"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AIM-120C AMRAAM (x2)" hidden="false" id="3683-7a56-915b-648b">
       <profiles>
-        <profile name="AIM-120C AMRAAM (x2)" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="7b07-e029-a6e1-4c52">
+        <profile name="AIM-120C AMRAAM" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="afb0-4ae2-625d-eccd">
+          <characteristics>
+            <characteristic name="Guiado" typeId="d330-28ec-342f-04bd">ARH</characteristic>
+            <characteristic name="Aspecto" typeId="df38-cf14-507f-65b0">all</characteristic>
+            <characteristic name="Fijado" typeId="40ea-d002-71e1-18d1">radar</characteristic>
+            <characteristic name="Alcance" typeId="b603-fd28-7c64-5eff">5&quot; - 42&quot;</characteristic>
+            <characteristic name="Impacto" typeId="50db-d680-dfb0-9524">3+</characteristic>
+            <characteristic name="Daño" typeId="d3bc-50d0-3fe7-6eea">2d6</characteristic>
+            <characteristic name="Carga" typeId="29fb-36fb-5550-619c">1</characteristic>
+            <characteristic name="Año" typeId="081c-87c4-e7ab-042b">1998</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="AIM-120C AMRAAM" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="be27-04a7-6d8d-a82e">
           <characteristics>
             <characteristic name="Guiado" typeId="d330-28ec-342f-04bd">ARH</characteristic>
             <characteristic name="Aspecto" typeId="df38-cf14-507f-65b0">all</characteristic>
@@ -3598,17 +3845,48 @@
       </profiles>
       <comment>ARH</comment>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="e0d5-ce99-e34c-b297" primary="true" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="e0d5-ce99-e34c-b297" primary="true" name="Estados Unidos"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Brimstone (x3)" hidden="false" id="5343-41d0-eecf-cd6e">
       <comment>MSL AT</comment>
       <categoryLinks>
-        <categoryLink targetId="7b3b-7df2-52f8-d929" id="3614-bee4-53c7-86a9" primary="false" name="RAF (Reino Unido)"/>
+        <categoryLink targetId="7b3b-7df2-52f8-d929" id="3614-bee4-53c7-86a9" primary="false" name="Reino Unido"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="6c59-e099-906f-96e0" primary="true" name="Arma Aire-Tierra"/>
+        <categoryLink targetId="e6aa-09d3-85a9-c834" id="73aa-e2e0-61a4-40d8" primary="false" name="Arma Guiado Laser"/>
       </categoryLinks>
       <profiles>
-        <profile name="Brimstone (x3)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="26b7-8ca0-ab63-73de">
+        <profile name="Brimstone" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="0a70-49d0-3d5f-44a5">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Misil Aire-Tierra Guiado</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">24&quot;</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">n/a</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">5+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">n/a</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d4</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">0.5</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">2005</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="Brimstone" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="f340-2b41-f080-3bb2">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Misil Aire-Tierra Guiado</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">24&quot;</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">n/a</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">5+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">n/a</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d4</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">0.5</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">2005</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="Brimstone" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="6ef4-781e-2c24-6e25">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Misil Aire-Tierra Guiado</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">24&quot;</characteristic>
@@ -3628,7 +3906,7 @@
     <selectionEntry type="upgrade" import="true" name="GBU-54/B JDAM 500 lb LGB ^" hidden="false" id="a555-f797-7b19-2f00">
       <categoryLinks>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="095b-1066-fb5a-79c5" primary="true" name="Arma Aire-Tierra"/>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="7cfd-43d6-8df0-12c2" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="7cfd-43d6-8df0-12c2" primary="false" name="Estados Unidos"/>
         <categoryLink targetId="e6aa-09d3-85a9-c834" id="3125-f819-9f6a-fe36" primary="false" name="Arma Guiado Laser"/>
       </categoryLinks>
       <comment>BMB G LAS/GPS</comment>
@@ -3655,27 +3933,37 @@
       <profiles>
         <profile name="Pod Laser" typeId="78ec-4e9c-1403-c071" typeName="Accesorios" hidden="false" id="c243-0ef0-d104-6c93">
           <characteristics>
-            <characteristic typeId="f528-97d9-25c6-5180">Pod designador de objetivos por LASER. Es necesario equiparlo si la aeronave monta armas tipo Laser Guided</characteristic>
+            <characteristic name="Definicion" typeId="16b4-4f76-0b05-191e">Sistema electroóptico aerotransportado diseñado para identificar, rastrear y guiar armamento de precisión hacia objetivos militares. Necesario si se equipan armas tipo &quot;Guiado Laser&quot;</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <constraints>
-        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="ddee-4898-fd82-05b8"/>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="ddee-4898-fd82-05b8" automatic="false"/>
       </constraints>
       <modifierGroups>
         <modifierGroup type="and">
           <modifiers>
             <modifier type="set" value="1" field="ddee-4898-fd82-05b8">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="e6aa-09d3-85a9-c834" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="e6aa-09d3-85a9-c834" shared="true" includeChildSelections="false" includeChildForces="false"/>
               </conditions>
             </modifier>
-            <modifier type="add" value="POD LASER NO NECESARIO" field="info">
+            <modifier type="add" value="Pod Laser no necesario" field="warning">
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
                     <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="e6aa-09d3-85a9-c834" shared="true"/>
                     <condition type="atLeast" value="1" field="selections" scope="parent" childId="c1ce-ecf6-4478-4f9a" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="add" value="Mas de 1 Pod Laser equipado" field="warning">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="e6aa-09d3-85a9-c834" shared="true"/>
+                    <condition type="greaterThan" value="1" field="selections" scope="parent" childId="c1ce-ecf6-4478-4f9a" shared="true"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -3687,12 +3975,42 @@
     <selectionEntry type="upgrade" import="true" name="AGM-65E Maverick (x3)" hidden="false" id="9a28-c58c-a515-d0e6">
       <comment>MSL  AT LAS</comment>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="6b0b-0ab5-42ea-e835" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="6b0b-0ab5-42ea-e835" primary="false" name="Estados Unidos"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="be75-5d2a-52b5-a598" primary="true" name="Arma Aire-Tierra"/>
         <categoryLink targetId="e6aa-09d3-85a9-c834" id="00f2-3099-3d5e-529e" primary="false" name="Arma Guiado Laser"/>
       </categoryLinks>
       <profiles>
-        <profile name="AGM-65E Maverick (x3)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="693c-27f3-2a38-fe8b">
+        <profile name="AGM-65E Maverick" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="9118-f589-0e0a-83a5">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Misil Aire-Tierra Guiado Laser</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">24&quot;</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">1</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">n/a</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">4+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">4+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1.5</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1985</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1">Solo buen tiempo. Variante USMC</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="AGM-65E Maverick" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="dafc-5d11-7c55-183f">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Misil Aire-Tierra Guiado Laser</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">24&quot;</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">1</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">n/a</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">4+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">4+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1.5</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1985</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1">Solo buen tiempo. Variante USMC</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="AGM-65E Maverick" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="1207-11f1-5f50-6f88">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Misil Aire-Tierra Guiado Laser</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">24&quot;</characteristic>
@@ -3712,7 +4030,22 @@
     <selectionEntry type="upgrade" import="true" name="GBU-12/B Paveway I 500 lb LGB ^ (x2)" hidden="false" id="57de-e3b7-40c9-e5b2">
       <comment>BMB G LAS</comment>
       <profiles>
-        <profile name="GBU-12/B Paveway I 500 lb LGB ^ (x2)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="df65-82ee-744f-a49e">
+        <profile name="GBU-12/B Paveway I 500 lb LGB ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="4e24-c4cf-e081-6064">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Guiada Laser</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">5+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">6+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">6+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d10</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1968</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="GBU-12/B Paveway I 500 lb LGB ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="aa85-0c2d-8839-8177">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Guiada Laser</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -3730,18 +4063,48 @@
       </profiles>
       <categoryLinks>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="6bac-9ad2-0954-e077" primary="true" name="Arma Aire-Tierra"/>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="0ff6-de63-2709-c057" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="0ff6-de63-2709-c057" primary="false" name="Estados Unidos"/>
         <categoryLink targetId="e6aa-09d3-85a9-c834" id="b7bd-4d1b-2495-d5ce" primary="false" name="Arma Guiado Laser"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="GBU-38/B JDAM 500 lb bomb ^ (x3)" hidden="false" id="e6fd-c972-ae49-657e">
       <categoryLinks>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="b54e-45e4-9e48-049a" primary="true" name="Arma Aire-Tierra"/>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="cdae-b4c9-d12a-156d" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="cdae-b4c9-d12a-156d" primary="false" name="Estados Unidos"/>
       </categoryLinks>
       <comment>BMB G GPS</comment>
       <profiles>
-        <profile name="GBU-38/B JDAM 500 lb bomb ^ (x3)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="981d-ec52-2ce7-670d">
+        <profile name="GBU-38/B JDAM 500 lb bomb ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="e3b1-80ca-c181-0145">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Guiada GPS</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">3+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">4+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">4+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d10</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">2004</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="GBU-38/B JDAM 500 lb bomb ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="cb7e-3e64-e58f-21ea">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Guiada GPS</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">3+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">4+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">4+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d10</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">2004</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="GBU-38/B JDAM 500 lb bomb ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="d0a3-a6fc-c4f9-038c">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Guiada GPS</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -3761,11 +4124,41 @@
     <selectionEntry type="upgrade" import="true" name="CBU-87 CEM 950 lb Mixed cluster (x3)" hidden="false" id="ec3f-8b9a-8bbb-dc50">
       <comment>BMB RAC</comment>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="fd15-a1b9-9a68-7d6f" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="fd15-a1b9-9a68-7d6f" primary="false" name="Estados Unidos"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="d252-4e2b-6edd-c82e" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <profiles>
-        <profile name="CBU-87 CEM 950 lb Mixed cluster (x3)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="d2d9-534c-b0a5-9128">
+        <profile name="CBU-87 CEM 950 lb Mixed cluster" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="2f3d-6313-4b1c-46cf">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Racimo</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">7+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">8+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">n/a</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">2</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1983</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="CBU-87 CEM 950 lb Mixed cluster" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="2bec-c21e-32ec-ec7c">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Racimo</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">7+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">8+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">n/a</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">2</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1983</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="CBU-87 CEM 950 lb Mixed cluster" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="14f6-a1c5-bb72-dbad">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Racimo</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -3785,10 +4178,40 @@
     <selectionEntry type="upgrade" import="true" name="CBU-103/B WCMD cluster (x3)" hidden="false" id="80bc-4913-9a37-f42e">
       <categoryLinks>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="8d1a-155c-093c-9b71" primary="true" name="Arma Aire-Tierra"/>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="e3b6-2f16-e48e-7807" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="e3b6-2f16-e48e-7807" primary="false" name="Estados Unidos"/>
       </categoryLinks>
       <profiles>
-        <profile name="CBU-103/B WCMD cluster (x3)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="31e6-97df-cece-23b9">
+        <profile name="CBU-103/B WCMD cluster" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="b6a2-db4c-d169-15b2">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Racimo Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">3+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">4+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">n/a</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">2</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">2000</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="CBU-103/B WCMD cluster" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="ec7b-7bd3-8680-5c98">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Racimo Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">3+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">4+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">n/a</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">2</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">2000</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="CBU-103/B WCMD cluster" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="b5ef-fbe7-721b-1550">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Racimo Guiada</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -3809,11 +4232,41 @@
     <selectionEntry type="upgrade" import="true" name="CBU-20 Rockeye 500 lb Anti-tank cluster (x3)" hidden="false" id="84d5-a02e-ff54-e93a">
       <comment>BMB RAC</comment>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="dfe2-0279-44ba-d720" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="dfe2-0279-44ba-d720" primary="false" name="Estados Unidos"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="c810-70f8-22f1-c08d" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <profiles>
-        <profile name="CBU-20 Rockeye 500 lb Anti-tank cluster (x3)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="fa53-92f1-cb86-34a1">
+        <profile name="CBU-20 Rockeye 500 lb Anti-tank cluster" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="77ad-4f43-d40a-ce86">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Racimo</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">11+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">11+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">n/a</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d4</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1968</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="CBU-20 Rockeye 500 lb Anti-tank cluster" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="a7b9-9747-be2d-892c">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Racimo</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">11+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">11+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">n/a</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d4</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1968</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="CBU-20 Rockeye 500 lb Anti-tank cluster" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="fd63-292f-89f7-99e2">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Racimo</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -3832,7 +4285,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AAM-4 (Type-99)" hidden="false" id="f4fc-6f50-1152-ea38">
       <categoryLinks>
-        <categoryLink targetId="0065-9740-de74-cb12" id="010e-197d-7e01-479a" primary="true" name="JSDF (Japón)"/>
+        <categoryLink targetId="0065-9740-de74-cb12" id="010e-197d-7e01-479a" primary="true" name="Japón"/>
       </categoryLinks>
       <comment>ARH</comment>
       <profiles>
@@ -3852,7 +4305,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AAM-3 (Type-90)" hidden="false" id="fb29-5551-d6c5-904e">
       <categoryLinks>
-        <categoryLink targetId="0065-9740-de74-cb12" id="2048-f8cf-8afd-9f4b" primary="true" name="JSDF (Japón)"/>
+        <categoryLink targetId="0065-9740-de74-cb12" id="2048-f8cf-8afd-9f4b" primary="true" name="Japón"/>
       </categoryLinks>
       <comment>IR</comment>
       <profiles>
@@ -3873,7 +4326,7 @@
     <selectionEntry type="upgrade" import="true" name="AAM-5 (Type-04)" hidden="false" id="a05f-2375-e577-0521">
       <comment>IR</comment>
       <categoryLinks>
-        <categoryLink targetId="0065-9740-de74-cb12" id="6fcd-485a-7a36-0d91" primary="true" name="JSDF (Japón)"/>
+        <categoryLink targetId="0065-9740-de74-cb12" id="6fcd-485a-7a36-0d91" primary="true" name="Japón"/>
       </categoryLinks>
       <profiles>
         <profile name="AAM-5 (Type-04)" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="5a2d-f16c-1be6-9020">
@@ -3893,11 +4346,41 @@
     <selectionEntry type="upgrade" import="true" name="AGM-65A Maverick (x3)" hidden="false" id="0c90-a137-4b59-ccec">
       <comment>MSL  AT TV</comment>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="0477-ce67-8e1e-d2ef" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="0477-ce67-8e1e-d2ef" primary="false" name="Estados Unidos"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="6278-8312-4630-d154" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <profiles>
-        <profile name="AGM-65A Maverick (x3)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="1ed2-142d-b97f-b004">
+        <profile name="AGM-65A Maverick" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="345d-5e93-7f13-8d1b">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Misil Aire-Tierra Guiado Electro-Óptico TV</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">18&quot;</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">1</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">9+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">5+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">5+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1973</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1">Solo dia</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="AGM-65A Maverick" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="69e7-8463-d943-98da">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Misil Aire-Tierra Guiado Electro-Óptico TV</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">18&quot;</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">1</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">9+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">5+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">5+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1973</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1">Solo dia</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="AGM-65A Maverick" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="0f13-c12a-36e7-b186">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Misil Aire-Tierra Guiado Electro-Óptico TV</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">18&quot;</characteristic>
@@ -3917,7 +4400,82 @@
     <selectionEntry type="upgrade" import="true" name="Mk82 500 lb bomb ^ (x6)" hidden="false" id="9bf9-46f9-6697-edf6">
       <comment>BMB</comment>
       <profiles>
-        <profile name="Mk82 500 lb bomb ^ (x6)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="d568-ffda-d661-22d8">
+        <profile name="Mk82 500 lb bomb ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="471e-3728-7db9-dc11">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">10+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">11+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1950s</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="Mk82 500 lb bomb ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="0941-a0b8-1d5d-1170">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">10+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">11+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1950s</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="Mk82 500 lb bomb ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="1f5d-6ae5-835d-eb35">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">10+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">11+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1950s</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="Mk82 500 lb bomb ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="be63-06a4-69f1-c8e3">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">10+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">11+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1950s</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="Mk82 500 lb bomb ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="e862-327f-c990-50c6">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">10+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">11+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1950s</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="Mk82 500 lb bomb ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="f71d-b26d-c615-81c9">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -3937,7 +4495,52 @@
     <selectionEntry type="upgrade" import="true" name="Mk82 500 lb high drag bomb (x4)" hidden="false" id="7721-f1b0-11d5-eafd">
       <comment>BMB</comment>
       <profiles>
-        <profile name="Mk82 500 lb high drag bomb (x4)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="07b4-5fd4-76f2-5c48">
+        <profile name="Mk82 500 lb high drag bomb" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="de84-c7cd-6125-9514">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">10+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">11+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">14+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1950s</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="Mk82 500 lb high drag bomb" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="82c9-b829-bc06-9e93">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">10+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">11+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">14+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1950s</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="Mk82 500 lb high drag bomb" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="e083-3801-6cee-accf">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">10+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">11+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">14+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1950s</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="Mk82 500 lb high drag bomb" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="0b62-ea2e-29e4-7c10">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -3957,10 +4560,25 @@
     <selectionEntry type="upgrade" import="true" name="CBU-103/B WCMD cluster (x2)" hidden="false" id="0a5d-9fb9-a814-eb2b">
       <categoryLinks>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="d8b1-7d33-dea3-5f54" primary="true" name="Arma Aire-Tierra"/>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="68f8-95d8-f298-41d8" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="68f8-95d8-f298-41d8" primary="false" name="Estados Unidos"/>
       </categoryLinks>
       <profiles>
-        <profile name="CBU-103/B WCMD cluster (x2)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="445b-ddc3-33c4-e3b8">
+        <profile name="CBU-103/B WCMD cluster" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="3700-9ee4-32a9-c1f0">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Racimo Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">3+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">4+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">n/a</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">2</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">2000</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="CBU-103/B WCMD cluster" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="93b7-ddd1-e8ab-d26b">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Racimo Guiada</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -3981,11 +4599,26 @@
     <selectionEntry type="upgrade" import="true" name="CBU-87 CEM 950 lb Mixed cluster (x2)" hidden="false" id="4a19-e618-e717-e807">
       <comment>BMB RAC</comment>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="90c6-4263-570a-4485" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="90c6-4263-570a-4485" primary="false" name="Estados Unidos"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="dffb-5fc4-d270-f73f" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <profiles>
-        <profile name="CBU-87 CEM 950 lb Mixed cluster (x2)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="b39f-025b-935b-5c25">
+        <profile name="CBU-87 CEM 950 lb Mixed cluster" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="2bf8-d40e-f620-750a">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Racimo</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">7+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">8+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">n/a</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">2</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1983</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="CBU-87 CEM 950 lb Mixed cluster" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="22a7-e195-2e1c-3ff2">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Racimo</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -4005,11 +4638,26 @@
     <selectionEntry type="upgrade" import="true" name="GBU-38/B JDAM 500 lb bomb ^ (x2)" hidden="false" id="784f-19cd-a701-1da9">
       <categoryLinks>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="0be0-db16-89f0-c794" primary="true" name="Arma Aire-Tierra"/>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="d05b-ad1e-deea-068f" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="d05b-ad1e-deea-068f" primary="false" name="Estados Unidos"/>
       </categoryLinks>
       <comment>BMB G GPS</comment>
       <profiles>
-        <profile name="GBU-38/B JDAM 500 lb bomb ^ (x2)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="5157-0761-5fa0-68a2">
+        <profile name="GBU-38/B JDAM 500 lb bomb ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="cc33-21ef-e9d6-cdf2">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Guiada GPS</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">3+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">4+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">4+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d10</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">2004</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="GBU-38/B JDAM 500 lb bomb ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="ca74-8893-c82a-611f">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Guiada GPS</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -4029,7 +4677,22 @@
     <selectionEntry type="upgrade" import="true" name="Mk82 500 lb bomb ^ (x2)" hidden="false" id="147d-30a9-b7d9-db31">
       <comment>BMB</comment>
       <profiles>
-        <profile name="Mk82 500 lb bomb ^ (x2)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="1914-396e-1581-6866">
+        <profile name="Mk82 500 lb bomb ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="3a49-dcb9-0bd5-0093">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">10+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">11+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1950s</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="Mk82 500 lb bomb ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="9588-812f-a368-5905">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -4049,7 +4712,22 @@
     <selectionEntry type="upgrade" import="true" name="Mk82 500 lb high drag bomb (x2)" hidden="false" id="1989-2b14-8458-348a">
       <comment>BMB</comment>
       <profiles>
-        <profile name="Mk82 500 lb high drag bomb (x2)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="6d5e-a65b-ace7-a31f">
+        <profile name="Mk82 500 lb high drag bomb" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="431b-ec52-f0d0-dd2c">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">10+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">11+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">14+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1950s</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="Mk82 500 lb high drag bomb" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="bc42-b8e6-026d-6e82">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -4069,10 +4747,25 @@
     <selectionEntry type="upgrade" import="true" name="Mk83 1000 lb bomb^ (x2)" hidden="false" id="f1ca-855a-ff5e-850e">
       <categoryLinks>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="e5ea-61be-a6d4-5235" primary="true" name="Arma Aire-Tierra"/>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="0cc7-d1b8-ab49-ea56" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="0cc7-d1b8-ab49-ea56" primary="false" name="Estados Unidos"/>
       </categoryLinks>
       <profiles>
-        <profile name="Mk83 1000 lb bomb^ (x2)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="0609-5484-0f68-6198">
+        <profile name="Mk83 1000 lb bomb^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="4f5b-3c18-84ea-33f6">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">9+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">10+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d10</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">2</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1950s</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="Mk83 1000 lb bomb^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="8c16-6bb1-f05a-0b1c">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -4093,10 +4786,25 @@
     <selectionEntry type="upgrade" import="true" name="Mk83 1000 lb high drag bomb (x2)" hidden="false" id="eb9e-7fc0-c4ae-1651">
       <categoryLinks>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="8b19-d498-dc49-794f" primary="true" name="Arma Aire-Tierra"/>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="9054-c1e1-14e0-491d" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="9054-c1e1-14e0-491d" primary="false" name="Estados Unidos"/>
       </categoryLinks>
       <profiles>
-        <profile name="Mk83 1000 lb high drag bomb (x2)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="6848-9b31-cc9f-8dcc">
+        <profile name="Mk83 1000 lb high drag bomb" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="34aa-dcbe-f1d8-a365">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">9+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">10+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">14+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d10</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">2</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1950s</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="Mk83 1000 lb high drag bomb" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="5649-0350-60eb-97b9">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -4117,11 +4825,26 @@
     <selectionEntry type="upgrade" import="true" name="CBU-20 Rockeye 500 lb Anti-tank cluster (x2)" hidden="false" id="86ef-b6b7-d61f-8eae">
       <comment>BMB RAC</comment>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="336e-2d19-d3c3-466b" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="336e-2d19-d3c3-466b" primary="false" name="Estados Unidos"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="a2f3-dae3-02b3-ff33" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <profiles>
-        <profile name="CBU-20 Rockeye 500 lb Anti-tank cluster (x2)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="b663-1d1a-e925-f43f">
+        <profile name="CBU-20 Rockeye 500 lb Anti-tank cluster" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="5891-8b43-7f61-5004">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Racimo</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">11+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">11+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">n/a</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d4</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1968</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="CBU-20 Rockeye 500 lb Anti-tank cluster" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="1b38-8f55-a95c-5f73">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Racimo</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -4141,7 +4864,19 @@
     <selectionEntry type="upgrade" import="true" name="AIM-9X Sidewinder (x2)" hidden="false" id="5ae5-7176-bcbd-ad45">
       <comment>IR</comment>
       <profiles>
-        <profile name="AIM-9X Sidewinder (x2)" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="aeef-27f8-7d43-73b8">
+        <profile name="AIM-9X Sidewinder" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="709d-8981-62ce-1bdf">
+          <characteristics>
+            <characteristic name="Guiado" typeId="d330-28ec-342f-04bd">IR</characteristic>
+            <characteristic name="Aspecto" typeId="df38-cf14-507f-65b0">all</characteristic>
+            <characteristic name="Fijado" typeId="40ea-d002-71e1-18d1">2+</characteristic>
+            <characteristic name="Alcance" typeId="b603-fd28-7c64-5eff">5&quot; - 24&quot;</characteristic>
+            <characteristic name="Impacto" typeId="50db-d680-dfb0-9524">2+</characteristic>
+            <characteristic name="Daño" typeId="d3bc-50d0-3fe7-6eea">1d10</characteristic>
+            <characteristic name="Carga" typeId="29fb-36fb-5550-619c">0.5</characteristic>
+            <characteristic name="Año" typeId="081c-87c4-e7ab-042b">2002</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="AIM-9X Sidewinder" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="0380-2349-7006-d7f1">
           <characteristics>
             <characteristic name="Guiado" typeId="d330-28ec-342f-04bd">IR</characteristic>
             <characteristic name="Aspecto" typeId="df38-cf14-507f-65b0">all</characteristic>
@@ -4155,13 +4890,28 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="3573-fba5-abd8-2e2e" primary="true" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="3573-fba5-abd8-2e2e" primary="true" name="Estados Unidos"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="GBU-16 Paveway II 1000 lb LGB ^ (x2)" hidden="false" id="4654-9e90-293c-0757">
       <comment>BMB G LAS</comment>
       <profiles>
-        <profile name="GBU-16 Paveway II 1000 lb LGB ^ (x2)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="3a77-e33f-6b3e-00cc">
+        <profile name="GBU-16 Paveway II 1000 lb LGB ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="1cea-f74b-28db-3d32">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Guiada Laser</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">4+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">5+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">6+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">2d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">2</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1976</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="GBU-16 Paveway II 1000 lb LGB ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="9302-1f4a-3ebf-30e9">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Guiada Laser</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -4178,7 +4928,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="b9d1-8f81-7df0-2cb5" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="b9d1-8f81-7df0-2cb5" primary="false" name="Estados Unidos"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="ed7d-71f8-d7e1-0346" primary="true" name="Arma Aire-Tierra"/>
         <categoryLink targetId="e6aa-09d3-85a9-c834" id="d217-3222-ff69-caf8" primary="false" name="Arma Guiado Laser"/>
       </categoryLinks>
@@ -4186,11 +4936,26 @@
     <selectionEntry type="upgrade" import="true" name="GBU-32/B JDAM 1000 lb bomb ^ (x2)" hidden="false" id="a21e-e917-3a0b-78b8">
       <categoryLinks>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="ec0a-6e26-bac6-e6a3" primary="true" name="Arma Aire-Tierra"/>
-        <categoryLink targetId="ed20-6f65-b416-21aa" id="421b-7d5d-8cd8-ec7e" primary="false" name="USAF / NAVY (Estados Unidos)"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="421b-7d5d-8cd8-ec7e" primary="false" name="Estados Unidos"/>
       </categoryLinks>
       <comment>BMB G GPS</comment>
       <profiles>
-        <profile name="GBU-32/B JDAM 1000 lb bomb ^ (x2)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="1ce2-3853-b4a3-c55a">
+        <profile name="GBU-32/B JDAM 1000 lb bomb ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="3d35-0f55-f755-cf64">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Guiada GPS</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">3+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">4+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">4+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">2d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">2</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1998</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="GBU-32/B JDAM 1000 lb bomb ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="2cb3-9d36-2d5d-fe60">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Guiada GPS</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -4209,7 +4974,19 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AA-8 Aphid (R-60M) (x2)" hidden="false" id="0685-5798-06ce-7a52">
       <profiles>
-        <profile name="AA-8 Aphid (R-60M) (x2)" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="dfb2-1758-f2ee-1213">
+        <profile name="AA-8 Aphid (R-60M)" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="9015-5916-e639-ddcb">
+          <characteristics>
+            <characteristic name="Guiado" typeId="d330-28ec-342f-04bd">IR</characteristic>
+            <characteristic name="Aspecto" typeId="df38-cf14-507f-65b0">rear-180</characteristic>
+            <characteristic name="Fijado" typeId="40ea-d002-71e1-18d1">3+</characteristic>
+            <characteristic name="Alcance" typeId="b603-fd28-7c64-5eff">3&quot; - 18&quot;</characteristic>
+            <characteristic name="Impacto" typeId="50db-d680-dfb0-9524">4+</characteristic>
+            <characteristic name="Daño" typeId="d3bc-50d0-3fe7-6eea">1d6</characteristic>
+            <characteristic name="Carga" typeId="29fb-36fb-5550-619c">0.25</characteristic>
+            <characteristic name="Año" typeId="081c-87c4-e7ab-042b">1980</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="AA-8 Aphid (R-60M)" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="2350-855a-a93d-6987">
           <characteristics>
             <characteristic name="Guiado" typeId="d330-28ec-342f-04bd">IR</characteristic>
             <characteristic name="Aspecto" typeId="df38-cf14-507f-65b0">rear-180</characteristic>
@@ -4224,12 +5001,24 @@
       </profiles>
       <comment>IR</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="8068-fc9b-5d2b-e83e" primary="true" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="8068-fc9b-5d2b-e83e" primary="true" name="Rusia / URSS"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AA-8 Aphid (R-60MK) (x2)" hidden="false" id="7fd3-aa02-be96-4aa5">
       <profiles>
-        <profile name="AA-8 Aphid (R-60MK) (x2)" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="cf46-1a71-7dc8-4fa4">
+        <profile name="AA-8 Aphid (R-60MK)" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="f75b-0409-e49e-0270">
+          <characteristics>
+            <characteristic name="Guiado" typeId="d330-28ec-342f-04bd">IR</characteristic>
+            <characteristic name="Aspecto" typeId="df38-cf14-507f-65b0">all</characteristic>
+            <characteristic name="Fijado" typeId="40ea-d002-71e1-18d1">3+</characteristic>
+            <characteristic name="Alcance" typeId="b603-fd28-7c64-5eff">3&quot; - 18&quot;</characteristic>
+            <characteristic name="Impacto" typeId="50db-d680-dfb0-9524">3+</characteristic>
+            <characteristic name="Daño" typeId="d3bc-50d0-3fe7-6eea">1d6</characteristic>
+            <characteristic name="Carga" typeId="29fb-36fb-5550-619c">0.25</characteristic>
+            <characteristic name="Año" typeId="081c-87c4-e7ab-042b">1985</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="AA-8 Aphid (R-60MK)" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="1fd8-f543-039d-9ae8">
           <characteristics>
             <characteristic name="Guiado" typeId="d330-28ec-342f-04bd">IR</characteristic>
             <characteristic name="Aspecto" typeId="df38-cf14-507f-65b0">all</characteristic>
@@ -4244,12 +5033,24 @@
       </profiles>
       <comment>IR</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="e91f-76af-b4ce-4afb" primary="true" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="e91f-76af-b4ce-4afb" primary="true" name="Rusia / URSS"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AA-8 Aphid (R-60T) (x2)" hidden="false" id="ffa9-3d8f-3b83-b8f8">
       <profiles>
-        <profile name="AA-8 Aphid (R-60T) (x2)" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="db11-e228-7f2b-378b">
+        <profile name="AA-8 Aphid (R-60T)" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="7e75-cd36-113c-5967">
+          <characteristics>
+            <characteristic name="Guiado" typeId="d330-28ec-342f-04bd">IR</characteristic>
+            <characteristic name="Aspecto" typeId="df38-cf14-507f-65b0">rear-60</characteristic>
+            <characteristic name="Fijado" typeId="40ea-d002-71e1-18d1">4+</characteristic>
+            <characteristic name="Alcance" typeId="b603-fd28-7c64-5eff">4&quot; - 18&quot;</characteristic>
+            <characteristic name="Impacto" typeId="50db-d680-dfb0-9524">5+</characteristic>
+            <characteristic name="Daño" typeId="d3bc-50d0-3fe7-6eea">1d6</characteristic>
+            <characteristic name="Carga" typeId="29fb-36fb-5550-619c">0.25</characteristic>
+            <characteristic name="Año" typeId="081c-87c4-e7ab-042b">1976</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="AA-8 Aphid (R-60T)" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="d877-2fab-f30f-c1a8">
           <characteristics>
             <characteristic name="Guiado" typeId="d330-28ec-342f-04bd">IR</characteristic>
             <characteristic name="Aspecto" typeId="df38-cf14-507f-65b0">rear-60</characteristic>
@@ -4264,13 +5065,13 @@
       </profiles>
       <comment>IR</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="c8b4-7a1f-68b2-5680" primary="true" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="c8b4-7a1f-68b2-5680" primary="true" name="Rusia / URSS"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="BetAB-500ShP 500 kg penetrator high drag bomb" hidden="false" id="fefb-e7ad-9f74-045a">
       <comment>BMB</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="c320-9cd2-50d9-2542" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="c320-9cd2-50d9-2542" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="edb2-63da-7c5a-c14e" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <profiles>
@@ -4311,14 +5112,14 @@
       </profiles>
       <comment>MSL  AT TV</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="8c9b-ba75-a20b-c7f0" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="8c9b-ba75-a20b-c7f0" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="1d34-8ff0-0c89-597b" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Rocket S-25L LGR 266mm" hidden="false" id="8d8c-c44f-aea5-27f8">
       <comment>RKT G LAS</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="bdc1-b014-6cd3-cdf3" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="bdc1-b014-6cd3-cdf3" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="0789-bad8-7d9f-78ba" id="3ead-3aa4-a10a-b6df" primary="true" name="Cohetes/GunPod/ECM"/>
         <categoryLink targetId="e6aa-09d3-85a9-c834" id="2844-ba12-e0ac-394b" primary="false" name="Arma Guiado Laser"/>
       </categoryLinks>
@@ -4342,7 +5143,52 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="FAB-100 (100 kg Bomb) ^ (x4)" hidden="false" id="d7d3-20ac-cf29-20c8">
       <profiles>
-        <profile name="FAB-100 (100 kg Bomb) ^ (x4)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="81dd-639c-f9f9-658c">
+        <profile name="FAB-100 (100 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="57e1-4d41-05c7-738c">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">12+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">12+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d4</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">0.5</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="FAB-100 (100 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="32b7-4bd9-73ef-a89c">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">12+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">12+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d4</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">0.5</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="FAB-100 (100 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="e1dd-e4b6-c41d-ecfd">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">12+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">12+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d4</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">0.5</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="FAB-100 (100 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="08eb-53d9-2c67-ac15">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -4359,7 +5205,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="8b1c-fc2b-8653-f7d6" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="8b1c-fc2b-8653-f7d6" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="0779-1034-05b9-62e5" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <comment>BMB</comment>
@@ -4383,7 +5229,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="f39f-56f1-9cd7-2ae7" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="f39f-56f1-9cd7-2ae7" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="28a3-cd99-6ded-3a13" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <comment>BMB</comment>
@@ -4424,7 +5270,82 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="FAB-100 (100 kg Bomb) ^ (x6)" hidden="false" id="0f5c-ed6c-8418-da71">
       <profiles>
-        <profile name="FAB-100 (100 kg Bomb) ^ (x6)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="0a7c-9d87-0607-4b07">
+        <profile name="FAB-100 (100 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="f9ff-125a-c830-5bbf">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">12+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">12+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d4</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">0.5</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="FAB-100 (100 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="c867-b3ea-d80c-ac48">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">12+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">12+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d4</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">0.5</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="FAB-100 (100 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="9c76-0678-ee6f-ea02">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">12+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">12+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d4</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">0.5</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="FAB-100 (100 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="9f84-3e15-46d3-4369">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">12+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">12+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d4</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">0.5</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="FAB-100 (100 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="bcb7-085a-aa87-0f55">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">12+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">12+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d4</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">0.5</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="FAB-100 (100 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="027c-6005-fffd-18c6">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -4441,14 +5362,44 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="d552-c80c-de23-19ff" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="d552-c80c-de23-19ff" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="456f-f4fd-7dd5-f735" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <comment>BMB</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="FAB-250 (250 kg Bomb) ^ (x3)" hidden="false" id="4a09-b34d-c6ae-e3ff">
       <profiles>
-        <profile name="FAB-250 (250 kg Bomb) ^ (x3)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="c0d6-8b52-4931-32f2">
+        <profile name="FAB-250 (250 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="03c4-0aae-b73b-602f">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">10+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">11+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="FAB-250 (250 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="fa10-e48e-7500-f304">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">10+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">11+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="FAB-250 (250 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="3a65-ff4b-76bf-7110">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -4465,14 +5416,89 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="f535-d72b-5b7e-5486" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="f535-d72b-5b7e-5486" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="d7f3-b581-c7ae-f3bd" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <comment>BMB</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="FAB-250 (250 kg Bomb) ^ (x6)" hidden="false" id="78fd-85f9-6b25-7063">
       <profiles>
-        <profile name="FAB-250 (250 kg Bomb) ^ (x6)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="4994-f0bb-72f6-aa47">
+        <profile name="FAB-250 (250 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="97c2-493a-4b09-41cb">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">10+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">11+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="FAB-250 (250 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="fe3d-40e1-5884-34bd">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">10+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">11+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="FAB-250 (250 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="8da1-08eb-76b6-619e">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">10+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">11+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="FAB-250 (250 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="5ec7-07e6-50de-ad7f">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">10+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">11+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="FAB-250 (250 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="fe72-eff3-a54e-a8f5">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">10+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">11+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="FAB-250 (250 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="c209-dc91-b8ae-0a0e">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -4489,7 +5515,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="39b1-4608-a8f5-2317" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="39b1-4608-a8f5-2317" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="fb91-8a40-9b81-7b78" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <comment>BMB</comment>
@@ -4497,11 +5523,26 @@
     <selectionEntry type="upgrade" import="true" name="Rockets S-13 2x Pod of 5x122mm" hidden="false" id="fb5b-d740-a633-1f5a">
       <comment>UG RKT</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="e858-1bcf-e101-b28d" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="e858-1bcf-e101-b28d" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="0789-bad8-7d9f-78ba" id="85fb-44e9-eddf-a1ba" primary="true" name="Cohetes/GunPod/ECM"/>
       </categoryLinks>
       <profiles>
-        <profile name="Rockets S-13 2x Pod of 5x122mm" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="04aa-e35b-fb30-fe76">
+        <profile name="Rockets S-13 Pod of 5x122mm" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="5de0-debd-78a0-0e49">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Cohetes no Guiados</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">1</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">3+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">8+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">9+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1.5</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="Rockets S-13 Pod of 5x122mm" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="f5f1-b422-e9b5-b5c8">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Cohetes no Guiados</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -4521,11 +5562,26 @@
     <selectionEntry type="upgrade" import="true" name="Rockets S-8 2x Pod of 20x80mm" hidden="false" id="af3d-0138-81e7-6bf3">
       <comment>UG RKT</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="1084-ef75-2b58-c774" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="1084-ef75-2b58-c774" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="0789-bad8-7d9f-78ba" id="c3f9-f742-eee5-2a28" primary="true" name="Cohetes/GunPod/ECM"/>
       </categoryLinks>
       <profiles>
-        <profile name="Rockets S-8 2x Pod of 20x80mm" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="6d21-4098-3071-b0d1">
+        <profile name="Rockets S-8 Pod of 20x80mm" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="f962-106a-1b67-d50b">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Cohetes no Guiados</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">3</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">5+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">8+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">n/a</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d4</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="Rockets S-8 Pod of 20x80mm" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="99a0-2426-05da-f66b">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Cohetes no Guiados</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -4545,11 +5601,26 @@
     <selectionEntry type="upgrade" import="true" name="Rocket S-25 266mm (x2)" hidden="false" id="b783-4e3d-3152-d925">
       <comment>UG RKT</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="76da-135f-18f9-31a7" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="76da-135f-18f9-31a7" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="0789-bad8-7d9f-78ba" id="a274-c5a3-408f-b616" primary="true" name="Cohetes/GunPod/ECM"/>
       </categoryLinks>
       <profiles>
-        <profile name="Rocket S-25 266mm (x2)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="98ef-c096-385c-7ec5">
+        <profile name="Rocket S-25 266mm" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="5ce4-cdfc-1eb3-9db9">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Cohete no Guiado</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">1</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">7+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">10+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">11+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d4</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1.5</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="Rocket S-25 266mm" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="d3fc-f4d8-3b32-c2de">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Cohete no Guiado</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -4568,7 +5639,22 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="FAB-500 (500 kg Bomb) ^ (x2)" hidden="false" id="9802-49c0-ea32-d077">
       <profiles>
-        <profile name="FAB-500 (500 kg Bomb) ^ (x2)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="f7d7-343a-3e0d-e8e8">
+        <profile name="FAB-500 (500 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="dd85-6692-e797-47f4">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">9+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">10+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d10</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">2</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="FAB-500 (500 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="2a12-2c6a-d8ff-b86b">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -4585,19 +5671,34 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="54b5-055a-b366-57dc" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="54b5-055a-b366-57dc" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="63b3-5799-bac1-1bd7" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <comment>BMB</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="RBK-500 330 kg Anti-pers cluster (x2)" hidden="false" id="a9f9-90bc-aea1-8ef0">
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="e23d-6047-cf33-9994" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="e23d-6047-cf33-9994" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="b2f5-5687-147c-78b7" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <comment>BMB RAC</comment>
       <profiles>
-        <profile name="RBK-500 330 kg Anti-pers cluster (x2)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="467c-79b4-716f-d58f">
+        <profile name="RBK-500 330 kg Anti-pers cluster" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="5912-1e1a-294a-b1dc">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Racimo</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">8+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">11+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">n/a</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1.5</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1960</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="RBK-500 330 kg Anti-pers cluster" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="77fe-a6ac-3774-a061">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Racimo</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -4616,12 +5717,27 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="RBK-500 500 kg Anti-tank cluster (x2)" hidden="false" id="3a6a-aaf7-8f7b-ba8d">
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="e72c-aead-c3ae-0e19" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="e72c-aead-c3ae-0e19" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="8ee3-4060-f5c2-0dda" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <comment>BMB RAC</comment>
       <profiles>
-        <profile name="RBK-500 500 kg Anti-tank cluster (x2)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="43ba-102c-7aff-87ec">
+        <profile name="RBK-500 500 kg Anti-tank cluster" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="23aa-7715-1c66-c9ec">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Racimo</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">9+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">9+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">n/a</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">2</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1960</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="RBK-500 500 kg Anti-tank cluster" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="0bf2-5248-f705-7e9a">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Racimo</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -4640,12 +5756,27 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="RBK-500 500 kg Mixed cluster (x2)" hidden="false" id="4290-ffdd-a07b-5717">
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="ed80-a9ac-3179-d42e" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="ed80-a9ac-3179-d42e" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="2c46-5d31-1374-ede2" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <comment>BMB RAC</comment>
       <profiles>
-        <profile name="RBK-500 500 kg Mixed cluster (x2)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="2d8b-af3d-4fb7-b3e8">
+        <profile name="RBK-500 500 kg Mixed cluster" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="dbf7-527a-bf7f-0546">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Racimo</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">8+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">9+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">n/a</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">2</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1960</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="RBK-500 500 kg Mixed cluster" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="68ca-b2fe-3f3b-3b12">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Racimo</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -4665,11 +5796,26 @@
     <selectionEntry type="upgrade" import="true" name="BetAB-500ShP 500 kg penetrator high drag bomb (x2)" hidden="false" id="efc7-5195-885e-b756">
       <comment>BMB</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="07f0-4bd7-bb2a-1c09" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="07f0-4bd7-bb2a-1c09" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="d151-e8ee-6d9d-1f94" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <profiles>
-        <profile name="BetAB-500ShP 500 kg penetrator high drag bomb (x2)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="4119-1f9b-89d8-dd45">
+        <profile name="BetAB-500ShP 500 kg penetrator high drag bomb" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="bf18-502c-5e2c-34a2">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">n/a</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">9+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d10</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">2</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1970</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="BetAB-500ShP 500 kg penetrator high drag bomb" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="448f-bf59-e699-b1f0">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -4689,11 +5835,26 @@
     <selectionEntry type="upgrade" import="true" name="BetAB-500 500 kg penetrator^ (x2)" hidden="false" id="3638-f927-3305-d180">
       <comment>BMB</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="2ea5-a8cf-b190-2791" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="2ea5-a8cf-b190-2791" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="f8ac-bc3f-7da8-a71c" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <profiles>
-        <profile name="BetAB-500 500 kg penetrator^ (x2)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="6528-c503-564d-aed5">
+        <profile name="BetAB-500 500 kg penetrator^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="e6f0-5291-2620-1c28">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">n/a</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">9+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">12+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d10</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">2</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1970</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="BetAB-500 500 kg penetrator^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="4f5d-d56c-a5a4-16c4">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -4712,7 +5873,67 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="FAB-250 (250 kg Bomb) ^ (x5)" hidden="false" id="7ce2-fa61-9103-c42a">
       <profiles>
-        <profile name="FAB-250 (250 kg Bomb) ^ (x5)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="809f-6868-3ae3-f6e6">
+        <profile name="FAB-250 (250 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="315f-8fd2-8991-fd3d">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">10+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">11+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="FAB-250 (250 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="c7e6-be09-fd9c-9924">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">10+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">11+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="FAB-250 (250 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="4136-258e-e357-d4af">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">10+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">11+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="FAB-250 (250 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="f1e8-ccdd-ca2a-0879">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">10+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">11+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="FAB-250 (250 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="bd47-0a0f-ebfe-05da">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -4729,14 +5950,74 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="57ce-0b94-2309-8ffc" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="57ce-0b94-2309-8ffc" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="54af-1c59-2f5a-bef3" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <comment>BMB</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="FAB-100 (100 kg Bomb) ^ (x5)" hidden="false" id="8dd1-39aa-c5ef-bd98">
       <profiles>
-        <profile name="FAB-100 (100 kg Bomb) ^ (x5)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="aadb-f3e4-d9ee-c34e">
+        <profile name="FAB-100 (100 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="ba64-680c-e6b2-8eb1">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">12+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">12+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d4</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">0.5</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="FAB-100 (100 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="9b4e-6ac4-23ec-688b">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">12+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">12+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d4</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">0.5</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="FAB-100 (100 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="7521-1e98-9ff8-50fc">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">12+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">12+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d4</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">0.5</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="FAB-100 (100 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="432e-6bb8-2cd9-0dcd">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">12+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">12+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d4</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">0.5</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="FAB-100 (100 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="afc9-0328-9ec9-9ef3">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -4753,7 +6034,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="050b-e891-30c1-4b0a" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="050b-e891-30c1-4b0a" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="ddd4-789e-c4e7-cae7" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <comment>BMB</comment>
@@ -4761,12 +6042,27 @@
     <selectionEntry type="upgrade" import="true" name="Rocket S-25L LGR 266mm (x2)" hidden="false" id="8d2d-d1bf-da1c-d27f">
       <comment>RKT G LAS</comment>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="e47e-4d05-84cb-e8a8" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="e47e-4d05-84cb-e8a8" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="0789-bad8-7d9f-78ba" id="2db1-5af1-589f-273b" primary="true" name="Cohetes/GunPod/ECM"/>
         <categoryLink targetId="e6aa-09d3-85a9-c834" id="ac7b-7154-6cb3-8b1d" primary="false" name="Arma Guiado Laser"/>
       </categoryLinks>
       <profiles>
-        <profile name="Rocket S-25L LGR 266mm (x2)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="a5d0-5c7c-3097-4680">
+        <profile name="Rocket S-25L LGR 266mm" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="b431-8949-aca4-2b34">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Cohete Guiado Laser</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">1</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">5+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">8+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">9+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d4</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1.5</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="Rocket S-25L LGR 266mm" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="73b6-3751-97ff-dd4d">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Cohete Guiado Laser</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -4785,7 +6081,52 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="FAB-500 (500 kg Bomb) ^ (x4)" hidden="false" id="f761-8a6a-d99a-92ec">
       <profiles>
-        <profile name="FAB-500 (500 kg Bomb) ^ (x4)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="1e86-9446-c7f2-9bdf">
+        <profile name="FAB-500 (500 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="720f-2949-7787-e957">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">9+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">10+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d10</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">2</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="FAB-500 (500 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="25e5-62f2-3097-5534">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">9+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">10+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d10</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">2</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="FAB-500 (500 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="c659-da42-5721-f280">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">9+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">10+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d10</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">2</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="FAB-500 (500 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="12cf-240b-9663-0480">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -4802,14 +6143,29 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="648d-3ba0-a207-ecc7" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="648d-3ba0-a207-ecc7" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="edb5-85ed-ffcb-650a" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <comment>BMB</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="FAB-250 (250 kg Bomb) ^ (x2)" hidden="false" id="0346-426e-1bfd-b461">
       <profiles>
-        <profile name="FAB-250 (250 kg Bomb) ^ (x2)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="36ba-20b3-cc31-da7e">
+        <profile name="FAB-250 (250 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="53ba-5021-df8f-3abb">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">10+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">11+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="FAB-250 (250 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="d3d6-eb64-25f9-9b83">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -4826,14 +6182,29 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="d35f-1d1e-c461-f867" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="d35f-1d1e-c461-f867" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="bc57-5fdc-3f11-c501" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <comment>BMB</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="FAB-100 (100 kg Bomb) ^ (x2)" hidden="false" id="a944-7f5c-8b92-030f">
       <profiles>
-        <profile name="FAB-100 (100 kg Bomb) ^ (x2)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="2bb2-f92a-9526-00df">
+        <profile name="FAB-100 (100 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="c0f4-00ca-f7cd-3637">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">12+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">12+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d4</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">0.5</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="FAB-100 (100 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="e4ac-65d8-aee5-c3f2">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -4850,14 +6221,44 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="7a8b-8c98-0a78-5d7d" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="7a8b-8c98-0a78-5d7d" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="3c80-5058-3e75-4bef" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <comment>BMB</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="FAB-100 (100 kg Bomb) ^ (x3)" hidden="false" id="0cf1-57d9-857f-5d85">
       <profiles>
-        <profile name="FAB-100 (100 kg Bomb) ^ (x3)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="95ff-8f97-53fa-2a29">
+        <profile name="FAB-100 (100 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="3561-eb6e-bbfa-0993">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">12+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">12+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d4</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">0.5</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="FAB-100 (100 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="714b-8a4a-0561-b222">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">12+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">12+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d4</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">0.5</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="FAB-100 (100 kg Bomb) ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="604d-8846-eeb7-bfd6">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no Guiada</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -4874,14 +6275,14 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="fd49-bd2a-fe51-5a86" primary="false" name="Fuerza Aerea Sovietica (Rusia / URSS)"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="fd49-bd2a-fe51-5a86" primary="false" name="Rusia / URSS"/>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="ca4c-0748-31c3-5d8f" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
       <comment>BMB</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Skyflash" hidden="false" id="e9a9-9f08-68b0-34cf">
       <categoryLinks>
-        <categoryLink targetId="7b3b-7df2-52f8-d929" id="e022-d67b-8e69-2aa3" primary="true" name="RAF (Reino Unido)"/>
+        <categoryLink targetId="7b3b-7df2-52f8-d929" id="e022-d67b-8e69-2aa3" primary="true" name="Reino Unido"/>
       </categoryLinks>
       <profiles>
         <profile name="Skyflash" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="3510-aede-3e59-9d44">
@@ -4920,7 +6321,7 @@
       </profiles>
       <categoryLinks>
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="c8a5-447c-a220-fb09" primary="true" name="Arma Aire-Tierra"/>
-        <categoryLink targetId="7b3b-7df2-52f8-d929" id="8200-ed7a-a5ad-02f9" primary="false" name="RAF (Reino Unido)"/>
+        <categoryLink targetId="7b3b-7df2-52f8-d929" id="8200-ed7a-a5ad-02f9" primary="false" name="Reino Unido"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Pod Dispensador Bengalas" hidden="false" id="0616-9ea8-b075-4da6">
@@ -4954,7 +6355,22 @@
     <selectionEntry type="upgrade" import="true" name="1000 lb Bomb ^ (x2)" hidden="false" id="aecb-587d-e72c-a6a4">
       <comment>BMB</comment>
       <profiles>
-        <profile name="1000 lb Bomb ^ (x2)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="3610-fc07-49f5-741e">
+        <profile name="1000 lb Bomb ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="89d6-5a40-3e49-8a9f">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no guiada</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">9+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">10+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">13+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d10</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">2</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1"/>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="1000 lb Bomb ^" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="5454-7805-16b6-99a7">
           <characteristics>
             <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba no guiada</characteristic>
             <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
@@ -4974,35 +6390,478 @@
         <categoryLink targetId="d4ea-6b81-9d6a-7377" id="4524-4919-4bd1-a275" primary="true" name="Arma Aire-Tierra"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Estacion RADAR terrestre" hidden="false" id="d01d-754e-edc3-058f">
+    <selectionEntry type="upgrade" import="true" name="AT-6 Spiral (9M114 Kokon)" hidden="false" id="db98-48d0-52e3-d53c">
       <categoryLinks>
-        <categoryLink targetId="61b0-52e5-cfc0-2031" id="8140-d6f7-91f6-6dea" primary="true" name="Objetivo Terrestre"/>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="5521-8e26-74dc-7f36" primary="false" name="Rusia / URSS"/>
+        <categoryLink targetId="d4ea-6b81-9d6a-7377" id="aee2-ca84-c386-8b58" primary="true" name="Arma Aire-Tierra"/>
+      </categoryLinks>
+      <comment>MSL AT CGR</comment>
+      <profiles>
+        <profile name="AT-6 Spiral (9M114 Kokon)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="f393-e4eb-ec09-d702">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Misil Aire-Tierra Guiado Radio</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">16&quot;</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">1</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">1</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">6+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">6+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">6+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d4</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1976</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="AT-6 Spiral (9M114 Kokon) (x4)" hidden="false" id="832a-f903-9d35-3172">
+      <categoryLinks>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="3b0b-f359-b885-41ee" primary="false" name="Rusia / URSS"/>
+        <categoryLink targetId="d4ea-6b81-9d6a-7377" id="9bf9-c94c-acac-1a39" primary="true" name="Arma Aire-Tierra"/>
+      </categoryLinks>
+      <comment>MSL AT CGR</comment>
+      <profiles>
+        <profile name="AT-6 Spiral (9M114 Kokon)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="202e-862d-022f-4ae0">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Misil Aire-Tierra Guiado Radio</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">16&quot;</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">1</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">1</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">6+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">6+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">6+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d4</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1976</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="AT-6 Spiral (9M114 Kokon)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="176b-b1ee-fa14-36f3">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Misil Aire-Tierra Guiado Radio</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">16&quot;</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">1</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">1</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">6+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">6+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">6+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d4</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1976</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="AT-6 Spiral (9M114 Kokon)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="0aab-780f-0883-dd6a">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Misil Aire-Tierra Guiado Radio</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">16&quot;</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">1</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">1</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">6+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">6+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">6+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d4</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1976</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+        <profile name="AT-6 Spiral (9M114 Kokon)" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="84b8-fc28-bd96-47b5">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Misil Aire-Tierra Guiado Radio</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">16&quot;</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">1</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">1</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">6+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">6+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">6+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d4</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1976</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="AA-12 Adder (R-77) (x2)" hidden="false" id="0a7d-c574-7cfd-6c03">
+      <profiles>
+        <profile name="AA-12 Adder (R-77)" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="a8ed-722a-fb7c-7bc2">
+          <characteristics>
+            <characteristic name="Guiado" typeId="d330-28ec-342f-04bd">ARH</characteristic>
+            <characteristic name="Aspecto" typeId="df38-cf14-507f-65b0">all</characteristic>
+            <characteristic name="Fijado" typeId="40ea-d002-71e1-18d1">radar</characteristic>
+            <characteristic name="Alcance" typeId="b603-fd28-7c64-5eff">5&quot; - 50&quot;</characteristic>
+            <characteristic name="Impacto" typeId="50db-d680-dfb0-9524">2+</characteristic>
+            <characteristic name="Daño" typeId="d3bc-50d0-3fe7-6eea">2d6</characteristic>
+            <characteristic name="Carga" typeId="29fb-36fb-5550-619c">1</characteristic>
+            <characteristic name="Año" typeId="081c-87c4-e7ab-042b">1994</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="AA-12 Adder (R-77)" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="ca86-b469-20a1-294e">
+          <characteristics>
+            <characteristic name="Guiado" typeId="d330-28ec-342f-04bd">ARH</characteristic>
+            <characteristic name="Aspecto" typeId="df38-cf14-507f-65b0">all</characteristic>
+            <characteristic name="Fijado" typeId="40ea-d002-71e1-18d1">radar</characteristic>
+            <characteristic name="Alcance" typeId="b603-fd28-7c64-5eff">5&quot; - 50&quot;</characteristic>
+            <characteristic name="Impacto" typeId="50db-d680-dfb0-9524">2+</characteristic>
+            <characteristic name="Daño" typeId="d3bc-50d0-3fe7-6eea">2d6</characteristic>
+            <characteristic name="Carga" typeId="29fb-36fb-5550-619c">1</characteristic>
+            <characteristic name="Año" typeId="081c-87c4-e7ab-042b">1994</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <comment>ARH</comment>
+      <categoryLinks>
+        <categoryLink targetId="3c62-b7c7-c15d-4c1f" id="597c-2b75-35fc-3ff2" primary="true" name="Rusia / URSS"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="ALQ 218" hidden="false" id="4d2a-6f65-2bfb-9631">
+      <profiles>
+        <profile name="ALQ 218" typeId="78ec-4e9c-1403-c071" typeName="Accesorios" hidden="false" id="eaa0-8f18-bb96-1ff1">
+          <characteristics>
+            <characteristic name="Definicion" typeId="16b4-4f76-0b05-191e">Antena de Guerra Electrónica Pasiva</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <comment>ANT JAMM</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="TOW-2" hidden="false" id="3477-e1d2-dea9-c795">
+      <categoryLinks>
+        <categoryLink targetId="d4ea-6b81-9d6a-7377" id="4c85-6bf3-23b3-55bf" primary="true" name="Arma Aire-Tierra"/>
+        <categoryLink targetId="ed20-6f65-b416-21aa" id="d3b0-cd87-a4cb-1da3" primary="false" name="Estados Unidos"/>
       </categoryLinks>
       <profiles>
-        <profile name="Estacion RADAR terrestre" typeId="d4cc-b5fe-0a05-1a8f" typeName="Objetivo Terrestre" hidden="false" id="23a0-fb5e-c561-0b61">
+        <profile name="TOW-2" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="353a-a871-2d46-b88f">
           <characteristics>
-            <characteristic name="Clase" typeId="6a47-59f3-7502-3dc7">Ligero</characteristic>
-            <characteristic name="Descripcion" typeId="14b5-c31c-37f4-2ccd">Estación de RADAR. Debe estar a menos de 4&quot; de defensas SAM o AA fijas a las que de soporte.
-Puede apagarse en cualquier momento de la fase de movimiento. Si se apaga, no puede encenderse hasta pasados cuatro fases (dos turnos completos)</characteristic>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Misil Aire-Tierra Guiado Optico</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">11&quot;</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">1</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">1</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">6+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">6+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">7+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d4</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">0.5</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1985</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <comment>MSL OPT</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Torpedo" hidden="false" id="548c-04cc-0d7d-7c42">
+      <profiles>
+        <profile name="Torpedo" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="df3b-f7d2-7973-e266">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Torpedo Guiado</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">10&quot;</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">1</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">1</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">5+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">5+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">5+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d10</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">1</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">-</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <comment>TRP</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Equipo Escucha Submarino" hidden="false" id="188b-2b75-bee6-43a0">
+      <comment>SUB SON</comment>
+      <infoLinks>
+        <infoLink name="Equipo Escucha Submarino" id="7bd0-f954-99c2-86ac" hidden="false" type="profile" targetId="7227-0677-30fa-d8cd"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Dispensador de Sonoboyas" hidden="false" id="31d8-1345-dcce-d067">
+      <comment>SUB SON</comment>
+      <infoLinks>
+        <infoLink name="Dispensador de Sonoboyas" id="0fe7-49c0-48ae-ad48" hidden="false" type="profile" targetId="a389-5485-d10c-a30e"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Anti-Submarino" hidden="false" id="990a-eee0-f40d-e3ca">
+      <infoLinks>
+        <infoLink name="Torpedo" id="77b9-afe9-872e-77ee" hidden="false" type="profile" targetId="df3b-f7d2-7973-e266"/>
+        <infoLink name="Equipo Escucha Submarino" id="87d2-ad7f-59ae-ae19" hidden="false" type="profile" targetId="7227-0677-30fa-d8cd"/>
+        <infoLink name="Dispensador de Sonoboyas" id="3dd7-506a-4b93-0003" hidden="false" type="profile" targetId="a389-5485-d10c-a30e"/>
+        <infoLink name="Torpedo" id="fb01-278a-ebc4-ad38" hidden="false" type="profile" targetId="df3b-f7d2-7973-e266"/>
+      </infoLinks>
+      <comment>Generico</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Búsqueda y Rescate" hidden="false" id="e7db-de09-8498-1d62">
+      <comment>Generico</comment>
+      <profiles>
+        <profile name="Equipo de Búsqueda y Rescate" typeId="78ec-4e9c-1403-c071" typeName="Accesorios" hidden="false" id="8ebc-0a27-3821-8921">
+          <characteristics>
+            <characteristic name="Definicion" typeId="16b4-4f76-0b05-191e">Misión SAR con Parajumpers y eslinga.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Equipo de Fuerzas Especiales" hidden="false" id="374d-1f4c-410b-c97a">
+      <comment>Generico</comment>
+      <profiles>
+        <profile name="Equipo de Fuerzas Especiales" typeId="78ec-4e9c-1403-c071" typeName="Accesorios" hidden="false" id="3858-218f-9b40-f75a">
+          <characteristics>
+            <characteristic name="Definicion" typeId="16b4-4f76-0b05-191e">Equipo de 6-15 operadores de elite.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Equipo de Asalto" hidden="false" id="1e0d-0b93-b6db-0320">
+      <comment>Generico</comment>
+      <profiles>
+        <profile name="Equipo de Asalto" typeId="78ec-4e9c-1403-c071" typeName="Accesorios" hidden="false" id="f6fe-661a-101d-e4b7">
+          <characteristics>
+            <characteristic name="Definicion" typeId="16b4-4f76-0b05-191e">Grupo de infanteria, de unos 30 soldados.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="PL-8" hidden="false" id="b4b1-435e-415e-4221">
+      <comment>IR</comment>
+      <categoryLinks>
+        <categoryLink targetId="6e88-d068-f08c-d318" id="7282-7695-458b-dfef" primary="true" name="China"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="PL-8" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="50ec-0b6b-990d-c3c6">
+          <characteristics>
+            <characteristic name="Guiado" typeId="d330-28ec-342f-04bd">IR</characteristic>
+            <characteristic name="Aspecto" typeId="df38-cf14-507f-65b0">all</characteristic>
+            <characteristic name="Fijado" typeId="40ea-d002-71e1-18d1">3+</characteristic>
+            <characteristic name="Alcance" typeId="b603-fd28-7c64-5eff">5&quot; - 22&quot;</characteristic>
+            <characteristic name="Impacto" typeId="50db-d680-dfb0-9524">3+</characteristic>
+            <characteristic name="Daño" typeId="d3bc-50d0-3fe7-6eea">1d10</characteristic>
+            <characteristic name="Carga" typeId="29fb-36fb-5550-619c">0.5</characteristic>
+            <characteristic name="Año" typeId="081c-87c4-e7ab-042b">1991</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="PL-9" hidden="false" id="5e67-9d81-a9b7-e371">
+      <comment>IR</comment>
+      <categoryLinks>
+        <categoryLink targetId="6e88-d068-f08c-d318" id="f251-4221-5466-7d72" primary="true" name="China"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="PL-9" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="e976-d02f-3c78-4b34">
+          <characteristics>
+            <characteristic name="Guiado" typeId="d330-28ec-342f-04bd">IR</characteristic>
+            <characteristic name="Aspecto" typeId="df38-cf14-507f-65b0">all</characteristic>
+            <characteristic name="Fijado" typeId="40ea-d002-71e1-18d1">3+</characteristic>
+            <characteristic name="Alcance" typeId="b603-fd28-7c64-5eff">5&quot; - 22&quot;</characteristic>
+            <characteristic name="Impacto" typeId="50db-d680-dfb0-9524">3+</characteristic>
+            <characteristic name="Daño" typeId="d3bc-50d0-3fe7-6eea">1d10</characteristic>
+            <characteristic name="Carga" typeId="29fb-36fb-5550-619c">0.5</characteristic>
+            <characteristic name="Año" typeId="081c-87c4-e7ab-042b">1992</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="PL-12" hidden="false" id="9804-144b-7269-037f">
+      <comment>ARH</comment>
+      <categoryLinks>
+        <categoryLink targetId="6e88-d068-f08c-d318" id="4bb2-362a-6aa8-0759" primary="true" name="China"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="PL-12" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="7336-f2ef-0e15-c160">
+          <characteristics>
+            <characteristic name="Guiado" typeId="d330-28ec-342f-04bd">ARH</characteristic>
+            <characteristic name="Aspecto" typeId="df38-cf14-507f-65b0">all</characteristic>
+            <characteristic name="Fijado" typeId="40ea-d002-71e1-18d1">radar</characteristic>
+            <characteristic name="Alcance" typeId="b603-fd28-7c64-5eff">5&quot; - 50&quot;</characteristic>
+            <characteristic name="Impacto" typeId="50db-d680-dfb0-9524">3+</characteristic>
+            <characteristic name="Daño" typeId="d3bc-50d0-3fe7-6eea">2d6</characteristic>
+            <characteristic name="Carga" typeId="29fb-36fb-5550-619c">1</characteristic>
+            <characteristic name="Año" typeId="081c-87c4-e7ab-042b">2005</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="PL-11A" hidden="false" id="95ff-290b-a206-f041">
+      <comment>SARH</comment>
+      <categoryLinks>
+        <categoryLink targetId="6e88-d068-f08c-d318" id="c85b-1b77-e239-bd6a" primary="true" name="China"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="PL-11A" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="06d3-ec26-ae9b-3554">
+          <characteristics>
+            <characteristic name="Guiado" typeId="d330-28ec-342f-04bd">SARH</characteristic>
+            <characteristic name="Aspecto" typeId="df38-cf14-507f-65b0">all</characteristic>
+            <characteristic name="Fijado" typeId="40ea-d002-71e1-18d1">radar</characteristic>
+            <characteristic name="Alcance" typeId="b603-fd28-7c64-5eff">10&quot; - 40&quot;</characteristic>
+            <characteristic name="Impacto" typeId="50db-d680-dfb0-9524">5+</characteristic>
+            <characteristic name="Daño" typeId="d3bc-50d0-3fe7-6eea">1d10</characteristic>
+            <characteristic name="Carga" typeId="29fb-36fb-5550-619c">1</characteristic>
+            <characteristic name="Año" typeId="081c-87c4-e7ab-042b">1996</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="PL-11B" hidden="false" id="3360-494b-7b8e-d9f9">
+      <comment>ARH</comment>
+      <categoryLinks>
+        <categoryLink targetId="6e88-d068-f08c-d318" id="6a73-8322-6ea4-df91" primary="true" name="China"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="PL-11B" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="6e3d-da9b-0eda-5bf4">
+          <characteristics>
+            <characteristic name="Guiado" typeId="d330-28ec-342f-04bd">ARH</characteristic>
+            <characteristic name="Aspecto" typeId="df38-cf14-507f-65b0">all</characteristic>
+            <characteristic name="Fijado" typeId="40ea-d002-71e1-18d1">radar</characteristic>
+            <characteristic name="Alcance" typeId="b603-fd28-7c64-5eff">10&quot; - 40&quot;</characteristic>
+            <characteristic name="Impacto" typeId="50db-d680-dfb0-9524">5+</characteristic>
+            <characteristic name="Daño" typeId="d3bc-50d0-3fe7-6eea">1d10</characteristic>
+            <characteristic name="Carga" typeId="29fb-36fb-5550-619c">1</characteristic>
+            <characteristic name="Año" typeId="081c-87c4-e7ab-042b">1998</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="YJ-91~" hidden="false" id="26b9-b719-a787-128f">
+      <profiles>
+        <profile name="YJ-91~" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="1c1d-e5b3-9943-f8f6">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Misil Anti-Radiación</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">44&quot;</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">1</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">5+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">5+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">6+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">1d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">3</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1991</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <comment>MSL AR</comment>
+      <categoryLinks>
+        <categoryLink targetId="d4ea-6b81-9d6a-7377" id="a0aa-5cdb-be9b-fa0b" primary="true" name="Arma Aire-Tierra"/>
+        <categoryLink targetId="6e88-d068-f08c-d318" id="8e54-a392-49c6-2a3b" primary="false" name="China"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="LT-2 500 kg LGB" hidden="false" id="afcb-6ac3-87ca-c08d">
+      <comment>BMB G LAS</comment>
+      <profiles>
+        <profile name="LT-2 500 kg LGB" typeId="7ee2-b0ca-5c4b-195a" typeName="Armas Aire-Tierra" hidden="false" id="c650-1d56-8572-c465">
+          <characteristics>
+            <characteristic name="Clase" typeId="7c8b-20de-f3ac-5f1c">Bomba Guiada Laser</characteristic>
+            <characteristic name="Alcance" typeId="c158-dfbb-2e5b-d8f0">0</characteristic>
+            <characteristic name="ROF" typeId="43e6-fa21-469e-1464">unl</characteristic>
+            <characteristic name="Municion" typeId="1cda-08f0-5247-06ed">-</characteristic>
+            <characteristic name="Imp. Ligero" typeId="6153-3510-2bd5-1cd5">5+</characteristic>
+            <characteristic name="Imp. Medio" typeId="a4e4-ad87-5512-ec70">5+</characteristic>
+            <characteristic name="Imp. Pesado" typeId="426d-98f1-0f75-88dd">6+</characteristic>
+            <characteristic name="Daño" typeId="765c-a87c-87e8-858e">2d6</characteristic>
+            <characteristic name="Carga" typeId="2360-4858-bae8-68de">2</characteristic>
+            <characteristic name="Año" typeId="e7cd-2b2e-b235-d4f1">1976</characteristic>
+            <characteristic name="Notas" typeId="1d5d-5067-b071-a2e1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="d4ea-6b81-9d6a-7377" id="7ff9-1faa-96fd-24ff" primary="true" name="Arma Aire-Tierra"/>
+        <categoryLink targetId="6e88-d068-f08c-d318" id="8d61-520d-a398-8402" primary="false" name="China"/>
+        <categoryLink targetId="e6aa-09d3-85a9-c834" id="34c6-4acf-573c-a25c" primary="false" name="Arma Guiado Laser"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="PL-12 (x2)" hidden="false" id="826c-3b5f-41f8-700e">
+      <comment>ARH</comment>
+      <categoryLinks>
+        <categoryLink targetId="6e88-d068-f08c-d318" id="b635-0742-8990-5004" primary="true" name="China"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="PL-12" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="b1bd-6035-4681-cc52">
+          <characteristics>
+            <characteristic name="Guiado" typeId="d330-28ec-342f-04bd">ARH</characteristic>
+            <characteristic name="Aspecto" typeId="df38-cf14-507f-65b0">all</characteristic>
+            <characteristic name="Fijado" typeId="40ea-d002-71e1-18d1">radar</characteristic>
+            <characteristic name="Alcance" typeId="b603-fd28-7c64-5eff">5&quot; - 50&quot;</characteristic>
+            <characteristic name="Impacto" typeId="50db-d680-dfb0-9524">3+</characteristic>
+            <characteristic name="Daño" typeId="d3bc-50d0-3fe7-6eea">2d6</characteristic>
+            <characteristic name="Carga" typeId="29fb-36fb-5550-619c">1</characteristic>
+            <characteristic name="Año" typeId="081c-87c4-e7ab-042b">2005</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="PL-12" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="11c6-e892-e496-b23c">
+          <characteristics>
+            <characteristic name="Guiado" typeId="d330-28ec-342f-04bd">ARH</characteristic>
+            <characteristic name="Aspecto" typeId="df38-cf14-507f-65b0">all</characteristic>
+            <characteristic name="Fijado" typeId="40ea-d002-71e1-18d1">radar</characteristic>
+            <characteristic name="Alcance" typeId="b603-fd28-7c64-5eff">5&quot; - 50&quot;</characteristic>
+            <characteristic name="Impacto" typeId="50db-d680-dfb0-9524">3+</characteristic>
+            <characteristic name="Daño" typeId="d3bc-50d0-3fe7-6eea">2d6</characteristic>
+            <characteristic name="Carga" typeId="29fb-36fb-5550-619c">1</characteristic>
+            <characteristic name="Año" typeId="081c-87c4-e7ab-042b">2005</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="PL-8 (x2)" hidden="false" id="9551-d78b-b3db-e31d">
+      <comment>IR</comment>
+      <categoryLinks>
+        <categoryLink targetId="6e88-d068-f08c-d318" id="f893-b539-7fed-431d" primary="true" name="China"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="PL-8" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="c685-4dde-9db5-5373">
+          <characteristics>
+            <characteristic name="Guiado" typeId="d330-28ec-342f-04bd">IR</characteristic>
+            <characteristic name="Aspecto" typeId="df38-cf14-507f-65b0">all</characteristic>
+            <characteristic name="Fijado" typeId="40ea-d002-71e1-18d1">3+</characteristic>
+            <characteristic name="Alcance" typeId="b603-fd28-7c64-5eff">5&quot; - 22&quot;</characteristic>
+            <characteristic name="Impacto" typeId="50db-d680-dfb0-9524">3+</characteristic>
+            <characteristic name="Daño" typeId="d3bc-50d0-3fe7-6eea">1d10</characteristic>
+            <characteristic name="Carga" typeId="29fb-36fb-5550-619c">0.5</characteristic>
+            <characteristic name="Año" typeId="081c-87c4-e7ab-042b">1991</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="PL-8" typeId="c79e-c810-7f3d-db48" typeName="Misiles Aire-Aire" hidden="false" id="bd03-213f-2608-cfb4">
+          <characteristics>
+            <characteristic name="Guiado" typeId="d330-28ec-342f-04bd">IR</characteristic>
+            <characteristic name="Aspecto" typeId="df38-cf14-507f-65b0">all</characteristic>
+            <characteristic name="Fijado" typeId="40ea-d002-71e1-18d1">3+</characteristic>
+            <characteristic name="Alcance" typeId="b603-fd28-7c64-5eff">5&quot; - 22&quot;</characteristic>
+            <characteristic name="Impacto" typeId="50db-d680-dfb0-9524">3+</characteristic>
+            <characteristic name="Daño" typeId="d3bc-50d0-3fe7-6eea">1d10</characteristic>
+            <characteristic name="Carga" typeId="29fb-36fb-5550-619c">0.5</characteristic>
+            <characteristic name="Año" typeId="081c-87c4-e7ab-042b">1991</characteristic>
           </characteristics>
         </profile>
       </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
-    <categoryEntry name="Fuerza Aerea Sovietica (Rusia / URSS)" id="3c62-b7c7-c15d-4c1f" hidden="false"/>
-    <categoryEntry name="Luftwaffe (Alemania)" id="4dc9-6605-f3ed-0f29" hidden="false"/>
-    <categoryEntry name="PLAF (China)" id="6e88-d068-f08c-d318" hidden="false"/>
-    <categoryEntry name="RAF (Reino Unido)" id="7b3b-7df2-52f8-d929" hidden="false"/>
-    <categoryEntry name="USAF / NAVY (Estados Unidos)" id="ed20-6f65-b416-21aa" hidden="false"/>
-    <categoryEntry name="JSDF (Japón)" id="0065-9740-de74-cb12" hidden="false"/>
+    <categoryEntry name="Rusia / URSS" id="3c62-b7c7-c15d-4c1f" hidden="false"/>
+    <categoryEntry name="Alemania" id="4dc9-6605-f3ed-0f29" hidden="false"/>
+    <categoryEntry name="China" id="6e88-d068-f08c-d318" hidden="false"/>
+    <categoryEntry name="Reino Unido" id="7b3b-7df2-52f8-d929" hidden="false"/>
+    <categoryEntry name="Estados Unidos" id="ed20-6f65-b416-21aa" hidden="false"/>
+    <categoryEntry name="Japón" id="0065-9740-de74-cb12" hidden="false"/>
     <categoryEntry name="Arma Aire-Tierra" id="d4ea-6b81-9d6a-7377" hidden="false"/>
-    <categoryEntry name="Ejercito del Aire y del Espacio (España)" id="7fd6-37f9-9111-d78e" hidden="false"/>
+    <categoryEntry name="España" id="7fd6-37f9-9111-d78e" hidden="false"/>
     <categoryEntry name="Cohetes/GunPod/ECM" id="0789-bad8-7d9f-78ba" hidden="false"/>
-    <categoryEntry name="SAM" id="7b46-be9e-3add-51dc" hidden="false"/>
-    <categoryEntry name="AA" id="3309-2f8a-c3d8-e497" hidden="false"/>
     <categoryEntry name="Objetivo Terrestre" id="61b0-52e5-cfc0-2031" hidden="false"/>
     <categoryEntry name="Arma Guiado Laser" id="e6aa-09d3-85a9-c834" hidden="false"/>
-    <categoryEntry name="Defensas Antiaereas" id="1266-6dee-9e61-99a9" hidden="false"/>
   </categoryEntries>
+  <sharedRules>
+    <rule name="Helicópteros (Reglas de la casa)" id="67a1-3f94-5024-81db" hidden="false">
+      <description>- Movimiento 0&quot;-10&quot; aprox. Los helicópteros mueven siempre después de que lo hayan hecho todos los aviones.
+- Únicamente se les puede atacar si se está a Low Altitude. Si se usan misiles, solo valen los IR. Si el helicóptero esta en tierra, solo se pueden usar armas Aire-Tierra.
+- Si vuelan sobre bosques, edificios u otro terreno especialmente difícil, se recibe una penalización de +1 para fijar misiles. La misma penalización aplica para las tiradas de impacto de misiles y cañones. En caso de tener un misil fijado y en esa misma fase aterriza antes de resolverse, el misil se pierde.
+- Si vuelan sobre bosques, edificios u otro terreno especialmente difícil y desea aterrizar, debe realizar una tirada de habilidad. Con un 4+ en 1d10, modificada con la habilidad del piloto, tiene éxito. La misma tirada se aplica en caso de realizar una búsqueda de objetivos en tierra.
+- El aterrizaje ocupa una fase completa. El despegue es inmediato y el helicóptero puede mover con normalidad esa fase.
+- En caso de desplegar tropas en un objetivo, el helicóptero debe aterrizar a 2&quot; de este. Además, en caso de que haya unidades terrestres próximas, puede permanecer en tierra una fase mas para neutralizarlas todas.</description>
+    </rule>
+    <rule name="Nuclear" id="04bd-bff0-64f4-ab1f" hidden="false">
+      <description>Misil sin guiado: vuela en línea recta una distancia establecida en secreto, hasta su máximo alcance.
+Después de que todas las aeronaves hayan movido, se revela la distancia de vuelo del misil.
+-Toda aeronave a 4&quot; es destruida en el acto. 
+-Toda aeronave a mas de 4&quot; y hasta 6&quot; sufre 2d10 de daño.
+-Toda aeronave a mas de 6&quot; y hasta 8&quot; sufre 1d10 de daño.</description>
+    </rule>
+  </sharedRules>
 </gameSystem>
