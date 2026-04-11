@@ -1,0 +1,1307 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="true" id="1871-a35d-f358-e248" name="Reino Unido" gameSystemId="sys-6b94-3646-c6d2-7038" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry type="model" import="true" name="EFA Typhoon (UK)" hidden="false" id="4930-6e3e-0b44-afeb">
+      <categoryLinks>
+        <categoryLink name="RAF (Reino Unido)" hidden="false" id="a91e-bb8a-519c-68a2" targetId="7b3b-7df2-52f8-d929" primary="false"/>
+        <categoryLink targetId="3a4a-1f33-8ad4-ee6f" id="c19b-c437-374b-2f5a" primary="true" name="Aeronaves"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Adiestramiento del Piloto" hidden="false" id="0814-18a8-461f-d585" type="selectionEntryGroup" targetId="367a-0175-d961-886a"/>
+        <entryLink import="true" name="Configuracion de Armamento" hidden="false" id="d786-115d-398f-d7d7" type="selectionEntryGroup" targetId="13ff-6045-e2f5-a7e3">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Pilon 1" id="16fb-76c1-c359-1ee5" hidden="false" collapsible="true" collective="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4e9d-3b8c-120b-4ef8" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="c785-58a2-2779-c20d" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="ASRAAM" hidden="false" id="655b-3de8-7f0a-bc17" type="selectionEntry" targetId="30dc-98d1-af7d-b649"/>
+                    <entryLink import="true" name="AIM-9L Sidewinder" hidden="false" id="d4ad-ddb2-edd0-1c5c" type="selectionEntry" targetId="fa98-54ec-0792-dce7"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 2" id="46f1-62b3-abac-038a" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8297-90a5-4be9-4666" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="43aa-f572-a88a-7a67" hidden="false" collapsible="true">
+                  <entryLinks>
+                    <entryLink import="true" name="ASRAAM" hidden="false" id="6288-6fbf-f2ad-0f36" type="selectionEntry" targetId="30dc-98d1-af7d-b649"/>
+                    <entryLink import="true" name="AIM-120A/B AMRAAM" hidden="false" id="ffc2-14c9-b342-a327" type="selectionEntry" targetId="de57-8ebe-5340-d0f7"/>
+                    <entryLink import="true" name="AIM-120C AMRAAM" hidden="false" id="0710-fbf0-77ae-47e7" type="selectionEntry" targetId="f2a2-0d29-757e-4b6f"/>
+                    <entryLink import="true" name="Meteor" hidden="false" id="beab-2127-66bf-e3c6" type="selectionEntry" targetId="4467-9260-d849-3d6b"/>
+                    <entryLink import="true" name="AIM-9L Sidewinder" hidden="false" id="25e6-cd08-cbe0-1726" type="selectionEntry" targetId="fa98-54ec-0792-dce7"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Aire-Tierra" id="e95c-1eb8-105e-0550" hidden="false" collapsible="true">
+                  <entryLinks>
+                    <entryLink import="true" name="GBU-48 Enhanced Paveway II 1000 lb LGB ^" hidden="false" id="0f7a-f634-e4e6-2caa" type="selectionEntry" targetId="9cde-a309-fe15-cb72"/>
+                    <entryLink import="true" name="ALARM ~" hidden="false" id="103a-b379-bac9-aaaf" type="selectionEntry" targetId="1c28-4576-7c99-a80e"/>
+                    <entryLink import="true" name="Brimstone (x3)" hidden="false" id="5b32-320f-84ca-38d9" type="selectionEntry" targetId="5343-41d0-eecf-cd6e"/>
+                    <entryLink import="true" name="GBU-16 Paveway II 1000 lb LGB ^" hidden="false" id="ccda-5377-f5c3-94fa" type="selectionEntry" targetId="c0e6-402e-8fa3-a987"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="set" value="0" field="8297-90a5-4be9-4666"/>
+                    <modifier type="add" value="Pilon 2 no equipable" field="info"/>
+                  </modifiers>
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="47ca-74aa-e9ca-a5ef" shared="true"/>
+                  </conditions>
+                </modifierGroup>
+              </modifierGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 3" id="3858-b23d-b2ea-2971" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="898e-dd35-e0af-a9d8" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="95f8-84dd-2d17-2fdd" hidden="false" collapsible="true" sortIndex="1">
+                  <entryLinks>
+                    <entryLink import="true" name="AIM-9L Sidewinder" hidden="false" id="256a-19e1-ad55-2b2f" type="selectionEntry" targetId="fa98-54ec-0792-dce7"/>
+                    <entryLink import="true" name="AIM-120A/B AMRAAM" hidden="false" id="5312-8b5c-bf4c-a0b7" type="selectionEntry" targetId="de57-8ebe-5340-d0f7"/>
+                    <entryLink import="true" name="AIM-120C AMRAAM" hidden="false" id="02cf-d054-ee5f-da05" type="selectionEntry" targetId="f2a2-0d29-757e-4b6f"/>
+                    <entryLink import="true" name="ASRAAM" hidden="false" id="0ba6-1ba3-547e-2b92" type="selectionEntry" targetId="30dc-98d1-af7d-b649"/>
+                    <entryLink import="true" name="Meteor" hidden="false" id="6cf0-fe38-faf1-3db7" type="selectionEntry" targetId="4467-9260-d849-3d6b"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Aire-Tierra" id="6da6-4ba0-2561-78fe" hidden="false" collapsible="true" sortIndex="2">
+                  <entryLinks>
+                    <entryLink import="true" name="Storm Shadow" hidden="false" id="47ca-74aa-e9ca-a5ef" type="selectionEntry" targetId="7c81-1842-22bb-40d8"/>
+                    <entryLink import="true" name="GBU-48 Enhanced Paveway II 1000 lb LGB ^" hidden="false" id="a093-5e13-4c84-ca7e" type="selectionEntry" targetId="9cde-a309-fe15-cb72"/>
+                    <entryLink import="true" name="GBU-16 Paveway II 1000 lb LGB ^" hidden="false" id="9586-6a9b-0547-14a2" type="selectionEntry" targetId="c0e6-402e-8fa3-a987"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink import="true" name="Tanque de combustible" hidden="false" id="1ef6-7925-6209-7897" type="selectionEntry" targetId="ea5e-699c-96cb-e6f7"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 4" id="2455-7378-808d-8989" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2ff9-68e9-0a4f-6c70" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="4860-585a-76e6-93a8" hidden="false" collapsible="true">
+                  <entryLinks>
+                    <entryLink import="true" name="AIM-9L Sidewinder" hidden="false" id="13de-289e-83eb-2b79" type="selectionEntry" targetId="fa98-54ec-0792-dce7"/>
+                    <entryLink import="true" name="AIM-120A/B AMRAAM" hidden="false" id="b413-0fe3-16d8-e853" type="selectionEntry" targetId="de57-8ebe-5340-d0f7"/>
+                    <entryLink import="true" name="AIM-120C AMRAAM" hidden="false" id="2d63-8c63-3e29-ccc1" type="selectionEntry" targetId="f2a2-0d29-757e-4b6f"/>
+                    <entryLink import="true" name="ASRAAM" hidden="false" id="2f0d-4f11-c01c-0f33" type="selectionEntry" targetId="30dc-98d1-af7d-b649"/>
+                    <entryLink import="true" name="Meteor" hidden="false" id="34b6-c220-6427-211a" type="selectionEntry" targetId="4467-9260-d849-3d6b"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Aire-Tierra" id="ab65-4018-3c01-c812" hidden="false" collapsible="true">
+                  <entryLinks>
+                    <entryLink import="true" name="GBU-48 Enhanced Paveway II 1000 lb LGB ^" hidden="false" id="8a9d-4c80-3d16-7156" type="selectionEntry" targetId="9cde-a309-fe15-cb72"/>
+                    <entryLink import="true" name="GBU-16 Paveway II 1000 lb LGB ^" hidden="false" id="15d1-100a-bc77-9eb8" type="selectionEntry" targetId="c0e6-402e-8fa3-a987"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="set" value="0" field="2ff9-68e9-0a4f-6c70"/>
+                    <modifier type="add" value="Pilon 4 no equipable" field="info"/>
+                  </modifiers>
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="47ca-74aa-e9ca-a5ef" shared="true"/>
+                  </conditions>
+                </modifierGroup>
+              </modifierGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 5" id="8223-ccce-680f-db03" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ee5b-12d8-f060-eb04" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="537a-72cb-80ed-8b5b" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="AIM-120A/B AMRAAM" hidden="false" id="5f74-1938-ee74-b425" type="selectionEntry" targetId="de57-8ebe-5340-d0f7"/>
+                    <entryLink import="true" name="Meteor" hidden="false" id="96bb-a4fa-9b54-1ad8" type="selectionEntry" targetId="4467-9260-d849-3d6b"/>
+                    <entryLink import="true" name="AIM-120C AMRAAM" hidden="false" id="d258-6cac-2f62-a230" type="selectionEntry" targetId="f2a2-0d29-757e-4b6f"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 6" id="b8c2-8616-96c0-5eca" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="225f-288c-c19a-27c1" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="8803-e855-af38-34ae" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="AIM-120A/B AMRAAM" hidden="false" id="3cad-c985-37ae-39fb" type="selectionEntry" targetId="de57-8ebe-5340-d0f7"/>
+                    <entryLink import="true" name="AIM-120C AMRAAM" hidden="false" id="7e54-68ab-7ac8-8209" type="selectionEntry" targetId="f2a2-0d29-757e-4b6f"/>
+                    <entryLink import="true" name="Meteor" hidden="false" id="180c-8a5d-1179-b022" type="selectionEntry" targetId="4467-9260-d849-3d6b"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 7" id="f1bf-b3d1-027d-a5fa" hidden="false" collapsible="true" collective="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="510b-366c-1572-768e" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Tanque de combustible" hidden="false" id="99c4-5753-ee60-001b" type="selectionEntry" targetId="ea5e-699c-96cb-e6f7"/>
+                <entryLink import="true" name="Pod Laser" hidden="false" id="d951-cb2d-ff60-9ed0" type="selectionEntry" targetId="c1ce-ecf6-4478-4f9a"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 8" id="29a4-b114-7b19-701f" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="937b-2c56-250f-13a1" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="10e1-baf8-206d-d0a6" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="AIM-120A/B AMRAAM" hidden="false" id="9215-93d2-e58c-ccf9" type="selectionEntry" targetId="de57-8ebe-5340-d0f7"/>
+                    <entryLink import="true" name="AIM-120C AMRAAM" hidden="false" id="f9d0-63c1-f022-d47c" type="selectionEntry" targetId="f2a2-0d29-757e-4b6f"/>
+                    <entryLink import="true" name="Meteor" hidden="false" id="d605-5978-71ae-23c4" type="selectionEntry" targetId="4467-9260-d849-3d6b"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 9" id="1941-b2e2-6d95-6c97" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ac74-ebcf-0cca-1c35" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="a637-5c01-f824-226f" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="AIM-120A/B AMRAAM" hidden="false" id="2ff9-3e23-b1b6-437d" type="selectionEntry" targetId="de57-8ebe-5340-d0f7"/>
+                    <entryLink import="true" name="AIM-120C AMRAAM" hidden="false" id="8b55-8231-85eb-d4af" type="selectionEntry" targetId="f2a2-0d29-757e-4b6f"/>
+                    <entryLink import="true" name="Meteor" hidden="false" id="5546-73f6-577a-e2eb" type="selectionEntry" targetId="4467-9260-d849-3d6b"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 10" id="04ac-b481-6f7b-54f1" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0805-3e0a-d3b9-1f77" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="b332-b84c-d126-bea1" hidden="false" collapsible="true">
+                  <entryLinks>
+                    <entryLink import="true" name="AIM-9L Sidewinder" hidden="false" id="5fde-b4af-a8c4-7c3e" type="selectionEntry" targetId="fa98-54ec-0792-dce7"/>
+                    <entryLink import="true" name="AIM-120A/B AMRAAM" hidden="false" id="1268-1667-fb0e-d447" type="selectionEntry" targetId="de57-8ebe-5340-d0f7"/>
+                    <entryLink import="true" name="AIM-120C AMRAAM" hidden="false" id="ed5b-dc91-0d43-990c" type="selectionEntry" targetId="f2a2-0d29-757e-4b6f"/>
+                    <entryLink import="true" name="ASRAAM" hidden="false" id="65cf-f88b-ae6e-7791" type="selectionEntry" targetId="30dc-98d1-af7d-b649"/>
+                    <entryLink import="true" name="Meteor" hidden="false" id="b4f6-3308-b981-e523" type="selectionEntry" targetId="4467-9260-d849-3d6b"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Aire-Tierra" id="6144-d55e-584a-8136" hidden="false" collapsible="true">
+                  <entryLinks>
+                    <entryLink import="true" name="GBU-16 Paveway II 1000 lb LGB ^" hidden="false" id="5276-e6fb-ec95-b0fa" type="selectionEntry" targetId="c0e6-402e-8fa3-a987"/>
+                    <entryLink import="true" name="GBU-48 Enhanced Paveway II 1000 lb LGB ^" hidden="false" id="5896-1b5c-cb06-55d3" type="selectionEntry" targetId="9cde-a309-fe15-cb72"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="add" value="Pilon 10 no equipable" field="info"/>
+                    <modifier type="set" value="0" field="0805-3e0a-d3b9-1f77"/>
+                  </modifiers>
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="4fda-e8a3-4fca-63aa" shared="true"/>
+                  </conditions>
+                </modifierGroup>
+              </modifierGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 11" id="f172-5814-1c85-ed81" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="45e1-14dc-e4c0-3173" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="af04-a8c1-ba88-c457" hidden="false" collapsible="true" sortIndex="1">
+                  <entryLinks>
+                    <entryLink import="true" name="AIM-9L Sidewinder" hidden="false" id="8512-56d9-88a4-a083" type="selectionEntry" targetId="fa98-54ec-0792-dce7"/>
+                    <entryLink import="true" name="AIM-120A/B AMRAAM" hidden="false" id="0c1c-805a-1933-fce5" type="selectionEntry" targetId="de57-8ebe-5340-d0f7"/>
+                    <entryLink import="true" name="AIM-120C AMRAAM" hidden="false" id="c2c2-7ae9-7a9e-f9bb" type="selectionEntry" targetId="f2a2-0d29-757e-4b6f"/>
+                    <entryLink import="true" name="ASRAAM" hidden="false" id="da4b-8b17-32f1-a525" type="selectionEntry" targetId="30dc-98d1-af7d-b649"/>
+                    <entryLink import="true" name="Meteor" hidden="false" id="99ab-66ce-d2ea-240e" type="selectionEntry" targetId="4467-9260-d849-3d6b"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Aire-Tierra" id="ca1b-78be-0883-d79b" hidden="false" collapsible="true" sortIndex="2">
+                  <entryLinks>
+                    <entryLink import="true" name="GBU-16 Paveway II 1000 lb LGB ^" hidden="false" id="9702-502c-af47-1593" type="selectionEntry" targetId="c0e6-402e-8fa3-a987"/>
+                    <entryLink import="true" name="GBU-48 Enhanced Paveway II 1000 lb LGB ^" hidden="false" id="f0f8-4359-d1bf-98c5" type="selectionEntry" targetId="9cde-a309-fe15-cb72"/>
+                    <entryLink import="true" name="Storm Shadow" hidden="false" id="4fda-e8a3-4fca-63aa" type="selectionEntry" targetId="7c81-1842-22bb-40d8"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink import="true" name="Tanque de combustible" hidden="false" id="e748-ff52-886b-ae86" type="selectionEntry" targetId="ea5e-699c-96cb-e6f7"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 12" id="f490-13f2-e2f4-4864" hidden="false" collapsible="true" collective="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="90e1-f6a8-84ba-786f" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="17ef-5ac5-8389-81f4" hidden="false" collapsible="true">
+                  <entryLinks>
+                    <entryLink import="true" name="AIM-9L Sidewinder" hidden="false" id="5c94-0645-ba10-b7ef" type="selectionEntry" targetId="fa98-54ec-0792-dce7"/>
+                    <entryLink import="true" name="AIM-120A/B AMRAAM" hidden="false" id="e416-1db1-023c-37b3" type="selectionEntry" targetId="de57-8ebe-5340-d0f7"/>
+                    <entryLink import="true" name="AIM-120C AMRAAM" hidden="false" id="abae-2d68-5efc-d384" type="selectionEntry" targetId="f2a2-0d29-757e-4b6f"/>
+                    <entryLink import="true" name="ASRAAM" hidden="false" id="aadc-18c0-6984-b954" type="selectionEntry" targetId="30dc-98d1-af7d-b649"/>
+                    <entryLink import="true" name="Meteor" hidden="false" id="84b8-8cdb-1330-e055" type="selectionEntry" targetId="4467-9260-d849-3d6b"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Aire-Tierra" id="c7ee-0d39-1112-dbf3" hidden="false" collapsible="true">
+                  <entryLinks>
+                    <entryLink import="true" name="Brimstone (x3)" hidden="false" id="a8c8-0cf2-ae59-8cf3" type="selectionEntry" targetId="5343-41d0-eecf-cd6e"/>
+                    <entryLink import="true" name="GBU-16 Paveway II 1000 lb LGB ^" hidden="false" id="f003-fd1c-cfb7-56cc" type="selectionEntry" targetId="c0e6-402e-8fa3-a987"/>
+                    <entryLink import="true" name="GBU-48 Enhanced Paveway II 1000 lb LGB ^" hidden="false" id="d593-0895-e5a3-5754" type="selectionEntry" targetId="9cde-a309-fe15-cb72"/>
+                    <entryLink import="true" name="ALARM ~" hidden="false" id="9000-afa4-d46b-d17e" type="selectionEntry" targetId="1c28-4576-7c99-a80e"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="add" value="Pilon 12 no equipable" field="info"/>
+                    <modifier type="set" value="0" field="90e1-f6a8-84ba-786f"/>
+                  </modifiers>
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="4fda-e8a3-4fca-63aa" shared="true"/>
+                  </conditions>
+                </modifierGroup>
+              </modifierGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 13" id="57c3-51f2-5dc5-c928" hidden="false" collapsible="true" collective="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7511-98bc-c589-bfdc" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="5184-5d62-4cd1-71de" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="ASRAAM" hidden="false" id="9238-e3e1-f0be-8a21" type="selectionEntry" targetId="30dc-98d1-af7d-b649"/>
+                    <entryLink import="true" name="AIM-9L Sidewinder" hidden="false" id="d9a6-b0b4-8c29-567f" type="selectionEntry" targetId="fa98-54ec-0792-dce7"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="EFA Typhoon (UK)" typeId="4b46-8607-d6d7-b593" typeName="Aeronave" hidden="true" id="72e6-cb9d-d4f7-2830">
+          <characteristics>
+            <characteristic name="Mn" typeId="e8bf-0ebd-7756-e33c">5</characteristic>
+            <characteristic name="Mx" typeId="5f6e-31c2-db64-82eb">24</characteristic>
+            <characteristic name="Pw" typeId="8341-e4bd-623a-3ad1">HP</characteristic>
+            <characteristic name="Acc1/Acc2" typeId="bf71-8a86-757c-5e7c">4+/4+</characteristic>
+            <characteristic name="Dec" typeId="b043-fe11-ef69-4f57">-4</characteristic>
+            <characteristic name="Ma" typeId="1307-88ae-ee70-3c7c">E</characteristic>
+            <characteristic name="Gn" typeId="b171-916a-4ab1-ff51">6d6</characteristic>
+            <characteristic name="Am" typeId="2d03-abee-3bdd-695e">8</characteristic>
+            <characteristic name="Bm" typeId="ce01-ca82-f06c-0d5a">+4</characteristic>
+            <characteristic name="DP" typeId="53b6-9553-455d-4abb">8</characteristic>
+            <characteristic name="Cf" typeId="16c2-b7e6-5db7-7e68">8</characteristic>
+            <characteristic name="Fl" typeId="4509-bc00-110c-183a">8</characteristic>
+            <characteristic name="ECM" typeId="676a-801b-f0a3-9cc6">-2</characteristic>
+            <characteristic name="Rdr" typeId="5ce8-5771-857e-04a1">2+
+L</characteristic>
+            <characteristic name="Sz" typeId="7204-bfdd-ccd8-77c5">+0</characteristic>
+            <characteristic name="Sp" typeId="d29d-ff32-75aa-1a1b">+1</characteristic>
+            <characteristic name="Ld" typeId="bb2b-8dd8-456f-a06b">29</characteristic>
+            <characteristic name="Año" typeId="7fb1-e1cc-6c9c-9a54">2005</characteristic>
+            <characteristic name="Notas" typeId="f5eb-9c5a-bf5f-227f"/>
+          </characteristics>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <comment>Stats Aeronave</comment>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <comment>Cargado</comment>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="e8bf-0ebd-7756-e33c"/>
+                    <modifier type="decrement" value="2" field="5f6e-31c2-db64-82eb"/>
+                    <modifier type="decrement" value="1" field="bf71-8a86-757c-5e7c"/>
+                    <modifier type="replace" value="L" field="1307-88ae-ee70-3c7c" arg="M"/>
+                    <modifier type="replace" value="M" field="1307-88ae-ee70-3c7c" arg="H"/>
+                    <modifier type="replace" value="H" field="1307-88ae-ee70-3c7c" arg="E"/>
+                    <modifier type="replace" value="LP" field="8341-e4bd-623a-3ad1" arg="MP"/>
+                    <modifier type="replace" value="MP" field="8341-e4bd-623a-3ad1" arg="HP"/>
+                    <modifier type="set" value="Cargado" field="annotation"/>
+                  </modifiers>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="d4ea-6b81-9d6a-7377" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifierGroup>
+                <modifierGroup type="and">
+                  <comment>Ligeramente Cargado</comment>
+                  <modifiers>
+                    <modifier type="decrement" value="1" field="5f6e-31c2-db64-82eb"/>
+                    <modifier type="set" value="Ligeramente Cargado" field="annotation"/>
+                  </modifiers>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="d4ea-6b81-9d6a-7377" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="1a85-9e02-1e83-a99b" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="04f8-73fd-e637-da47" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="652d-e100-218e-9724" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="c113-f1c8-53f1-5646" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="70a2-2806-b658-3d18" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="0789-bad8-7d9f-78ba" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifierGroup>
+              </modifierGroups>
+            </modifierGroup>
+          </modifierGroups>
+        </profile>
+        <profile name="EFA Typhoon (UK)" typeId="4b46-8607-d6d7-b593" typeName="Aeronave" hidden="false" id="c708-853e-ab76-c442">
+          <characteristics>
+            <characteristic name="Mn" typeId="e8bf-0ebd-7756-e33c">5</characteristic>
+            <characteristic name="Mx" typeId="5f6e-31c2-db64-82eb">24</characteristic>
+            <characteristic name="Pw" typeId="8341-e4bd-623a-3ad1">HP</characteristic>
+            <characteristic name="Acc1/Acc2" typeId="bf71-8a86-757c-5e7c">4+/4+</characteristic>
+            <characteristic name="Dec" typeId="b043-fe11-ef69-4f57">-4</characteristic>
+            <characteristic name="Ma" typeId="1307-88ae-ee70-3c7c">E</characteristic>
+            <characteristic name="Gn" typeId="b171-916a-4ab1-ff51">6d6</characteristic>
+            <characteristic name="Am" typeId="2d03-abee-3bdd-695e">8</characteristic>
+            <characteristic name="Bm" typeId="ce01-ca82-f06c-0d5a">+4</characteristic>
+            <characteristic name="DP" typeId="53b6-9553-455d-4abb">8</characteristic>
+            <characteristic name="Cf" typeId="16c2-b7e6-5db7-7e68">8</characteristic>
+            <characteristic name="Fl" typeId="4509-bc00-110c-183a">8</characteristic>
+            <characteristic name="ECM" typeId="676a-801b-f0a3-9cc6">-2</characteristic>
+            <characteristic name="Rdr" typeId="5ce8-5771-857e-04a1">2+
+L</characteristic>
+            <characteristic name="Sz" typeId="7204-bfdd-ccd8-77c5">+0</characteristic>
+            <characteristic name="Sp" typeId="d29d-ff32-75aa-1a1b">+1</characteristic>
+            <characteristic name="Ld" typeId="bb2b-8dd8-456f-a06b">29</characteristic>
+            <characteristic name="Año" typeId="7fb1-e1cc-6c9c-9a54">2005</characteristic>
+            <characteristic name="Notas" typeId="f5eb-9c5a-bf5f-227f"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Ligeramente Cargado" id="3ed5-851f-8e79-b8b5" hidden="false" type="profile" targetId="10e0-ab09-3b25-8d80"/>
+        <infoLink name="Cargado" id="c5f6-df63-7a7c-e472" hidden="false" type="profile" targetId="dd0c-1ac2-5bea-a9e4"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Tornado F.3 ADV" hidden="false" id="af8b-56e1-3af1-afdd">
+      <categoryLinks>
+        <categoryLink name="RAF (Reino Unido)" hidden="false" id="ef63-826c-0928-a425" targetId="7b3b-7df2-52f8-d929" primary="false"/>
+        <categoryLink targetId="3a4a-1f33-8ad4-ee6f" id="d701-23e9-4607-d3e3" primary="true" name="Aeronaves"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Tornado F.3 ADV" typeId="4b46-8607-d6d7-b593" typeName="Aeronave" hidden="true" id="b55b-6937-7405-34b5">
+          <characteristics>
+            <characteristic name="Mn" typeId="e8bf-0ebd-7756-e33c">4</characteristic>
+            <characteristic name="Mx" typeId="5f6e-31c2-db64-82eb">25</characteristic>
+            <characteristic name="Pw" typeId="8341-e4bd-623a-3ad1">HP</characteristic>
+            <characteristic name="Acc1/Acc2" typeId="bf71-8a86-757c-5e7c">3+/2+</characteristic>
+            <characteristic name="Dec" typeId="b043-fe11-ef69-4f57">-4</characteristic>
+            <characteristic name="Ma" typeId="1307-88ae-ee70-3c7c">M</characteristic>
+            <characteristic name="Gn" typeId="b171-916a-4ab1-ff51">6d6</characteristic>
+            <characteristic name="Am" typeId="2d03-abee-3bdd-695e">7</characteristic>
+            <characteristic name="Bm" typeId="ce01-ca82-f06c-0d5a">+4</characteristic>
+            <characteristic name="DP" typeId="53b6-9553-455d-4abb">8</characteristic>
+            <characteristic name="Cf" typeId="16c2-b7e6-5db7-7e68">8</characteristic>
+            <characteristic name="Fl" typeId="4509-bc00-110c-183a">8</characteristic>
+            <characteristic name="ECM" typeId="676a-801b-f0a3-9cc6">-</characteristic>
+            <characteristic name="Rdr" typeId="5ce8-5771-857e-04a1">3+
+L</characteristic>
+            <characteristic name="Sz" typeId="7204-bfdd-ccd8-77c5">+0</characteristic>
+            <characteristic name="Sp" typeId="d29d-ff32-75aa-1a1b">+1</characteristic>
+            <characteristic name="Ld" typeId="bb2b-8dd8-456f-a06b">22</characteristic>
+            <characteristic name="Año" typeId="7fb1-e1cc-6c9c-9a54">1984</characteristic>
+            <characteristic name="Notas" typeId="f5eb-9c5a-bf5f-227f"/>
+          </characteristics>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <comment>Stats Aeronave</comment>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <comment>Cargado</comment>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="e8bf-0ebd-7756-e33c"/>
+                    <modifier type="decrement" value="2" field="5f6e-31c2-db64-82eb"/>
+                    <modifier type="decrement" value="1" field="bf71-8a86-757c-5e7c"/>
+                    <modifier type="replace" value="L" field="1307-88ae-ee70-3c7c" arg="M"/>
+                    <modifier type="replace" value="M" field="1307-88ae-ee70-3c7c" arg="H"/>
+                    <modifier type="replace" value="H" field="1307-88ae-ee70-3c7c" arg="E"/>
+                    <modifier type="replace" value="LP" field="8341-e4bd-623a-3ad1" arg="MP"/>
+                    <modifier type="replace" value="MP" field="8341-e4bd-623a-3ad1" arg="HP"/>
+                    <modifier type="set" value="Cargado" field="annotation"/>
+                  </modifiers>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="d4ea-6b81-9d6a-7377" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifierGroup>
+                <modifierGroup type="and">
+                  <comment>Ligeramente Cargado</comment>
+                  <modifiers>
+                    <modifier type="decrement" value="1" field="5f6e-31c2-db64-82eb"/>
+                    <modifier type="set" value="Ligeramente Cargado" field="annotation"/>
+                  </modifiers>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="d4ea-6b81-9d6a-7377" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="1a85-9e02-1e83-a99b" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="04f8-73fd-e637-da47" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="652d-e100-218e-9724" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="c113-f1c8-53f1-5646" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="70a2-2806-b658-3d18" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="0789-bad8-7d9f-78ba" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifierGroup>
+              </modifierGroups>
+            </modifierGroup>
+          </modifierGroups>
+        </profile>
+        <profile name="Tornado F.3 ADV" typeId="4b46-8607-d6d7-b593" typeName="Aeronave" hidden="false" id="5f73-5040-ab47-ea06">
+          <characteristics>
+            <characteristic name="Mn" typeId="e8bf-0ebd-7756-e33c">4</characteristic>
+            <characteristic name="Mx" typeId="5f6e-31c2-db64-82eb">25</characteristic>
+            <characteristic name="Pw" typeId="8341-e4bd-623a-3ad1">HP</characteristic>
+            <characteristic name="Acc1/Acc2" typeId="bf71-8a86-757c-5e7c">3+/2+</characteristic>
+            <characteristic name="Dec" typeId="b043-fe11-ef69-4f57">-4</characteristic>
+            <characteristic name="Ma" typeId="1307-88ae-ee70-3c7c">M</characteristic>
+            <characteristic name="Gn" typeId="b171-916a-4ab1-ff51">6d6</characteristic>
+            <characteristic name="Am" typeId="2d03-abee-3bdd-695e">7</characteristic>
+            <characteristic name="Bm" typeId="ce01-ca82-f06c-0d5a">+4</characteristic>
+            <characteristic name="DP" typeId="53b6-9553-455d-4abb">8</characteristic>
+            <characteristic name="Cf" typeId="16c2-b7e6-5db7-7e68">8</characteristic>
+            <characteristic name="Fl" typeId="4509-bc00-110c-183a">8</characteristic>
+            <characteristic name="ECM" typeId="676a-801b-f0a3-9cc6">-</characteristic>
+            <characteristic name="Rdr" typeId="5ce8-5771-857e-04a1">3+
+L</characteristic>
+            <characteristic name="Sz" typeId="7204-bfdd-ccd8-77c5">+0</characteristic>
+            <characteristic name="Sp" typeId="d29d-ff32-75aa-1a1b">+1</characteristic>
+            <characteristic name="Ld" typeId="bb2b-8dd8-456f-a06b">22</characteristic>
+            <characteristic name="Año" typeId="7fb1-e1cc-6c9c-9a54">1984</characteristic>
+            <characteristic name="Notas" typeId="f5eb-9c5a-bf5f-227f"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Adiestramiento del Piloto" hidden="false" id="de08-4795-85da-e61c" type="selectionEntryGroup" targetId="367a-0175-d961-886a"/>
+        <entryLink import="true" name="Configuracion de Armamento" hidden="false" id="c1e0-0737-daaf-9569" type="selectionEntryGroup" targetId="13ff-6045-e2f5-a7e3">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Pilon 1" id="34bb-a3d9-cb68-fff5" hidden="false" collapsible="true" collective="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="628f-5a09-7771-3430" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="c26d-8e6e-735a-5ae8" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="ASRAAM" hidden="false" id="a543-09a9-c3a0-88f7" type="selectionEntry" targetId="30dc-98d1-af7d-b649"/>
+                    <entryLink import="true" name="AIM-9M Sidewinder" hidden="false" id="3119-b0b9-f232-8ae3" type="selectionEntry" targetId="1648-0a77-4985-1e90"/>
+                    <entryLink import="true" name="AIM-9L Sidewinder" hidden="false" id="ccdb-fb81-b189-4888" type="selectionEntry" targetId="fa98-54ec-0792-dce7"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 2" id="4b34-5a70-a19b-fdc7" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6380-902f-a65b-6a83" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Tanque de combustible" hidden="false" id="ab11-549c-f68f-63a4" type="selectionEntry" targetId="ea5e-699c-96cb-e6f7"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 3" id="647b-8ee6-e5d2-6fcc" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="94e6-89d2-4f94-b1bb" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="4dd4-b7ac-841f-672c" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="AIM-9L Sidewinder" hidden="false" id="a24f-10b5-3770-b2dc" type="selectionEntry" targetId="fa98-54ec-0792-dce7"/>
+                    <entryLink import="true" name="AIM-9M Sidewinder" hidden="false" id="ae6c-02bb-ddb5-ed65" type="selectionEntry" targetId="1648-0a77-4985-1e90"/>
+                    <entryLink import="true" name="ASRAAM" hidden="false" id="f396-8e06-34e4-47c0" type="selectionEntry" targetId="30dc-98d1-af7d-b649"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 4" id="575b-c87c-a7c8-60c6" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="038d-1367-acb6-35dd" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="1c4b-e4eb-3a8b-d2e4" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="AIM-120A/B AMRAAM" hidden="false" id="66b0-b616-719d-d260" type="selectionEntry" targetId="de57-8ebe-5340-d0f7"/>
+                    <entryLink import="true" name="AIM-120C AMRAAM" hidden="false" id="e0a1-33fa-3cc0-5aa9" type="selectionEntry" targetId="f2a2-0d29-757e-4b6f"/>
+                    <entryLink import="true" name="Skyflash" hidden="false" id="0ab1-f54f-6e63-4680" type="selectionEntry" targetId="e9a9-9f08-68b0-34cf"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 5" id="3ed7-89f6-806a-952d" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec7b-60f7-e516-168a" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="add0-0387-570e-d1bf" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="AIM-120A/B AMRAAM" hidden="false" id="c587-9c68-d057-1651" type="selectionEntry" targetId="de57-8ebe-5340-d0f7"/>
+                    <entryLink import="true" name="AIM-120C AMRAAM" hidden="false" id="0dab-1723-664a-ae2e" type="selectionEntry" targetId="f2a2-0d29-757e-4b6f"/>
+                    <entryLink import="true" name="Skyflash" hidden="false" id="d591-795e-d8cf-48bc" type="selectionEntry" targetId="e9a9-9f08-68b0-34cf"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 6" id="0384-d9e8-5f42-f03b" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="deb5-c438-cf1e-1cba" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="d343-debf-c897-9370" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="AIM-120A/B AMRAAM" hidden="false" id="cc45-c0de-7272-28a6" type="selectionEntry" targetId="de57-8ebe-5340-d0f7"/>
+                    <entryLink import="true" name="AIM-120C AMRAAM" hidden="false" id="b73f-5ec7-b7b2-bc2e" type="selectionEntry" targetId="f2a2-0d29-757e-4b6f"/>
+                    <entryLink import="true" name="Skyflash" hidden="false" id="f894-0d90-0fdd-bfb3" type="selectionEntry" targetId="e9a9-9f08-68b0-34cf"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 7" id="62c7-ae02-84a5-8a05" hidden="false" collapsible="true" collective="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5cde-c251-6d43-03b7" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="ca11-419f-50b1-c8f6" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="AIM-120A/B AMRAAM" hidden="false" id="8f83-3d26-5689-f70a" type="selectionEntry" targetId="de57-8ebe-5340-d0f7"/>
+                    <entryLink import="true" name="AIM-120C AMRAAM" hidden="false" id="fd8c-294d-3640-f853" type="selectionEntry" targetId="f2a2-0d29-757e-4b6f"/>
+                    <entryLink import="true" name="Skyflash" hidden="false" id="34f4-7334-9ad7-08cf" type="selectionEntry" targetId="e9a9-9f08-68b0-34cf"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 8" id="3a40-769c-99e7-0878" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b840-1347-bb2e-dac1" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="557a-a299-98d2-2dc5" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="AIM-9L Sidewinder" hidden="false" id="e27e-eb1d-4539-5731" type="selectionEntry" targetId="fa98-54ec-0792-dce7"/>
+                    <entryLink import="true" name="AIM-9M Sidewinder" hidden="false" id="c884-d1a7-579f-cd61" type="selectionEntry" targetId="1648-0a77-4985-1e90"/>
+                    <entryLink import="true" name="ASRAAM" hidden="false" id="0294-79db-e061-4af1" type="selectionEntry" targetId="30dc-98d1-af7d-b649"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 9" id="ebdd-3d7e-ff34-b44a" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e302-a072-a851-c0b6" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Tanque de combustible" hidden="false" id="4a6b-ac12-dc29-d395" type="selectionEntry" targetId="ea5e-699c-96cb-e6f7"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 10" id="4a7f-2c7c-cd1f-d754" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ba2a-2214-1da9-7617" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="d53f-1c21-80b3-77c2" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="AIM-9L Sidewinder" hidden="false" id="22ca-2477-0bc7-d118" type="selectionEntry" targetId="fa98-54ec-0792-dce7"/>
+                    <entryLink import="true" name="AIM-9M Sidewinder" hidden="false" id="ed6c-2f15-c674-eb58" type="selectionEntry" targetId="1648-0a77-4985-1e90"/>
+                    <entryLink import="true" name="ASRAAM" hidden="false" id="f692-7ffa-a3ab-57ce" type="selectionEntry" targetId="30dc-98d1-af7d-b649"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Ligeramente Cargado" id="9f33-9e78-ade3-7df8" hidden="false" type="profile" targetId="10e0-ab09-3b25-8d80"/>
+        <infoLink name="Cargado" id="8347-3114-cd12-e1f5" hidden="false" type="profile" targetId="dd0c-1ac2-5bea-a9e4"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Tornado GR.1 IDS" hidden="false" id="0983-80a3-fd49-8c9b">
+      <categoryLinks>
+        <categoryLink name="RAF (Reino Unido)" hidden="false" id="1cb6-8287-74df-848d" targetId="7b3b-7df2-52f8-d929" primary="false"/>
+        <categoryLink targetId="3a4a-1f33-8ad4-ee6f" id="a306-f1d9-ad6d-0177" primary="true" name="Aeronaves"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Tornado GR.1 IDS" typeId="4b46-8607-d6d7-b593" typeName="Aeronave" hidden="true" id="f96f-431a-9cc2-6be8">
+          <characteristics>
+            <characteristic name="Mn" typeId="e8bf-0ebd-7756-e33c">4</characteristic>
+            <characteristic name="Mx" typeId="5f6e-31c2-db64-82eb">25</characteristic>
+            <characteristic name="Pw" typeId="8341-e4bd-623a-3ad1">HP</characteristic>
+            <characteristic name="Acc1/Acc2" typeId="bf71-8a86-757c-5e7c">+3/+2</characteristic>
+            <characteristic name="Dec" typeId="b043-fe11-ef69-4f57">-4</characteristic>
+            <characteristic name="Ma" typeId="1307-88ae-ee70-3c7c">M</characteristic>
+            <characteristic name="Gn" typeId="b171-916a-4ab1-ff51">8d6</characteristic>
+            <characteristic name="Am" typeId="2d03-abee-3bdd-695e">7</characteristic>
+            <characteristic name="Bm" typeId="ce01-ca82-f06c-0d5a">6+</characteristic>
+            <characteristic name="DP" typeId="53b6-9553-455d-4abb">8</characteristic>
+            <characteristic name="Cf" typeId="16c2-b7e6-5db7-7e68">8</characteristic>
+            <characteristic name="Fl" typeId="4509-bc00-110c-183a">8</characteristic>
+            <characteristic name="ECM" typeId="676a-801b-f0a3-9cc6">-</characteristic>
+            <characteristic name="Rdr" typeId="5ce8-5771-857e-04a1">-</characteristic>
+            <characteristic name="Sz" typeId="7204-bfdd-ccd8-77c5">+0</characteristic>
+            <characteristic name="Sp" typeId="d29d-ff32-75aa-1a1b">+1</characteristic>
+            <characteristic name="Ld" typeId="bb2b-8dd8-456f-a06b">36</characteristic>
+            <characteristic name="Año" typeId="7fb1-e1cc-6c9c-9a54">1979</characteristic>
+            <characteristic name="Notas" typeId="f5eb-9c5a-bf5f-227f"/>
+          </characteristics>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <comment>Stats Aeronave</comment>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <comment>Cargado</comment>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="e8bf-0ebd-7756-e33c"/>
+                    <modifier type="decrement" value="2" field="5f6e-31c2-db64-82eb"/>
+                    <modifier type="decrement" value="1" field="bf71-8a86-757c-5e7c"/>
+                    <modifier type="replace" value="L" field="1307-88ae-ee70-3c7c" arg="M"/>
+                    <modifier type="replace" value="M" field="1307-88ae-ee70-3c7c" arg="H"/>
+                    <modifier type="replace" value="H" field="1307-88ae-ee70-3c7c" arg="E"/>
+                    <modifier type="replace" value="LP" field="8341-e4bd-623a-3ad1" arg="MP"/>
+                    <modifier type="replace" value="MP" field="8341-e4bd-623a-3ad1" arg="HP"/>
+                    <modifier type="set" value="Cargado" field="annotation"/>
+                  </modifiers>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="d4ea-6b81-9d6a-7377" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifierGroup>
+                <modifierGroup type="and">
+                  <comment>Ligeramente Cargado</comment>
+                  <modifiers>
+                    <modifier type="decrement" value="1" field="5f6e-31c2-db64-82eb"/>
+                    <modifier type="set" value="Ligeramente Cargado" field="annotation"/>
+                  </modifiers>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="d4ea-6b81-9d6a-7377" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="1a85-9e02-1e83-a99b" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="04f8-73fd-e637-da47" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="652d-e100-218e-9724" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="c113-f1c8-53f1-5646" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="70a2-2806-b658-3d18" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="0789-bad8-7d9f-78ba" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifierGroup>
+              </modifierGroups>
+            </modifierGroup>
+          </modifierGroups>
+        </profile>
+        <profile name="Tornado GR.1 IDS" typeId="4b46-8607-d6d7-b593" typeName="Aeronave" hidden="false" id="1de1-7d2f-3425-d58a">
+          <characteristics>
+            <characteristic name="Mn" typeId="e8bf-0ebd-7756-e33c">4</characteristic>
+            <characteristic name="Mx" typeId="5f6e-31c2-db64-82eb">25</characteristic>
+            <characteristic name="Pw" typeId="8341-e4bd-623a-3ad1">HP</characteristic>
+            <characteristic name="Acc1/Acc2" typeId="bf71-8a86-757c-5e7c">+3/+2</characteristic>
+            <characteristic name="Dec" typeId="b043-fe11-ef69-4f57">-4</characteristic>
+            <characteristic name="Ma" typeId="1307-88ae-ee70-3c7c">M</characteristic>
+            <characteristic name="Gn" typeId="b171-916a-4ab1-ff51">8d6</characteristic>
+            <characteristic name="Am" typeId="2d03-abee-3bdd-695e">7</characteristic>
+            <characteristic name="Bm" typeId="ce01-ca82-f06c-0d5a">6+</characteristic>
+            <characteristic name="DP" typeId="53b6-9553-455d-4abb">8</characteristic>
+            <characteristic name="Cf" typeId="16c2-b7e6-5db7-7e68">8</characteristic>
+            <characteristic name="Fl" typeId="4509-bc00-110c-183a">8</characteristic>
+            <characteristic name="ECM" typeId="676a-801b-f0a3-9cc6">-</characteristic>
+            <characteristic name="Rdr" typeId="5ce8-5771-857e-04a1">-</characteristic>
+            <characteristic name="Sz" typeId="7204-bfdd-ccd8-77c5">+0</characteristic>
+            <characteristic name="Sp" typeId="d29d-ff32-75aa-1a1b">+1</characteristic>
+            <characteristic name="Ld" typeId="bb2b-8dd8-456f-a06b">36</characteristic>
+            <characteristic name="Año" typeId="7fb1-e1cc-6c9c-9a54">1979</characteristic>
+            <characteristic name="Notas" typeId="f5eb-9c5a-bf5f-227f"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Adiestramiento del Piloto" hidden="false" id="cd54-3971-be27-88b9" type="selectionEntryGroup" targetId="367a-0175-d961-886a"/>
+        <entryLink import="true" name="Configuracion de Armamento" hidden="false" id="09b6-81c2-4cd1-36a4" type="selectionEntryGroup" targetId="13ff-6045-e2f5-a7e3">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Pilon 1" id="6778-73d5-505c-f7a5" hidden="false" collapsible="true" collective="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="60b0-52c0-b04e-e588" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Contramedidas Electronicas" hidden="false" id="758e-5678-67e4-ab0e" type="selectionEntryGroup" targetId="652d-e100-218e-9724"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 2" id="8c89-9fca-611e-6b3d" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b873-8ef7-2c94-13ef" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Tanque de combustible" hidden="false" id="aef2-4d19-d693-a1ab" type="selectionEntry" targetId="ea5e-699c-96cb-e6f7"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 3" id="e68e-0594-abe5-88f4" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="013a-c3d4-f453-4226" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="8271-0bbf-89a9-108c" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="AIM-9L Sidewinder" hidden="false" id="11e0-0890-21aa-d305" type="selectionEntry" targetId="fa98-54ec-0792-dce7"/>
+                    <entryLink import="true" name="ASRAAM" hidden="false" id="2dfe-4525-94af-417c" type="selectionEntry" targetId="30dc-98d1-af7d-b649"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 4" id="6636-e89b-3918-133f" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e299-6aa7-26ac-2f5c" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="101a-7904-0d20-2c3b" hidden="false" collapsible="true" sortIndex="1"/>
+                <selectionEntryGroup name="Aire-Tierra" id="4798-f82b-597a-c160" hidden="false" collapsible="true" sortIndex="2">
+                  <entryLinks>
+                    <entryLink import="true" name="CBU-87 CEM 950 lb Mixed cluster" hidden="false" id="34c7-f312-72d6-1a71" type="selectionEntry" targetId="0337-7441-37a5-94e2"/>
+                    <entryLink import="true" name="GBU-16 Paveway II 1000 lb LGB ^" hidden="false" id="65b3-321b-8ef4-0620" type="selectionEntry" targetId="c0e6-402e-8fa3-a987"/>
+                    <entryLink import="true" name="GBU-48 Enhanced Paveway II 1000 lb LGB ^" hidden="false" id="e9e1-7a77-dc25-0521" type="selectionEntry" targetId="9cde-a309-fe15-cb72"/>
+                    <entryLink import="true" name="ALARM ~" hidden="false" id="82a4-e47e-a983-2874" type="selectionEntry" targetId="1c28-4576-7c99-a80e"/>
+                    <entryLink import="true" name="Mk83 1000 lb bomb^ (x2)" hidden="false" id="d241-07a9-038c-d3b3" type="selectionEntry" targetId="f1ca-855a-ff5e-850e"/>
+                    <entryLink import="true" name="Mk83 1000 lb high drag bomb (x2)" hidden="false" id="8e10-cb9a-b42c-09e8" type="selectionEntry" targetId="eb9e-7fc0-c4ae-1651"/>
+                    <entryLink import="true" name="Storm Shadow" hidden="false" id="5337-6fd8-77d9-3ad1" type="selectionEntry" targetId="7c81-1842-22bb-40d8"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink import="true" name="Tanque de combustible" hidden="false" id="0ec3-cbeb-3eb3-afcd" type="selectionEntry" targetId="ea5e-699c-96cb-e6f7"/>
+                <entryLink import="true" name="Pod Laser" hidden="false" id="06f1-599d-335d-1329" type="selectionEntry" targetId="c1ce-ecf6-4478-4f9a"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 5" id="7230-ac5a-006b-ee4f" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="101b-c8c2-bb68-219f" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="6e4e-4afa-9eb3-3bde" hidden="false" collapsible="true" sortIndex="1"/>
+                <selectionEntryGroup name="Aire-Tierra" id="3810-8c01-a0d1-90cd" hidden="false" collapsible="true" sortIndex="2">
+                  <entryLinks>
+                    <entryLink import="true" name="CBU-87 CEM 950 lb Mixed cluster" hidden="false" id="783c-92f2-db22-0295" type="selectionEntry" targetId="0337-7441-37a5-94e2"/>
+                    <entryLink import="true" name="GBU-16 Paveway II 1000 lb LGB ^" hidden="false" id="1e3c-a6e9-deb8-62ab" type="selectionEntry" targetId="c0e6-402e-8fa3-a987"/>
+                    <entryLink import="true" name="GBU-48 Enhanced Paveway II 1000 lb LGB ^" hidden="false" id="4012-12fa-5955-3908" type="selectionEntry" targetId="9cde-a309-fe15-cb72"/>
+                    <entryLink import="true" name="ALARM ~" hidden="false" id="0bd1-6fb9-b673-9171" type="selectionEntry" targetId="1c28-4576-7c99-a80e"/>
+                    <entryLink import="true" name="Mk83 1000 lb bomb^ (x2)" hidden="false" id="6180-8abc-99b5-bcd0" type="selectionEntry" targetId="f1ca-855a-ff5e-850e"/>
+                    <entryLink import="true" name="Mk83 1000 lb high drag bomb (x2)" hidden="false" id="ba7f-30ef-80c9-4b21" type="selectionEntry" targetId="eb9e-7fc0-c4ae-1651"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 6" id="2b12-1a61-4c7a-45ee" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dbc0-a532-0c49-7264" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="c51e-1beb-c5cc-73ef" hidden="false" collapsible="true" sortIndex="1"/>
+                <selectionEntryGroup name="Aire-Tierra" id="60a6-9b70-92d6-3a5e" hidden="false" collapsible="true" sortIndex="2">
+                  <entryLinks>
+                    <entryLink import="true" name="CBU-87 CEM 950 lb Mixed cluster" hidden="false" id="faab-67e3-4d24-e238" type="selectionEntry" targetId="0337-7441-37a5-94e2"/>
+                    <entryLink import="true" name="GBU-16 Paveway II 1000 lb LGB ^" hidden="false" id="f240-d20b-e80e-6e01" type="selectionEntry" targetId="c0e6-402e-8fa3-a987"/>
+                    <entryLink import="true" name="GBU-48 Enhanced Paveway II 1000 lb LGB ^" hidden="false" id="840e-f705-9ca8-fe60" type="selectionEntry" targetId="9cde-a309-fe15-cb72"/>
+                    <entryLink import="true" name="ALARM ~" hidden="false" id="7c6e-2b77-00b1-eba8" type="selectionEntry" targetId="1c28-4576-7c99-a80e"/>
+                    <entryLink import="true" name="Mk83 1000 lb bomb^ (x2)" hidden="false" id="c681-7007-f69c-5784" type="selectionEntry" targetId="f1ca-855a-ff5e-850e"/>
+                    <entryLink import="true" name="Mk83 1000 lb high drag bomb (x2)" hidden="false" id="90b0-6e50-8ca5-ff9f" type="selectionEntry" targetId="eb9e-7fc0-c4ae-1651"/>
+                    <entryLink import="true" name="Storm Shadow" hidden="false" id="175e-6d14-3c75-0fe7" type="selectionEntry" targetId="7c81-1842-22bb-40d8"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink import="true" name="Tanque de combustible" hidden="false" id="c1d3-346f-828e-9790" type="selectionEntry" targetId="ea5e-699c-96cb-e6f7"/>
+                <entryLink import="true" name="Pod Laser" hidden="false" id="6ecc-2e3b-ccd0-6459" type="selectionEntry" targetId="c1ce-ecf6-4478-4f9a"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 7" id="8382-495a-c8fe-a210" hidden="false" collapsible="true" collective="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd68-e78d-54df-85aa" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="7412-1100-e623-ce3c" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="AIM-9L Sidewinder" hidden="false" id="7686-1ae4-aed6-6076" type="selectionEntry" targetId="fa98-54ec-0792-dce7"/>
+                    <entryLink import="true" name="ASRAAM" hidden="false" id="ff30-8809-c242-de70" type="selectionEntry" targetId="30dc-98d1-af7d-b649"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 8" id="f447-2935-951e-c79a" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3ef6-6cca-45df-be23" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Tanque de combustible" hidden="false" id="90d3-bfe0-b7db-633f" type="selectionEntry" targetId="ea5e-699c-96cb-e6f7"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 9" id="7fa2-9ceb-0eae-b569" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="53fa-75b7-5f78-37d0" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Pod Dispensador Bengalas" hidden="false" id="0838-31e3-8c69-9ecf" type="selectionEntry" targetId="0616-9ea8-b075-4da6"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Ligeramente Cargado" id="308b-4aee-ac31-9766" hidden="false" type="profile" targetId="10e0-ab09-3b25-8d80"/>
+        <infoLink name="Cargado" id="a58e-944f-937d-d526" hidden="false" type="profile" targetId="dd0c-1ac2-5bea-a9e4"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Bloodhound Mk1" hidden="false" id="ad1b-485d-90aa-0581">
+      <categoryLinks>
+        <categoryLink name="RAF (Reino Unido)" hidden="false" id="a3cd-406a-8a1a-c700" targetId="7b3b-7df2-52f8-d929" primary="false"/>
+        <categoryLink name="Sistemas SAM Terrestre" hidden="false" id="fe27-7672-220d-960f" targetId="faff-c6fe-89c3-5817" primary="true"/>
+      </categoryLinks>
+      <comment>SARH</comment>
+      <profiles>
+        <profile name="Bloodhound Mk1" typeId="2386-e6db-16e9-6fe2" typeName="SAM" hidden="false" id="1252-6f63-92c1-55ec">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">SARH</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">5+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">34</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">6</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">8+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">2d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1958</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Bloodhound Mk1" hidden="false" id="55d7-55d8-585f-0372">
+      <categoryLinks>
+        <categoryLink name="RAF (Reino Unido)" hidden="false" id="18a8-09db-0e60-6f1b" targetId="7b3b-7df2-52f8-d929" primary="false"/>
+        <categoryLink name="Sistemas SAM Terrestre" hidden="false" id="56a8-9173-a94a-3bb0" targetId="faff-c6fe-89c3-5817" primary="true"/>
+      </categoryLinks>
+      <comment>SARH</comment>
+      <profiles>
+        <profile name="Bloodhound Mk1" typeId="2386-e6db-16e9-6fe2" typeName="SAM" hidden="false" id="8bac-12e5-431d-fbfa">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">SARH</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">5+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">34</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">8</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">8+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">2d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1958</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Bloodhound Mk2" hidden="false" id="29fc-fe6c-1ffd-a718">
+      <categoryLinks>
+        <categoryLink name="RAF (Reino Unido)" hidden="false" id="d150-7019-8254-b1cb" targetId="7b3b-7df2-52f8-d929" primary="false"/>
+        <categoryLink name="Sistemas SAM Terrestre" hidden="false" id="fa4c-6831-a6f9-3906" targetId="faff-c6fe-89c3-5817" primary="true"/>
+      </categoryLinks>
+      <comment>SARH</comment>
+      <profiles>
+        <profile name="Bloodhound Mk2" typeId="2386-e6db-16e9-6fe2" typeName="SAM" hidden="false" id="4096-778e-2d2b-00cd">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">SARH</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">56</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">6</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">7+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">2d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1964</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Bloodhound Mk2" hidden="false" id="22f3-47a8-d231-7492">
+      <categoryLinks>
+        <categoryLink name="RAF (Reino Unido)" hidden="false" id="9f9f-7c84-be83-5b52" targetId="7b3b-7df2-52f8-d929" primary="false"/>
+        <categoryLink name="Sistemas SAM Terrestre" hidden="false" id="8453-d3a7-b3a6-5b9a" targetId="faff-c6fe-89c3-5817" primary="true"/>
+      </categoryLinks>
+      <comment>SARH</comment>
+      <profiles>
+        <profile name="Bloodhound Mk2" typeId="2386-e6db-16e9-6fe2" typeName="SAM" hidden="false" id="16f3-4da3-7bf0-cd95">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">SARH</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">56</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">8</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">7+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">2d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1964</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Blowpipe" hidden="false" id="0343-9fe3-a0b5-49e1">
+      <categoryLinks>
+        <categoryLink name="RAF (Reino Unido)" hidden="false" id="65b1-b459-e21e-0817" targetId="7b3b-7df2-52f8-d929" primary="false"/>
+        <categoryLink name="Sistemas SAM Terrestre" hidden="false" id="3688-071b-16cc-8907" targetId="faff-c6fe-89c3-5817" primary="true"/>
+      </categoryLinks>
+      <comment>OG</comment>
+      <profiles>
+        <profile name="Blowpipe" typeId="2386-e6db-16e9-6fe2" typeName="SAM" hidden="false" id="8895-078e-0b37-fcee">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">OG</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">12</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">4</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">6+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">1</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1976</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Javelin" hidden="false" id="d103-bf33-0d47-b670">
+      <categoryLinks>
+        <categoryLink name="Sistemas SAM Terrestre" hidden="false" id="6511-3e3f-3660-5a36" targetId="faff-c6fe-89c3-5817" primary="true"/>
+        <categoryLink name="RAF (Reino Unido)" hidden="false" id="cb40-505a-7040-14aa" targetId="7b3b-7df2-52f8-d929" primary="false"/>
+      </categoryLinks>
+      <comment>OG</comment>
+      <profiles>
+        <profile name="Javelin" typeId="2386-e6db-16e9-6fe2" typeName="SAM" hidden="false" id="caf2-81e6-6bf0-2a16">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">OG</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">12</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">4</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">7+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">1</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1984</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Rapier" hidden="false" id="7b4e-63a7-efe9-ec97">
+      <categoryLinks>
+        <categoryLink name="RAF (Reino Unido)" hidden="false" id="5d24-57f3-85b3-d552" targetId="7b3b-7df2-52f8-d929" primary="false"/>
+        <categoryLink name="Sistemas SAM Terrestre" hidden="false" id="fe89-f2cd-7577-835a" targetId="faff-c6fe-89c3-5817" primary="true"/>
+      </categoryLinks>
+      <comment>CGR / OG</comment>
+      <profiles>
+        <profile name="Rapier" typeId="2386-e6db-16e9-6fe2" typeName="SAM" hidden="false" id="da71-191d-3aaa-35f1">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">CGR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">3+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">6</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">2</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">8</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">6+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1971</characteristic>
+          </characteristics>
+          <comment>CGR</comment>
+        </profile>
+        <profile name="Rapier" typeId="2386-e6db-16e9-6fe2" typeName="SAM" hidden="false" id="0903-f3fc-105b-72f5">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">OG</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">3+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">6</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">8</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">8+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1971</characteristic>
+          </characteristics>
+          <comment>OG</comment>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Rapier 2000" hidden="false" id="f557-7a3d-e3fe-98cf">
+      <categoryLinks>
+        <categoryLink name="RAF (Reino Unido)" hidden="false" id="372b-b7d1-3710-d7e3" targetId="7b3b-7df2-52f8-d929" primary="false"/>
+        <categoryLink name="Sistemas SAM Terrestre" hidden="false" id="a93a-7e58-b884-1ab1" targetId="faff-c6fe-89c3-5817" primary="true"/>
+      </categoryLinks>
+      <comment>CGR / OG</comment>
+      <profiles>
+        <profile name="Rapier 2000" typeId="2386-e6db-16e9-6fe2" typeName="SAM" hidden="false" id="d053-8122-0f16-65e8">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">CGR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">3+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">6</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">2</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">8</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">4+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1995</characteristic>
+          </characteristics>
+          <comment>CGR</comment>
+        </profile>
+        <profile name="Rapier 2000" typeId="2386-e6db-16e9-6fe2" typeName="SAM" hidden="false" id="cf25-b324-ece5-6e45">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">OG</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">3+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">6</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">8</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">6+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1995</characteristic>
+          </characteristics>
+          <comment>OG</comment>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Roland 1/2" hidden="false" id="9d28-abea-275d-a386">
+      <categoryLinks>
+        <categoryLink name="RAF (Reino Unido)" hidden="false" id="b0a1-54aa-0e2c-424c" targetId="7b3b-7df2-52f8-d929" primary="false"/>
+        <categoryLink name="Sistemas SAM Terrestre" hidden="false" id="f5ae-9953-e527-813a" targetId="faff-c6fe-89c3-5817" primary="true"/>
+      </categoryLinks>
+      <comment>CGR / OG</comment>
+      <profiles>
+        <profile name="Roland 1/2" typeId="2386-e6db-16e9-6fe2" typeName="SAM" hidden="false" id="36bf-76cf-abc7-08f2">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">CGR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">3+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">9</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">2</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">7+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1981</characteristic>
+          </characteristics>
+          <comment>CGR</comment>
+        </profile>
+        <profile name="Roland 1/2" typeId="2386-e6db-16e9-6fe2" typeName="SAM" hidden="false" id="9d8b-6baa-3793-a0f1">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">OG</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">9</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">2</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">7+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1981</characteristic>
+          </characteristics>
+          <comment>OG</comment>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Starstreak (LML)" hidden="false" id="52a1-2563-4237-59b8">
+      <categoryLinks>
+        <categoryLink name="RAF (Reino Unido)" hidden="false" id="9138-4e75-9e72-7c2f" targetId="7b3b-7df2-52f8-d929" primary="false"/>
+        <categoryLink name="Sistemas SAM Terrestre" hidden="false" id="6a86-c19d-c649-af0d" targetId="faff-c6fe-89c3-5817" primary="true"/>
+      </categoryLinks>
+      <comment>OG</comment>
+      <profiles>
+        <profile name="Starstreak (LML)" typeId="2386-e6db-16e9-6fe2" typeName="SAM" hidden="false" id="a371-9cdb-28e3-2280">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">OG</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">16</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">3</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">5+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">1</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">2000</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Starstreak (shoulder)" hidden="false" id="7097-461c-dd9f-d535">
+      <categoryLinks>
+        <categoryLink name="RAF (Reino Unido)" hidden="false" id="cd8c-4425-9fdb-e3ce" targetId="7b3b-7df2-52f8-d929" primary="false"/>
+        <categoryLink name="Sistemas SAM Terrestre" hidden="false" id="22c4-dfdd-376a-2482" targetId="faff-c6fe-89c3-5817" primary="true"/>
+      </categoryLinks>
+      <comment>OG</comment>
+      <profiles>
+        <profile name="Starstreak (shoulder)" typeId="2386-e6db-16e9-6fe2" typeName="SAM" hidden="false" id="319d-f21a-4c24-8b93">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">OG</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">16</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">4</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">5+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">1</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">2000</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Starstreak (SP HVM)" hidden="false" id="9069-7040-b9b2-b71b">
+      <categoryLinks>
+        <categoryLink name="RAF (Reino Unido)" hidden="false" id="01c4-1815-3548-5add" targetId="7b3b-7df2-52f8-d929" primary="false"/>
+        <categoryLink name="Sistemas SAM Terrestre" hidden="false" id="328a-7bda-c0e8-84e9" targetId="faff-c6fe-89c3-5817" primary="true"/>
+      </categoryLinks>
+      <comment>OG</comment>
+      <profiles>
+        <profile name="Starstreak (SP HVM)" typeId="2386-e6db-16e9-6fe2" typeName="SAM" hidden="false" id="0feb-e6f7-143c-be38">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">OG</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">16</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">8</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">5+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1997</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Tigercat" hidden="false" id="02db-e223-3177-f5fe">
+      <categoryLinks>
+        <categoryLink name="RAF (Reino Unido)" hidden="false" id="2408-22eb-0944-8971" targetId="7b3b-7df2-52f8-d929" primary="false"/>
+        <categoryLink name="Sistemas SAM Terrestre" hidden="false" id="e88b-0f97-80bb-a9ce" targetId="faff-c6fe-89c3-5817" primary="true"/>
+      </categoryLinks>
+      <comment>OG</comment>
+      <profiles>
+        <profile name="Tigercat" typeId="2386-e6db-16e9-6fe2" typeName="SAM" hidden="false" id="b99a-14f3-219e-f937">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">OG</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a"/>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">5</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">3</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339"/>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">1</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1962</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </selectionEntries>
+  <forceEntries>
+    <forceEntry name="Reino Unido" id="5c27-c16a-cd0c-0f4a" hidden="false">
+      <categoryLinks>
+        <categoryLink name="RAF (Reino Unido)" hidden="false" id="156e-9c72-5091-5a9e" targetId="7b3b-7df2-52f8-d929"/>
+        <categoryLink name="Aeronaves" hidden="false" id="99d6-b23a-0e63-176e" targetId="3a4a-1f33-8ad4-ee6f"/>
+        <categoryLink name="Helicópteros" hidden="false" id="1c6b-7e28-df30-8d49" targetId="1477-0bf8-31b1-cb45"/>
+        <categoryLink name="Sistemas SAM Terrestre" hidden="false" id="3d36-d395-d0f2-89aa" targetId="faff-c6fe-89c3-5817"/>
+        <categoryLink name="Sistemas AA Terrestre" hidden="false" id="59da-38d5-10cb-4378" targetId="f40b-1a3e-61fb-9d79"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <categoryEntries>
+    <categoryEntry name="Aeronaves" id="3a4a-1f33-8ad4-ee6f" hidden="false"/>
+    <categoryEntry name="Helicópteros" id="1477-0bf8-31b1-cb45" hidden="false"/>
+    <categoryEntry name="Sistemas SAM Terrestre" id="faff-c6fe-89c3-5817" hidden="false"/>
+    <categoryEntry name="Sistemas AA Terrestre" id="f40b-1a3e-61fb-9d79" hidden="false"/>
+  </categoryEntries>
+</catalogue>

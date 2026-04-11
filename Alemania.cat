@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="true" id="ad4b-c69f-6fdb-f155" name="Alemania" gameSystemId="sys-6b94-3646-c6d2-7038" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <forceEntries>
+    <forceEntry name="Alemania" id="5947-2c4c-ea6b-2ac1" hidden="false">
+      <categoryLinks>
+        <categoryLink name="Luftwaffe (Alemania)" hidden="false" id="a4ba-9770-bf44-36d3" targetId="4dc9-6605-f3ed-0f29"/>
+        <categoryLink name="Aeronaves" hidden="false" id="58f9-934e-d138-70ce" targetId="78a1-d75f-d083-20cd"/>
+        <categoryLink name="Helicópteros" hidden="false" id="e1a2-46ec-e6ca-e161" targetId="4cd6-d835-b369-8ce0"/>
+        <categoryLink name="Sistemas AA Terrestres" hidden="false" id="758d-5243-df9a-f56b" targetId="4496-42f1-bfd3-1ac1"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <selectionEntries>
+    <selectionEntry type="model" import="true" name="Tornado ECR" hidden="false" id="431a-cd0a-962c-e489">
+      <categoryLinks>
+        <categoryLink name="Luftwaffe (Alemania)" hidden="false" id="154d-ddc3-3111-f82f" targetId="4dc9-6605-f3ed-0f29" primary="false"/>
+        <categoryLink targetId="78a1-d75f-d083-20cd" id="dec1-139f-7391-f413" primary="true" name="Aeronaves"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Tornado ECR" typeId="4b46-8607-d6d7-b593" typeName="Aeronave" hidden="true" id="0731-a995-31a9-b56c">
+          <characteristics>
+            <characteristic name="Mn" typeId="e8bf-0ebd-7756-e33c">4</characteristic>
+            <characteristic name="Mx" typeId="5f6e-31c2-db64-82eb">25</characteristic>
+            <characteristic name="Pw" typeId="8341-e4bd-623a-3ad1">HP</characteristic>
+            <characteristic name="Acc1/Acc2" typeId="bf71-8a86-757c-5e7c">+3/+3</characteristic>
+            <characteristic name="Dec" typeId="b043-fe11-ef69-4f57">-4</characteristic>
+            <characteristic name="Ma" typeId="1307-88ae-ee70-3c7c">M</characteristic>
+            <characteristic name="Gn" typeId="b171-916a-4ab1-ff51">-</characteristic>
+            <characteristic name="Am" typeId="2d03-abee-3bdd-695e">0</characteristic>
+            <characteristic name="Bm" typeId="ce01-ca82-f06c-0d5a">+6</characteristic>
+            <characteristic name="DP" typeId="53b6-9553-455d-4abb">8</characteristic>
+            <characteristic name="Cf" typeId="16c2-b7e6-5db7-7e68">8</characteristic>
+            <characteristic name="Fl" typeId="4509-bc00-110c-183a">8</characteristic>
+            <characteristic name="ECM" typeId="676a-801b-f0a3-9cc6">-2</characteristic>
+            <characteristic name="Rdr" typeId="5ce8-5771-857e-04a1">-</characteristic>
+            <characteristic name="Sz" typeId="7204-bfdd-ccd8-77c5">+0</characteristic>
+            <characteristic name="Sp" typeId="d29d-ff32-75aa-1a1b">+1</characteristic>
+            <characteristic name="Ld" typeId="bb2b-8dd8-456f-a06b">36</characteristic>
+            <characteristic name="Año" typeId="7fb1-e1cc-6c9c-9a54">1990</characteristic>
+            <characteristic name="Notas" typeId="f5eb-9c5a-bf5f-227f">Variante SEAD</characteristic>
+          </characteristics>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <comment>Stats Aeronave</comment>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <comment>Cargado</comment>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="e8bf-0ebd-7756-e33c"/>
+                    <modifier type="decrement" value="2" field="5f6e-31c2-db64-82eb"/>
+                    <modifier type="decrement" value="1" field="bf71-8a86-757c-5e7c"/>
+                    <modifier type="replace" value="L" field="1307-88ae-ee70-3c7c" arg="M"/>
+                    <modifier type="replace" value="M" field="1307-88ae-ee70-3c7c" arg="H"/>
+                    <modifier type="replace" value="H" field="1307-88ae-ee70-3c7c" arg="E"/>
+                    <modifier type="replace" value="LP" field="8341-e4bd-623a-3ad1" arg="MP"/>
+                    <modifier type="replace" value="MP" field="8341-e4bd-623a-3ad1" arg="HP"/>
+                    <modifier type="set" value="Cargado" field="annotation"/>
+                  </modifiers>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="d4ea-6b81-9d6a-7377" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifierGroup>
+                <modifierGroup type="and">
+                  <comment>Ligeramente Cargado</comment>
+                  <modifiers>
+                    <modifier type="decrement" value="1" field="5f6e-31c2-db64-82eb"/>
+                    <modifier type="set" value="Ligeramente Cargado" field="annotation"/>
+                  </modifiers>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="d4ea-6b81-9d6a-7377" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="1a85-9e02-1e83-a99b" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="04f8-73fd-e637-da47" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="652d-e100-218e-9724" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="c113-f1c8-53f1-5646" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="70a2-2806-b658-3d18" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="0789-bad8-7d9f-78ba" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifierGroup>
+              </modifierGroups>
+            </modifierGroup>
+          </modifierGroups>
+        </profile>
+        <profile name="Tornado ECR" typeId="4b46-8607-d6d7-b593" typeName="Aeronave" hidden="false" id="9b20-60c4-5bf0-60b6">
+          <characteristics>
+            <characteristic name="Mn" typeId="e8bf-0ebd-7756-e33c">4</characteristic>
+            <characteristic name="Mx" typeId="5f6e-31c2-db64-82eb">25</characteristic>
+            <characteristic name="Pw" typeId="8341-e4bd-623a-3ad1">HP</characteristic>
+            <characteristic name="Acc1/Acc2" typeId="bf71-8a86-757c-5e7c">+3/+3</characteristic>
+            <characteristic name="Dec" typeId="b043-fe11-ef69-4f57">-4</characteristic>
+            <characteristic name="Ma" typeId="1307-88ae-ee70-3c7c">M</characteristic>
+            <characteristic name="Gn" typeId="b171-916a-4ab1-ff51">-</characteristic>
+            <characteristic name="Am" typeId="2d03-abee-3bdd-695e">0</characteristic>
+            <characteristic name="Bm" typeId="ce01-ca82-f06c-0d5a">+6</characteristic>
+            <characteristic name="DP" typeId="53b6-9553-455d-4abb">8</characteristic>
+            <characteristic name="Cf" typeId="16c2-b7e6-5db7-7e68">8</characteristic>
+            <characteristic name="Fl" typeId="4509-bc00-110c-183a">8</characteristic>
+            <characteristic name="ECM" typeId="676a-801b-f0a3-9cc6">-2</characteristic>
+            <characteristic name="Rdr" typeId="5ce8-5771-857e-04a1">-</characteristic>
+            <characteristic name="Sz" typeId="7204-bfdd-ccd8-77c5">+0</characteristic>
+            <characteristic name="Sp" typeId="d29d-ff32-75aa-1a1b">+1</characteristic>
+            <characteristic name="Ld" typeId="bb2b-8dd8-456f-a06b">36</characteristic>
+            <characteristic name="Año" typeId="7fb1-e1cc-6c9c-9a54">1990</characteristic>
+            <characteristic name="Notas" typeId="f5eb-9c5a-bf5f-227f">Variante SEAD</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Adiestramiento del Piloto" hidden="false" id="fb73-25ce-01d8-69b3" type="selectionEntryGroup" targetId="367a-0175-d961-886a"/>
+        <entryLink import="true" name="Configuracion de Armamento" hidden="false" id="c3e1-509d-33fc-fcf3" type="selectionEntryGroup" targetId="13ff-6045-e2f5-a7e3">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Pilon 1" id="fa97-75d0-06df-1ac4" hidden="false" collapsible="true" collective="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fcc5-eb9a-3230-5d47" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Contramedidas Electronicas" hidden="false" id="7ece-73e4-a1b1-d4dc" type="selectionEntryGroup" targetId="652d-e100-218e-9724"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 2" id="0a7f-ce19-da21-1db8" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e546-5f7f-b423-cdcc" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Tanque de combustible" hidden="false" id="680f-8b49-0c4f-85e0" type="selectionEntry" targetId="ea5e-699c-96cb-e6f7"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 3" id="ecd8-f9da-6b6f-3978" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7aec-e0ec-b1fb-4726" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="2fa4-a39b-18f0-d745" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="AIM-9M Sidewinder" hidden="false" id="9f8a-fc39-9ed8-34b2" type="selectionEntry" targetId="1648-0a77-4985-1e90"/>
+                    <entryLink import="true" name="IRIS-T" hidden="false" id="644c-1e30-27b7-f723" type="selectionEntry" targetId="27b9-aac0-3a1a-39f3"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 4" id="e69b-85a9-d815-7288" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9550-f3fb-201d-59a8" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Tierra" id="f818-f9f1-8b99-086e" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="AGM-88 HARM ~" hidden="false" id="6ce6-1a10-56e6-0c2f" type="selectionEntry" targetId="17c9-41eb-5b91-b21c"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 5" id="8592-4e5f-8268-e4c9" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d3b8-9382-fe87-e7b8" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Tierra" id="1226-3d4a-544f-9161" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="AGM-88 HARM ~" hidden="false" id="e900-7d13-b4a0-71b9" type="selectionEntry" targetId="17c9-41eb-5b91-b21c"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 6" id="1ba8-be53-430f-77ab" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="da6d-eb21-b12a-1d7d" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="2886-a2c4-5431-51ef" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="AIM-9M Sidewinder" hidden="false" id="219f-7666-5d40-e5ab" type="selectionEntry" targetId="1648-0a77-4985-1e90"/>
+                    <entryLink import="true" name="IRIS-T" hidden="false" id="aa8d-2831-193a-d0d2" type="selectionEntry" targetId="27b9-aac0-3a1a-39f3"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 7" id="4eb6-b450-dab1-91c2" hidden="false" collapsible="true" collective="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a649-c874-316d-0cd7" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Tanque de combustible" hidden="false" id="3ca3-8071-3bcd-f9cd" type="selectionEntry" targetId="ea5e-699c-96cb-e6f7"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 8" id="0371-7738-8204-583c" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5322-40d1-deb9-9741" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Pod Dispensador Bengalas" hidden="false" id="a33c-b139-ffb5-422e" type="selectionEntry" targetId="0616-9ea8-b075-4da6"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Ligeramente Cargado" id="8304-12e6-b4c3-8c33" hidden="false" type="profile" targetId="10e0-ab09-3b25-8d80"/>
+        <infoLink name="Cargado" id="cd97-380e-efa8-8b94" hidden="false" type="profile" targetId="dd0c-1ac2-5bea-a9e4"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Tornado IDS" hidden="false" id="d978-a3d9-4618-47e4">
+      <categoryLinks>
+        <categoryLink name="Luftwaffe (Alemania)" hidden="false" id="19fb-ed56-8a48-467a" targetId="4dc9-6605-f3ed-0f29" primary="false"/>
+        <categoryLink targetId="78a1-d75f-d083-20cd" id="69b5-8227-49de-47df" primary="true" name="Aeronaves"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Tornado IDS" typeId="4b46-8607-d6d7-b593" typeName="Aeronave" hidden="true" id="43f6-b906-dfdb-0784">
+          <characteristics>
+            <characteristic name="Mn" typeId="e8bf-0ebd-7756-e33c">4</characteristic>
+            <characteristic name="Mx" typeId="5f6e-31c2-db64-82eb">25</characteristic>
+            <characteristic name="Pw" typeId="8341-e4bd-623a-3ad1">HP</characteristic>
+            <characteristic name="Acc1/Acc2" typeId="bf71-8a86-757c-5e7c">+3/+3</characteristic>
+            <characteristic name="Dec" typeId="b043-fe11-ef69-4f57">-4</characteristic>
+            <characteristic name="Ma" typeId="1307-88ae-ee70-3c7c">M</characteristic>
+            <characteristic name="Gn" typeId="b171-916a-4ab1-ff51">8d6</characteristic>
+            <characteristic name="Am" typeId="2d03-abee-3bdd-695e">7</characteristic>
+            <characteristic name="Bm" typeId="ce01-ca82-f06c-0d5a">+6</characteristic>
+            <characteristic name="DP" typeId="53b6-9553-455d-4abb">8</characteristic>
+            <characteristic name="Cf" typeId="16c2-b7e6-5db7-7e68">8</characteristic>
+            <characteristic name="Fl" typeId="4509-bc00-110c-183a">8</characteristic>
+            <characteristic name="ECM" typeId="676a-801b-f0a3-9cc6">-2</characteristic>
+            <characteristic name="Rdr" typeId="5ce8-5771-857e-04a1">-</characteristic>
+            <characteristic name="Sz" typeId="7204-bfdd-ccd8-77c5">+0</characteristic>
+            <characteristic name="Sp" typeId="d29d-ff32-75aa-1a1b">+1</characteristic>
+            <characteristic name="Ld" typeId="bb2b-8dd8-456f-a06b">36</characteristic>
+            <characteristic name="Año" typeId="7fb1-e1cc-6c9c-9a54">1979</characteristic>
+            <characteristic name="Notas" typeId="f5eb-9c5a-bf5f-227f"/>
+          </characteristics>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <comment>Stats Aeronave</comment>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <comment>Cargado</comment>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="e8bf-0ebd-7756-e33c"/>
+                    <modifier type="decrement" value="2" field="5f6e-31c2-db64-82eb"/>
+                    <modifier type="decrement" value="1" field="bf71-8a86-757c-5e7c"/>
+                    <modifier type="replace" value="L" field="1307-88ae-ee70-3c7c" arg="M"/>
+                    <modifier type="replace" value="M" field="1307-88ae-ee70-3c7c" arg="H"/>
+                    <modifier type="replace" value="H" field="1307-88ae-ee70-3c7c" arg="E"/>
+                    <modifier type="replace" value="LP" field="8341-e4bd-623a-3ad1" arg="MP"/>
+                    <modifier type="replace" value="MP" field="8341-e4bd-623a-3ad1" arg="HP"/>
+                    <modifier type="set" value="Cargado" field="annotation"/>
+                  </modifiers>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="d4ea-6b81-9d6a-7377" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifierGroup>
+                <modifierGroup type="and">
+                  <comment>Ligeramente Cargado</comment>
+                  <modifiers>
+                    <modifier type="decrement" value="1" field="5f6e-31c2-db64-82eb"/>
+                    <modifier type="set" value="Ligeramente Cargado" field="annotation"/>
+                  </modifiers>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="d4ea-6b81-9d6a-7377" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="1a85-9e02-1e83-a99b" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="04f8-73fd-e637-da47" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="652d-e100-218e-9724" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="c113-f1c8-53f1-5646" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="70a2-2806-b658-3d18" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="0789-bad8-7d9f-78ba" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifierGroup>
+              </modifierGroups>
+            </modifierGroup>
+          </modifierGroups>
+        </profile>
+        <profile name="Tornado IDS" typeId="4b46-8607-d6d7-b593" typeName="Aeronave" hidden="false" id="4c37-243c-e07e-4799">
+          <characteristics>
+            <characteristic name="Mn" typeId="e8bf-0ebd-7756-e33c">4</characteristic>
+            <characteristic name="Mx" typeId="5f6e-31c2-db64-82eb">25</characteristic>
+            <characteristic name="Pw" typeId="8341-e4bd-623a-3ad1">HP</characteristic>
+            <characteristic name="Acc1/Acc2" typeId="bf71-8a86-757c-5e7c">+3/+3</characteristic>
+            <characteristic name="Dec" typeId="b043-fe11-ef69-4f57">-4</characteristic>
+            <characteristic name="Ma" typeId="1307-88ae-ee70-3c7c">M</characteristic>
+            <characteristic name="Gn" typeId="b171-916a-4ab1-ff51">8d6</characteristic>
+            <characteristic name="Am" typeId="2d03-abee-3bdd-695e">7</characteristic>
+            <characteristic name="Bm" typeId="ce01-ca82-f06c-0d5a">+6</characteristic>
+            <characteristic name="DP" typeId="53b6-9553-455d-4abb">8</characteristic>
+            <characteristic name="Cf" typeId="16c2-b7e6-5db7-7e68">8</characteristic>
+            <characteristic name="Fl" typeId="4509-bc00-110c-183a">8</characteristic>
+            <characteristic name="ECM" typeId="676a-801b-f0a3-9cc6">-2</characteristic>
+            <characteristic name="Rdr" typeId="5ce8-5771-857e-04a1">-</characteristic>
+            <characteristic name="Sz" typeId="7204-bfdd-ccd8-77c5">+0</characteristic>
+            <characteristic name="Sp" typeId="d29d-ff32-75aa-1a1b">+1</characteristic>
+            <characteristic name="Ld" typeId="bb2b-8dd8-456f-a06b">36</characteristic>
+            <characteristic name="Año" typeId="7fb1-e1cc-6c9c-9a54">1979</characteristic>
+            <characteristic name="Notas" typeId="f5eb-9c5a-bf5f-227f"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Adiestramiento del Piloto" hidden="false" id="2bc6-bb6f-e4fc-e4b1" type="selectionEntryGroup" targetId="367a-0175-d961-886a"/>
+        <entryLink import="true" name="Configuracion de Armamento" hidden="false" id="87fa-24a8-8dfd-c956" type="selectionEntryGroup" targetId="13ff-6045-e2f5-a7e3">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Pilon 1" id="068a-adaa-75dd-25fe" hidden="false" collapsible="true" collective="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c557-abc5-ddb0-1b05" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Contramedidas Electronicas" hidden="false" id="a7e0-47b7-78df-49c5" type="selectionEntryGroup" targetId="652d-e100-218e-9724"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 2" id="6e3b-1b76-8b75-8060" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8d4c-d1eb-57cb-9bfe" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Tanque de combustible" hidden="false" id="0ed9-5c5b-693d-6f23" type="selectionEntry" targetId="ea5e-699c-96cb-e6f7"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 3" id="0c7d-8f50-09d8-66b6" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1a07-7209-364e-cd51" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="04eb-0a3b-7f6a-7103" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="AIM-9L Sidewinder" hidden="false" id="f281-02f1-7fd9-6ce0" type="selectionEntry" targetId="fa98-54ec-0792-dce7"/>
+                    <entryLink import="true" name="IRIS-T" hidden="false" id="b6b1-2902-f8ce-69dd" type="selectionEntry" targetId="27b9-aac0-3a1a-39f3"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 4" id="163d-fac8-0598-e5c3" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0144-658e-de4f-dc57" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Tierra" id="77bd-31df-da3e-5061" hidden="false" sortIndex="2">
+                  <entryLinks>
+                    <entryLink import="true" name="GBU-16 Paveway II 1000 lb LGB ^" hidden="false" id="ebb5-505b-81fa-a494" type="selectionEntry" targetId="c0e6-402e-8fa3-a987"/>
+                    <entryLink import="true" name="GBU-48 Enhanced Paveway II 1000 lb LGB ^" hidden="false" id="6903-f629-1156-e5bf" type="selectionEntry" targetId="9cde-a309-fe15-cb72"/>
+                    <entryLink import="true" name="AGM-88 HARM ~" hidden="false" id="58f9-c89f-0c81-23a9" type="selectionEntry" targetId="17c9-41eb-5b91-b21c"/>
+                    <entryLink import="true" name="Mk83 1000 lb bomb^ (x2)" hidden="false" id="4586-06c7-11b8-8e84" type="selectionEntry" targetId="f1ca-855a-ff5e-850e"/>
+                    <entryLink import="true" name="Mk83 1000 lb high drag bomb (x2)" hidden="false" id="eb30-ff9e-307a-9e16" type="selectionEntry" targetId="eb9e-7fc0-c4ae-1651"/>
+                    <entryLink import="true" name="GBU-24/B Paveway III 2000 lb LGB" hidden="false" id="2973-6154-096f-986a" type="selectionEntry" targetId="3b88-ac6d-4f0a-2077"/>
+                    <entryLink import="true" name="GBU-24/B Paveway III 2000 lb Penetrator LGB" hidden="false" id="874e-0786-67a4-374a" type="selectionEntry" targetId="9790-dcd0-afe2-5957"/>
+                    <entryLink import="true" name="Taurus KEPD 350" hidden="false" id="db72-79ef-ff91-7b8d" type="selectionEntry" targetId="e041-e48e-42fa-eaaf"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink import="true" name="Tanque de combustible" hidden="false" id="b373-db64-1de1-9e63" type="selectionEntry" targetId="ea5e-699c-96cb-e6f7"/>
+                <entryLink import="true" name="Pod Laser" hidden="false" id="4feb-2a26-dc31-473b" type="selectionEntry" targetId="c1ce-ecf6-4478-4f9a"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 5" id="f860-34d3-f361-9bc3" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2cd0-8c96-ea1a-0137" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Tierra" id="735c-3ebc-575e-28b9" hidden="false" sortIndex="2">
+                  <entryLinks>
+                    <entryLink import="true" name="GBU-16 Paveway II 1000 lb LGB ^" hidden="false" id="5167-db84-bed9-7ef9" type="selectionEntry" targetId="c0e6-402e-8fa3-a987"/>
+                    <entryLink import="true" name="GBU-48 Enhanced Paveway II 1000 lb LGB ^" hidden="false" id="0ff8-cd72-68d3-4d51" type="selectionEntry" targetId="9cde-a309-fe15-cb72"/>
+                    <entryLink import="true" name="AGM-88 HARM ~" hidden="false" id="882f-f3f9-5614-ec25" type="selectionEntry" targetId="17c9-41eb-5b91-b21c"/>
+                    <entryLink import="true" name="Mk83 1000 lb bomb^ (x2)" hidden="false" id="9384-82ff-6581-c66d" type="selectionEntry" targetId="f1ca-855a-ff5e-850e"/>
+                    <entryLink import="true" name="Mk83 1000 lb high drag bomb (x2)" hidden="false" id="8134-6f4e-e18b-7082" type="selectionEntry" targetId="eb9e-7fc0-c4ae-1651"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink import="true" name="Tanque de combustible" hidden="false" id="69c9-b68f-acb3-a6c0" type="selectionEntry" targetId="ea5e-699c-96cb-e6f7"/>
+              </entryLinks>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="set" value="0" field="2cd0-8c96-ea1a-0137"/>
+                    <modifier type="add" value="Pilon 5 no disponible" field="info"/>
+                  </modifiers>
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="e041-e48e-42fa-eaaf" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifierGroup>
+              </modifierGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 6" id="d1ed-fcd9-c531-f077" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b0a5-06f4-4c98-cf19" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Tierra" id="669c-dad1-b499-b467" hidden="false" sortIndex="2">
+                  <entryLinks>
+                    <entryLink import="true" name="GBU-16 Paveway II 1000 lb LGB ^" hidden="false" id="04c1-a3f8-00ef-3d41" type="selectionEntry" targetId="c0e6-402e-8fa3-a987"/>
+                    <entryLink import="true" name="GBU-48 Enhanced Paveway II 1000 lb LGB ^" hidden="false" id="9a64-780f-f1c7-689a" type="selectionEntry" targetId="9cde-a309-fe15-cb72"/>
+                    <entryLink import="true" name="AGM-88 HARM ~" hidden="false" id="945a-dae6-d869-1efc" type="selectionEntry" targetId="17c9-41eb-5b91-b21c"/>
+                    <entryLink import="true" name="Mk83 1000 lb bomb^ (x2)" hidden="false" id="23b7-6370-182e-3ad5" type="selectionEntry" targetId="f1ca-855a-ff5e-850e"/>
+                    <entryLink import="true" name="Mk83 1000 lb high drag bomb (x2)" hidden="false" id="2650-5ebc-4fc4-39ef" type="selectionEntry" targetId="eb9e-7fc0-c4ae-1651"/>
+                    <entryLink import="true" name="GBU-24/B Paveway III 2000 lb Penetrator LGB" hidden="false" id="c349-4d5f-fe9c-3885" type="selectionEntry" targetId="9790-dcd0-afe2-5957"/>
+                    <entryLink import="true" name="GBU-24/B Paveway III 2000 lb LGB" hidden="false" id="ce20-9b04-32ee-ec1a" type="selectionEntry" targetId="3b88-ac6d-4f0a-2077"/>
+                    <entryLink import="true" name="Taurus KEPD 350" hidden="false" id="dace-6079-d001-ad6a" type="selectionEntry" targetId="e041-e48e-42fa-eaaf"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink import="true" name="Tanque de combustible" hidden="false" id="b4a9-e6aa-40e3-56e3" type="selectionEntry" targetId="ea5e-699c-96cb-e6f7"/>
+                <entryLink import="true" name="Pod Laser" hidden="false" id="d9a8-a528-eeb3-4e44" type="selectionEntry" targetId="c1ce-ecf6-4478-4f9a"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 7" id="cc6e-7c4b-20db-1395" hidden="false" collapsible="true" collective="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ca4-c9c0-3ef2-ecbd" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="adae-7465-71ab-bfce" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="AIM-9L Sidewinder" hidden="false" id="2a9b-f14e-b4e0-a811" type="selectionEntry" targetId="fa98-54ec-0792-dce7"/>
+                    <entryLink import="true" name="IRIS-T" hidden="false" id="1d70-87ef-a1c7-8bcc" type="selectionEntry" targetId="27b9-aac0-3a1a-39f3"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 8" id="8eda-41ca-7182-2252" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bc67-6eef-e890-c7a0" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Tanque de combustible" hidden="false" id="f64b-d9c3-eabe-50a8" type="selectionEntry" targetId="ea5e-699c-96cb-e6f7"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 9" id="756f-f849-65d4-40e5" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8a87-55f6-09e1-4753" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Pod Dispensador Bengalas" hidden="false" id="2809-4afa-f618-6c0c" type="selectionEntry" targetId="0616-9ea8-b075-4da6"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Ligeramente Cargado" id="4d89-41b3-3efa-1c2f" hidden="false" type="profile" targetId="10e0-ab09-3b25-8d80"/>
+        <infoLink name="Cargado" id="4982-7d23-d79c-0803" hidden="false" type="profile" targetId="dd0c-1ac2-5bea-a9e4"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="EFA Typhoon (Alemania)" hidden="false" id="aa97-480e-1626-04e7">
+      <categoryLinks>
+        <categoryLink name="Luftwaffe (Alemania)" hidden="false" id="e766-3f9a-9583-0cbc" targetId="4dc9-6605-f3ed-0f29" primary="false"/>
+        <categoryLink targetId="78a1-d75f-d083-20cd" id="f5d2-b8b7-201d-86cd" primary="true" name="Aeronaves"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Adiestramiento del Piloto" hidden="false" id="aec3-0ab3-b828-be08" type="selectionEntryGroup" targetId="367a-0175-d961-886a"/>
+        <entryLink import="true" name="Configuracion de Armamento" hidden="false" id="743b-66d3-ec1d-da66" type="selectionEntryGroup" targetId="13ff-6045-e2f5-a7e3">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Pilon 1" id="6775-fa44-240c-db7c" hidden="false" collapsible="true" collective="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ca7d-4e0e-fd89-e744" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="f302-8f20-80b2-8091" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="IRIS-T" hidden="false" id="07bf-8a6e-6f5a-078b" type="selectionEntry" targetId="27b9-aac0-3a1a-39f3"/>
+                    <entryLink import="true" name="AIM-9L Sidewinder" hidden="false" id="a090-fd48-66cc-ce2e" type="selectionEntry" targetId="fa98-54ec-0792-dce7"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 2" id="6b7d-a169-c37d-f054" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="55fb-54ac-7870-b045" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="a7d5-e339-0de7-9a88" hidden="false" collapsible="true">
+                  <entryLinks>
+                    <entryLink import="true" name="IRIS-T" hidden="false" id="b0fb-d822-fb44-d562" type="selectionEntry" targetId="27b9-aac0-3a1a-39f3"/>
+                    <entryLink import="true" name="AIM-120A/B AMRAAM" hidden="false" id="ffbb-c739-01f1-ef31" type="selectionEntry" targetId="de57-8ebe-5340-d0f7"/>
+                    <entryLink import="true" name="AIM-120C AMRAAM" hidden="false" id="e5f6-d2f2-9359-3f7f" type="selectionEntry" targetId="f2a2-0d29-757e-4b6f"/>
+                    <entryLink import="true" name="Meteor" hidden="false" id="0fda-ed7f-16e3-6d87" type="selectionEntry" targetId="4467-9260-d849-3d6b"/>
+                    <entryLink import="true" name="AIM-9L Sidewinder" hidden="false" id="ecff-8f5e-b264-9508" type="selectionEntry" targetId="fa98-54ec-0792-dce7"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Aire-Tierra" id="6721-3384-de6c-1066" hidden="false" collapsible="true">
+                  <entryLinks>
+                    <entryLink import="true" name="GBU-48 Enhanced Paveway II 1000 lb LGB ^" hidden="false" id="9c4b-f335-73ec-aa4f" type="selectionEntry" targetId="9cde-a309-fe15-cb72"/>
+                    <entryLink import="true" name="AGM-88 HARM ~" hidden="false" id="016c-4cc0-6d53-30aa" type="selectionEntry" targetId="17c9-41eb-5b91-b21c"/>
+                    <entryLink import="true" name="Brimstone (x3)" hidden="false" id="77ed-9f16-7236-b499" type="selectionEntry" targetId="5343-41d0-eecf-cd6e"/>
+                    <entryLink import="true" name="GBU-54/B JDAM 500 lb LGB ^" hidden="false" id="c3aa-a609-7a83-9cd2" type="selectionEntry" targetId="a555-f797-7b19-2f00"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="set" value="0" field="55fb-54ac-7870-b045"/>
+                    <modifier type="add" value="Pilon 2 no equipable" field="info"/>
+                  </modifiers>
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="83f7-f00d-3093-4adb" shared="true"/>
+                  </conditions>
+                </modifierGroup>
+              </modifierGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 3" id="3469-094e-2bd3-8cdc" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1a20-0190-9691-80a9" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="a05b-83fc-f69a-a094" hidden="false" collapsible="true" sortIndex="1">
+                  <entryLinks>
+                    <entryLink import="true" name="AIM-9L Sidewinder" hidden="false" id="4da2-bab0-d09e-e0e6" type="selectionEntry" targetId="fa98-54ec-0792-dce7"/>
+                    <entryLink import="true" name="AIM-120A/B AMRAAM" hidden="false" id="b735-681f-7dc3-1038" type="selectionEntry" targetId="de57-8ebe-5340-d0f7"/>
+                    <entryLink import="true" name="AIM-120C AMRAAM" hidden="false" id="30f7-6212-a975-0341" type="selectionEntry" targetId="f2a2-0d29-757e-4b6f"/>
+                    <entryLink import="true" name="IRIS-T" hidden="false" id="0c01-e0a6-30a9-98fd" type="selectionEntry" targetId="27b9-aac0-3a1a-39f3"/>
+                    <entryLink import="true" name="Meteor" hidden="false" id="64dd-4d34-c08e-aa30" type="selectionEntry" targetId="4467-9260-d849-3d6b"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Aire-Tierra" id="5365-391a-0e1b-bf55" hidden="false" collapsible="true" sortIndex="2">
+                  <entryLinks>
+                    <entryLink import="true" name="Taurus KEPD 350" hidden="false" id="83f7-f00d-3093-4adb" type="selectionEntry" targetId="e041-e48e-42fa-eaaf"/>
+                    <entryLink import="true" name="GBU-48 Enhanced Paveway II 1000 lb LGB ^" hidden="false" id="890c-bac3-8404-2e2c" type="selectionEntry" targetId="9cde-a309-fe15-cb72"/>
+                    <entryLink import="true" name="GBU-54/B JDAM 500 lb LGB ^" hidden="false" id="2549-960b-5628-570b" type="selectionEntry" targetId="a555-f797-7b19-2f00"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink import="true" name="Tanque de combustible" hidden="false" id="b2eb-613d-6390-d6db" type="selectionEntry" targetId="ea5e-699c-96cb-e6f7"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 4" id="97d4-a921-e3fe-967d" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7248-c5eb-0b8a-2f16" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="42a1-af67-834e-1fa1" hidden="false" collapsible="true">
+                  <entryLinks>
+                    <entryLink import="true" name="AIM-9L Sidewinder" hidden="false" id="64ac-db77-b395-0062" type="selectionEntry" targetId="fa98-54ec-0792-dce7"/>
+                    <entryLink import="true" name="AIM-120A/B AMRAAM" hidden="false" id="4fea-a82e-daec-3fe5" type="selectionEntry" targetId="de57-8ebe-5340-d0f7"/>
+                    <entryLink import="true" name="AIM-120C AMRAAM" hidden="false" id="98ca-6b5b-2db1-7297" type="selectionEntry" targetId="f2a2-0d29-757e-4b6f"/>
+                    <entryLink import="true" name="IRIS-T" hidden="false" id="fc10-3471-d6a3-0b20" type="selectionEntry" targetId="27b9-aac0-3a1a-39f3"/>
+                    <entryLink import="true" name="Meteor" hidden="false" id="503a-d7df-410c-6e29" type="selectionEntry" targetId="4467-9260-d849-3d6b"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Aire-Tierra" id="0bac-0664-e397-7531" hidden="false" collapsible="true">
+                  <entryLinks>
+                    <entryLink import="true" name="GBU-48 Enhanced Paveway II 1000 lb LGB ^" hidden="false" id="98fd-3b9d-9c4b-2d4b" type="selectionEntry" targetId="9cde-a309-fe15-cb72"/>
+                    <entryLink import="true" name="GBU-54/B JDAM 500 lb LGB ^" hidden="false" id="40d9-9c68-6f2d-9ebe" type="selectionEntry" targetId="a555-f797-7b19-2f00"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="set" value="0" field="7248-c5eb-0b8a-2f16"/>
+                    <modifier type="add" value="Pilon 4 no equipable" field="info"/>
+                  </modifiers>
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="83f7-f00d-3093-4adb" shared="true"/>
+                  </conditions>
+                </modifierGroup>
+              </modifierGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 5" id="cc62-956a-7484-b3e2" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="47fe-1da1-f6cc-12d8" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="c02d-abd8-898e-aad2" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="AIM-120A/B AMRAAM" hidden="false" id="95b6-e670-3ee0-2a22" type="selectionEntry" targetId="de57-8ebe-5340-d0f7"/>
+                    <entryLink import="true" name="Meteor" hidden="false" id="ff07-f989-0611-4f42" type="selectionEntry" targetId="4467-9260-d849-3d6b"/>
+                    <entryLink import="true" name="AIM-120C AMRAAM" hidden="false" id="3367-3157-7ab8-5890" type="selectionEntry" targetId="f2a2-0d29-757e-4b6f"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 6" id="c06a-56e1-25d1-56a5" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e239-c720-e113-0cde" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="5513-d951-ba6c-bce6" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="AIM-120A/B AMRAAM" hidden="false" id="9941-662d-9aa5-0a08" type="selectionEntry" targetId="de57-8ebe-5340-d0f7"/>
+                    <entryLink import="true" name="AIM-120C AMRAAM" hidden="false" id="4acf-d81b-78b6-3d76" type="selectionEntry" targetId="f2a2-0d29-757e-4b6f"/>
+                    <entryLink import="true" name="Meteor" hidden="false" id="3b77-9c6f-60e6-8c30" type="selectionEntry" targetId="4467-9260-d849-3d6b"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 7" id="cce9-43f9-a8ac-6df4" hidden="false" collapsible="true" collective="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1194-6e7f-b387-fb46" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Tanque de combustible" hidden="false" id="ffcf-932d-555f-5de6" type="selectionEntry" targetId="ea5e-699c-96cb-e6f7"/>
+                <entryLink import="true" name="Pod Laser" hidden="false" id="cdb7-a19c-8018-41c9" type="selectionEntry" targetId="c1ce-ecf6-4478-4f9a">
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="7467-7568-05b5-2dfb" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 8" id="5b62-f552-d560-0e0a" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="941e-e321-107b-b78a" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="58d3-b412-01be-eb2a" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="AIM-120A/B AMRAAM" hidden="false" id="b50d-0780-bf2a-1d8f" type="selectionEntry" targetId="de57-8ebe-5340-d0f7"/>
+                    <entryLink import="true" name="AIM-120C AMRAAM" hidden="false" id="1b92-e498-3b29-2232" type="selectionEntry" targetId="f2a2-0d29-757e-4b6f"/>
+                    <entryLink import="true" name="Meteor" hidden="false" id="b40d-f430-0712-831d" type="selectionEntry" targetId="4467-9260-d849-3d6b"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 9" id="c94e-b380-39ca-ad46" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f046-7dae-9d06-08e0" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="0226-132f-17e7-6252" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="AIM-120A/B AMRAAM" hidden="false" id="ef46-05b5-8a29-68c4" type="selectionEntry" targetId="de57-8ebe-5340-d0f7"/>
+                    <entryLink import="true" name="AIM-120C AMRAAM" hidden="false" id="10f8-112c-a4ce-7ed1" type="selectionEntry" targetId="f2a2-0d29-757e-4b6f"/>
+                    <entryLink import="true" name="Meteor" hidden="false" id="76fa-539c-89ec-5e4a" type="selectionEntry" targetId="4467-9260-d849-3d6b"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 10" id="4572-d757-defc-04ca" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7763-69a4-06ae-3b08" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="478f-9c9f-05da-d369" hidden="false" collapsible="true">
+                  <entryLinks>
+                    <entryLink import="true" name="AIM-9L Sidewinder" hidden="false" id="68a1-086b-556a-0daa" type="selectionEntry" targetId="fa98-54ec-0792-dce7"/>
+                    <entryLink import="true" name="AIM-120A/B AMRAAM" hidden="false" id="5cf4-bed6-493c-fb84" type="selectionEntry" targetId="de57-8ebe-5340-d0f7"/>
+                    <entryLink import="true" name="AIM-120C AMRAAM" hidden="false" id="fec7-8b28-d93e-9a9a" type="selectionEntry" targetId="f2a2-0d29-757e-4b6f"/>
+                    <entryLink import="true" name="IRIS-T" hidden="false" id="f1e7-f421-7862-0d88" type="selectionEntry" targetId="27b9-aac0-3a1a-39f3"/>
+                    <entryLink import="true" name="Meteor" hidden="false" id="e671-6837-11c9-f3f6" type="selectionEntry" targetId="4467-9260-d849-3d6b"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Aire-Tierra" id="e53b-f705-6e77-efee" hidden="false" collapsible="true">
+                  <entryLinks>
+                    <entryLink import="true" name="GBU-54/B JDAM 500 lb LGB ^" hidden="false" id="6a54-a3bd-0638-ea0f" type="selectionEntry" targetId="a555-f797-7b19-2f00"/>
+                    <entryLink import="true" name="GBU-48 Enhanced Paveway II 1000 lb LGB ^" hidden="false" id="aaa3-b27c-0f9c-0639" type="selectionEntry" targetId="9cde-a309-fe15-cb72"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="add" value="Pilon 10 no equipable" field="info"/>
+                    <modifier type="set" value="0" field="7763-69a4-06ae-3b08"/>
+                  </modifiers>
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="7806-f89f-070f-8f9d" shared="true"/>
+                  </conditions>
+                </modifierGroup>
+              </modifierGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 11" id="36d9-577b-ddbc-1152" hidden="false" collective="true" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c1e-e61c-388c-d8f9" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="111d-d818-5647-c583" hidden="false" collapsible="true" sortIndex="1">
+                  <entryLinks>
+                    <entryLink import="true" name="AIM-9L Sidewinder" hidden="false" id="e519-a5b2-974a-d0d3" type="selectionEntry" targetId="fa98-54ec-0792-dce7"/>
+                    <entryLink import="true" name="AIM-120A/B AMRAAM" hidden="false" id="c43f-1920-2f9d-f282" type="selectionEntry" targetId="de57-8ebe-5340-d0f7"/>
+                    <entryLink import="true" name="AIM-120C AMRAAM" hidden="false" id="2f8c-1fdc-6492-6a45" type="selectionEntry" targetId="f2a2-0d29-757e-4b6f"/>
+                    <entryLink import="true" name="IRIS-T" hidden="false" id="90a8-3fec-34df-2315" type="selectionEntry" targetId="27b9-aac0-3a1a-39f3"/>
+                    <entryLink import="true" name="Meteor" hidden="false" id="2bcb-bd7f-a540-a1a9" type="selectionEntry" targetId="4467-9260-d849-3d6b"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Aire-Tierra" id="6fdf-3f54-d24f-0260" hidden="false" collapsible="true" sortIndex="2">
+                  <entryLinks>
+                    <entryLink import="true" name="GBU-54/B JDAM 500 lb LGB ^" hidden="false" id="ee0b-07e0-c4f5-c296" type="selectionEntry" targetId="a555-f797-7b19-2f00"/>
+                    <entryLink import="true" name="GBU-48 Enhanced Paveway II 1000 lb LGB ^" hidden="false" id="d3f6-7a31-6848-a9e8" type="selectionEntry" targetId="9cde-a309-fe15-cb72"/>
+                    <entryLink import="true" name="Taurus KEPD 350" hidden="false" id="7806-f89f-070f-8f9d" type="selectionEntry" targetId="e041-e48e-42fa-eaaf"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink import="true" name="Tanque de combustible" hidden="false" id="1722-b576-2242-ee9b" type="selectionEntry" targetId="ea5e-699c-96cb-e6f7"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 12" id="ab86-cb31-34c5-22c3" hidden="false" collapsible="true" collective="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ec1-7fc2-a0fb-3ab8" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="961f-f4b6-6764-6a1a" hidden="false" collapsible="true">
+                  <entryLinks>
+                    <entryLink import="true" name="AIM-9L Sidewinder" hidden="false" id="ce7b-b58f-bbaa-2b4d" type="selectionEntry" targetId="fa98-54ec-0792-dce7"/>
+                    <entryLink import="true" name="AIM-120A/B AMRAAM" hidden="false" id="ad43-510d-26de-b9e3" type="selectionEntry" targetId="de57-8ebe-5340-d0f7"/>
+                    <entryLink import="true" name="AIM-120C AMRAAM" hidden="false" id="7ca5-ceef-3024-668a" type="selectionEntry" targetId="f2a2-0d29-757e-4b6f"/>
+                    <entryLink import="true" name="IRIS-T" hidden="false" id="f1d8-a2db-3d7c-dd67" type="selectionEntry" targetId="27b9-aac0-3a1a-39f3"/>
+                    <entryLink import="true" name="Meteor" hidden="false" id="27e3-66cc-5ac3-b967" type="selectionEntry" targetId="4467-9260-d849-3d6b"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Aire-Tierra" id="17ab-3615-6975-6793" hidden="false" collapsible="true">
+                  <entryLinks>
+                    <entryLink import="true" name="Brimstone (x3)" hidden="false" id="e839-ec7a-df7d-19a2" type="selectionEntry" targetId="5343-41d0-eecf-cd6e"/>
+                    <entryLink import="true" name="GBU-54/B JDAM 500 lb LGB ^" hidden="false" id="093c-ba13-98f4-f385" type="selectionEntry" targetId="a555-f797-7b19-2f00"/>
+                    <entryLink import="true" name="GBU-48 Enhanced Paveway II 1000 lb LGB ^" hidden="false" id="ea72-d42a-c9e2-ecc0" type="selectionEntry" targetId="9cde-a309-fe15-cb72"/>
+                    <entryLink import="true" name="AGM-88 HARM ~" hidden="false" id="dc5a-44d5-5b24-97b8" type="selectionEntry" targetId="17c9-41eb-5b91-b21c"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="set" value="0" field="8ec1-7fc2-a0fb-3ab8"/>
+                    <modifier type="add" value="Pilon 12 no equipable" field="info"/>
+                  </modifiers>
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="7806-f89f-070f-8f9d" shared="true"/>
+                  </conditions>
+                </modifierGroup>
+              </modifierGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 13" id="b16e-c0fc-37e5-db26" hidden="false" collapsible="true" collective="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d1eb-b375-25d7-48d4" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="5af3-9d74-27ed-5b2c" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="IRIS-T" hidden="false" id="a313-de83-1593-5cea" type="selectionEntry" targetId="27b9-aac0-3a1a-39f3"/>
+                    <entryLink import="true" name="AIM-9L Sidewinder" hidden="false" id="2381-7752-1ed0-5a08" type="selectionEntry" targetId="fa98-54ec-0792-dce7"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="EFA Typhoon (Alemania)" typeId="4b46-8607-d6d7-b593" typeName="Aeronave" hidden="true" id="7360-6c0e-dec4-6806">
+          <characteristics>
+            <characteristic name="Mn" typeId="e8bf-0ebd-7756-e33c">5</characteristic>
+            <characteristic name="Mx" typeId="5f6e-31c2-db64-82eb">24</characteristic>
+            <characteristic name="Pw" typeId="8341-e4bd-623a-3ad1">HP</characteristic>
+            <characteristic name="Acc1/Acc2" typeId="bf71-8a86-757c-5e7c">+4/+4</characteristic>
+            <characteristic name="Dec" typeId="b043-fe11-ef69-4f57">-4</characteristic>
+            <characteristic name="Ma" typeId="1307-88ae-ee70-3c7c">E</characteristic>
+            <characteristic name="Gn" typeId="b171-916a-4ab1-ff51">6d6</characteristic>
+            <characteristic name="Am" typeId="2d03-abee-3bdd-695e">8</characteristic>
+            <characteristic name="Bm" typeId="ce01-ca82-f06c-0d5a">+4</characteristic>
+            <characteristic name="DP" typeId="53b6-9553-455d-4abb">8</characteristic>
+            <characteristic name="Cf" typeId="16c2-b7e6-5db7-7e68">8</characteristic>
+            <characteristic name="Fl" typeId="4509-bc00-110c-183a">8</characteristic>
+            <characteristic name="ECM" typeId="676a-801b-f0a3-9cc6">-3</characteristic>
+            <characteristic name="Rdr" typeId="5ce8-5771-857e-04a1">2+
+L</characteristic>
+            <characteristic name="Sz" typeId="7204-bfdd-ccd8-77c5">0+</characteristic>
+            <characteristic name="Sp" typeId="d29d-ff32-75aa-1a1b">+1</characteristic>
+            <characteristic name="Ld" typeId="bb2b-8dd8-456f-a06b">29</characteristic>
+            <characteristic name="Año" typeId="7fb1-e1cc-6c9c-9a54">2005</characteristic>
+            <characteristic name="Notas" typeId="f5eb-9c5a-bf5f-227f"/>
+          </characteristics>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <comment>Stats Aeronave</comment>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <comment>Cargado</comment>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="e8bf-0ebd-7756-e33c"/>
+                    <modifier type="decrement" value="2" field="5f6e-31c2-db64-82eb"/>
+                    <modifier type="decrement" value="1" field="bf71-8a86-757c-5e7c"/>
+                    <modifier type="replace" value="L" field="1307-88ae-ee70-3c7c" arg="M"/>
+                    <modifier type="replace" value="M" field="1307-88ae-ee70-3c7c" arg="H"/>
+                    <modifier type="replace" value="H" field="1307-88ae-ee70-3c7c" arg="E"/>
+                    <modifier type="replace" value="LP" field="8341-e4bd-623a-3ad1" arg="MP"/>
+                    <modifier type="replace" value="MP" field="8341-e4bd-623a-3ad1" arg="HP"/>
+                    <modifier type="set" value="Cargado" field="annotation"/>
+                  </modifiers>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="d4ea-6b81-9d6a-7377" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifierGroup>
+                <modifierGroup type="and">
+                  <comment>Ligeramente Cargado</comment>
+                  <modifiers>
+                    <modifier type="decrement" value="1" field="5f6e-31c2-db64-82eb"/>
+                    <modifier type="set" value="Ligeramente Cargado" field="annotation"/>
+                  </modifiers>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="d4ea-6b81-9d6a-7377" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="1a85-9e02-1e83-a99b" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="04f8-73fd-e637-da47" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="652d-e100-218e-9724" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="c113-f1c8-53f1-5646" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="70a2-2806-b658-3d18" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="0789-bad8-7d9f-78ba" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifierGroup>
+              </modifierGroups>
+            </modifierGroup>
+          </modifierGroups>
+        </profile>
+        <profile name="EFA Typhoon (Alemania)" typeId="4b46-8607-d6d7-b593" typeName="Aeronave" hidden="false" id="3885-1816-cd25-72f0">
+          <characteristics>
+            <characteristic name="Mn" typeId="e8bf-0ebd-7756-e33c">5</characteristic>
+            <characteristic name="Mx" typeId="5f6e-31c2-db64-82eb">24</characteristic>
+            <characteristic name="Pw" typeId="8341-e4bd-623a-3ad1">HP</characteristic>
+            <characteristic name="Acc1/Acc2" typeId="bf71-8a86-757c-5e7c">+4/+4</characteristic>
+            <characteristic name="Dec" typeId="b043-fe11-ef69-4f57">-4</characteristic>
+            <characteristic name="Ma" typeId="1307-88ae-ee70-3c7c">E</characteristic>
+            <characteristic name="Gn" typeId="b171-916a-4ab1-ff51">6d6</characteristic>
+            <characteristic name="Am" typeId="2d03-abee-3bdd-695e">8</characteristic>
+            <characteristic name="Bm" typeId="ce01-ca82-f06c-0d5a">+4</characteristic>
+            <characteristic name="DP" typeId="53b6-9553-455d-4abb">8</characteristic>
+            <characteristic name="Cf" typeId="16c2-b7e6-5db7-7e68">8</characteristic>
+            <characteristic name="Fl" typeId="4509-bc00-110c-183a">8</characteristic>
+            <characteristic name="ECM" typeId="676a-801b-f0a3-9cc6">-3</characteristic>
+            <characteristic name="Rdr" typeId="5ce8-5771-857e-04a1">2+
+L</characteristic>
+            <characteristic name="Sz" typeId="7204-bfdd-ccd8-77c5">0+</characteristic>
+            <characteristic name="Sp" typeId="d29d-ff32-75aa-1a1b">+1</characteristic>
+            <characteristic name="Ld" typeId="bb2b-8dd8-456f-a06b">29</characteristic>
+            <characteristic name="Año" typeId="7fb1-e1cc-6c9c-9a54">2005</characteristic>
+            <characteristic name="Notas" typeId="f5eb-9c5a-bf5f-227f"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Ligeramente Cargado" id="f83c-7832-b705-ea25" hidden="false" type="profile" targetId="10e0-ab09-3b25-8d80"/>
+        <infoLink name="Cargado" id="fdb8-5f49-22b4-79f9" hidden="false" type="profile" targetId="dd0c-1ac2-5bea-a9e4"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="FlakPz-1 Gepard" hidden="false" id="880d-4743-e12e-b7bb">
+      <categoryLinks>
+        <categoryLink targetId="4496-42f1-bfd3-1ac1" id="695f-6fc4-f3e1-13f1" primary="true" name="Sistemas AA Terrestres"/>
+      </categoryLinks>
+      <comment>RDR / OPT</comment>
+      <profiles>
+        <profile name="FlakPz-1 Gepard" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA" hidden="false" id="3072-0511-e72d-c458">
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Radar</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">9</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">8+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d10</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Medio</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">4</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">2x35 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">SP</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Seccion</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1976</characteristic>
+          </characteristics>
+          <comment>RDR</comment>
+        </profile>
+        <profile name="FlakPz-1 Gepard" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA" hidden="false" id="7d02-ed51-64ea-9f0b">
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">9</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">10+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d10</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Medio</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">4</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">2x35 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">SP</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Seccion</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1976</characteristic>
+          </characteristics>
+          <comment>OP</comment>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="RH-202 Rheinmetall" hidden="false" id="cf18-e818-a9a1-25c1">
+      <categoryLinks>
+        <categoryLink targetId="4496-42f1-bfd3-1ac1" id="146b-b15f-cc1b-f20a" primary="true" name="Sistemas AA Terrestres"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="RH-202 Rheinmetall" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA" hidden="false" id="98eb-f9e8-1b26-fd38">
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">6</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">10+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d6</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Ligero</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">5</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">2x20 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">Remolcado</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Bateria</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1970</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <comment>OPT</comment>
+    </selectionEntry>
+  </selectionEntries>
+  <categoryEntries>
+    <categoryEntry name="Helicópteros" id="4cd6-d835-b369-8ce0" hidden="false"/>
+    <categoryEntry name="Aeronaves" id="78a1-d75f-d083-20cd" hidden="false"/>
+    <categoryEntry name="Sistemas AA Terrestres" id="4496-42f1-bfd3-1ac1" hidden="false"/>
+  </categoryEntries>
+</catalogue>
