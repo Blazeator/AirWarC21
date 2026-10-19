@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue name="Suecia" id="488f-b9bc-adb3-4112" battleScribeVersion="2.03" gameSystemId="sys-6b94-3646-c6d2-7038" gameSystemRevision="3" library="true" revision="1" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry name="Aeronaves" id="3ee3-45a7-786d-84be" hidden="false"/>
+  </categoryEntries>
+  <forceEntries>
+    <forceEntry name="Suecia" id="eb37-4e84-149f-b764" hidden="false">
+      <categoryLinks>
+        <categoryLink name="Aeronaves" id="1176-bc8a-66a7-4f2d" hidden="false" targetId="3ee3-45a7-786d-84be"/>
+        <categoryLink name="Suecia" id="22a5-9c26-22cf-1708" hidden="false" targetId="59c1-00e3-eddf-72a7"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <selectionEntries>
+    <selectionEntry name="AJ-37 Viggen" id="afb8-1d9d-408b-c7f0" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Aeronaves" id="a0c3-b25c-9d83-102b" hidden="false" primary="true" targetId="3ee3-45a7-786d-84be"/>
+        <categoryLink name="Suecia" id="ff7f-14ef-bbc7-9095" hidden="false" primary="false" targetId="59c1-00e3-eddf-72a7"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink name="Adiestramiento del Piloto" id="c500-a74d-cfe5-db2b" hidden="false" import="true" targetId="367a-0175-d961-886a" type="selectionEntryGroup"/>
+        <entryLink name="Configuracion de Armamento" id="18ad-093f-b275-fe24" hidden="false" import="true" targetId="13ff-6045-e2f5-a7e3" type="selectionEntryGroup">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Pilon 1" id="2b87-7fca-b029-179d" collapsible="true" collective="true" hidden="false">
+              <constraints>
+                <constraint id="2957-9c8e-8397-78a0" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="68da-40ba-7f51-40bf" collapsible="true" hidden="false">
+                  <entryLinks>
+                    <entryLink name="AIM-9J Sidewinder" id="0ed8-32ca-0fb1-e017" hidden="false" import="true" targetId="ebee-e082-5981-ea74" type="selectionEntry"/>
+                    <entryLink name="AIM-4D Falcon" id="da08-a4dc-6df3-64b8" hidden="false" import="true" targetId="ce93-3c3d-6384-5a15" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Aire-Tierra" id="ff43-9d53-04a8-b8d5" collapsible="true" hidden="false">
+                  <entryLinks>
+                    <entryLink name="Rockets Hydra 70 Pod of 7x2.75&quot; FFAR" id="760d-e17d-0b66-00bc" hidden="false" import="true" targetId="63ae-fb3f-fd99-6c5e" type="selectionEntry"/>
+                    <entryLink name="250 lb Bomb ^ (x4)" id="3db6-b60d-3a74-ab9a" hidden="false" import="true" targetId="8aea-70af-c825-0a85" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 2" id="1c88-3564-097c-553b" collapsible="true" collective="true" hidden="false">
+              <constraints>
+                <constraint id="698f-9fc0-6bb9-a3ea" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="321c-fb68-ed9e-095b" collapsible="true" hidden="false">
+                  <entryLinks>
+                    <entryLink name="AIM-4D Falcon" id="346f-0e78-ccf9-3b30" hidden="false" import="true" targetId="ce93-3c3d-6384-5a15" type="selectionEntry"/>
+                    <entryLink name="AIM-9J Sidewinder" id="1b14-4039-609f-e992" hidden="false" import="true" targetId="ebee-e082-5981-ea74" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Aire-Tierra" id="5cb1-de0f-be37-1881" collapsible="true" hidden="false">
+                  <entryLinks>
+                    <entryLink name="250 lb Bomb ^ (x4)" id="5710-715a-e22c-79ee" hidden="false" import="true" targetId="8aea-70af-c825-0a85" type="selectionEntry"/>
+                    <entryLink name="Rockets Hydra 70 Pod of 7x2.75&quot; FFAR" id="6be1-b55f-16d8-71e0" hidden="false" import="true" targetId="63ae-fb3f-fd99-6c5e" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 3" id="f6a3-7eb6-856a-991b" collapsible="true" collective="true" hidden="false">
+              <constraints>
+                <constraint id="a8d1-e3ce-cdfe-4111" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Tierra" id="367d-f6d0-1106-e8d5" hidden="false">
+                  <entryLinks>
+                    <entryLink name="AGM-65A Maverick" id="1f81-25b8-5f02-4cde" hidden="false" import="true" targetId="e126-6660-6f4e-7f85" type="selectionEntry"/>
+                    <entryLink name="250 lb Bomb ^ (x4)" id="9444-71eb-4377-f6c3" hidden="false" import="true" targetId="8aea-70af-c825-0a85" type="selectionEntry"/>
+                    <entryLink name="Rockets Hydra 70 Pod of 7x2.75&quot; FFAR" id="92ab-b759-d772-cf2d" hidden="false" import="true" targetId="63ae-fb3f-fd99-6c5e" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 4" id="4476-a591-3d4b-d244" collapsible="true" collective="true" hidden="false">
+              <constraints>
+                <constraint id="dfc6-33e5-b13e-36be" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <entryLinks>
+                <entryLink name="Tanque de combustible" id="f367-ca85-9e99-367b" hidden="false" import="true" targetId="ea5e-699c-96cb-e6f7" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 5" id="eda7-25bc-581a-a644" collapsible="true" collective="true" hidden="false">
+              <constraints>
+                <constraint id="de19-62bf-57a6-ecef" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Tierra" id="a44d-5931-770f-c26d" hidden="false">
+                  <entryLinks>
+                    <entryLink name="250 lb Bomb ^ (x4)" id="0653-3047-9eb2-0969" hidden="false" import="true" targetId="8aea-70af-c825-0a85" type="selectionEntry"/>
+                    <entryLink name="Rockets Hydra 70 Pod of 7x2.75&quot; FFAR" id="57f1-f9d2-2629-aeef" hidden="false" import="true" targetId="63ae-fb3f-fd99-6c5e" type="selectionEntry"/>
+                    <entryLink name="AGM-65A Maverick" id="889c-0efa-b128-3749" hidden="false" import="true" targetId="e126-6660-6f4e-7f85" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 6" id="ad1e-7375-79b0-34f5" collapsible="true" collective="true" hidden="false">
+              <constraints>
+                <constraint id="755e-90d0-81a6-a98b" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="d709-7e31-8b11-7ee6" collapsible="true" hidden="false">
+                  <entryLinks>
+                    <entryLink name="AIM-4D Falcon" id="a2c4-c7fa-e589-e4f7" hidden="false" import="true" targetId="ce93-3c3d-6384-5a15" type="selectionEntry"/>
+                    <entryLink name="AIM-9J Sidewinder" id="c3d9-d022-7683-b31f" hidden="false" import="true" targetId="ebee-e082-5981-ea74" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Aire-Tierra" id="182b-f49f-6439-ceca" collapsible="true" hidden="false">
+                  <entryLinks>
+                    <entryLink name="250 lb Bomb ^ (x4)" id="8eb1-74f4-13e8-c264" hidden="false" import="true" targetId="8aea-70af-c825-0a85" type="selectionEntry"/>
+                    <entryLink name="Rockets Hydra 70 Pod of 7x2.75&quot; FFAR" id="155d-665c-dd8d-fd15" hidden="false" import="true" targetId="63ae-fb3f-fd99-6c5e" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 7" id="e5bc-418f-de32-7c1b" collapsible="true" collective="true" hidden="false">
+              <constraints>
+                <constraint id="d1fc-a367-990e-0edc" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="0969-d29a-0531-4543" collapsible="true" hidden="false">
+                  <entryLinks>
+                    <entryLink name="AIM-4D Falcon" id="7155-dc34-3d66-b43d" hidden="false" import="true" targetId="ce93-3c3d-6384-5a15" type="selectionEntry"/>
+                    <entryLink name="AIM-9J Sidewinder" id="f2e8-8943-1695-862a" hidden="false" import="true" targetId="ebee-e082-5981-ea74" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Aire-Tierra" id="eabd-09a2-6488-e7cb" collapsible="true" hidden="false">
+                  <entryLinks>
+                    <entryLink name="250 lb Bomb ^ (x4)" id="5707-b0cb-b66e-4e28" hidden="false" import="true" targetId="8aea-70af-c825-0a85" type="selectionEntry"/>
+                    <entryLink name="Rockets Hydra 70 Pod of 7x2.75&quot; FFAR" id="7dfe-9810-24aa-c9e1" hidden="false" import="true" targetId="63ae-fb3f-fd99-6c5e" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Cargado" id="fa65-c8df-4ac0-8f24" hidden="false" targetId="dd0c-1ac2-5bea-a9e4" type="profile"/>
+        <infoLink name="Ligeramente Cargado" id="1143-d60d-f07b-3d52" hidden="false" targetId="10e0-ab09-3b25-8d80" type="profile"/>
+      </infoLinks>
+      <profiles>
+        <profile name="AJ-37 Viggen" id="6ec6-a542-8c16-7f2e" hidden="false" typeId="4b46-8607-d6d7-b593" typeName="Aeronave">
+          <characteristics>
+            <characteristic name="Mn" typeId="e8bf-0ebd-7756-e33c">5</characteristic>
+            <characteristic name="Mx" typeId="5f6e-31c2-db64-82eb">23</characteristic>
+            <characteristic name="Pw" typeId="8341-e4bd-623a-3ad1">HP</characteristic>
+            <characteristic name="Acc1/Acc2" typeId="bf71-8a86-757c-5e7c">+3/+3</characteristic>
+            <characteristic name="Dec" typeId="b043-fe11-ef69-4f57">-4</characteristic>
+            <characteristic name="Ma" typeId="1307-88ae-ee70-3c7c">H</characteristic>
+            <characteristic name="Gn" typeId="b171-916a-4ab1-ff51">-</characteristic>
+            <characteristic name="Am" typeId="2d03-abee-3bdd-695e">0</characteristic>
+            <characteristic name="Bm" typeId="ce01-ca82-f06c-0d5a">+0</characteristic>
+            <characteristic name="DP" typeId="53b6-9553-455d-4abb">7</characteristic>
+            <characteristic name="Cf" typeId="16c2-b7e6-5db7-7e68">8</characteristic>
+            <characteristic name="Fl" typeId="4509-bc00-110c-183a">8</characteristic>
+            <characteristic name="ECM" typeId="676a-801b-f0a3-9cc6">-</characteristic>
+            <characteristic name="Rdr" typeId="5ce8-5771-857e-04a1">7+</characteristic>
+            <characteristic name="Sz" typeId="7204-bfdd-ccd8-77c5">+0</characteristic>
+            <characteristic name="Sp" typeId="d29d-ff32-75aa-1a1b">+0</characteristic>
+            <characteristic name="Ld" typeId="bb2b-8dd8-456f-a06b">27</characteristic>
+            <characteristic name="Año" typeId="7fb1-e1cc-6c9c-9a54">1972</characteristic>
+            <characteristic name="Notas" typeId="f5eb-9c5a-bf5f-227f">Versión Atacante</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="JA-37 Jaktviggen" id="fbd3-356e-2ef4-0813" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Aeronaves" id="6881-d76e-aabb-8750" hidden="false" primary="true" targetId="3ee3-45a7-786d-84be"/>
+        <categoryLink name="Suecia" id="b1e0-2a23-6ceb-f7be" hidden="false" primary="false" targetId="59c1-00e3-eddf-72a7"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink name="Adiestramiento del Piloto" id="3d72-f2c7-5880-ecc3" hidden="false" import="true" targetId="367a-0175-d961-886a" type="selectionEntryGroup"/>
+        <entryLink name="Configuracion de Armamento" id="873e-76e3-981d-008d" hidden="false" import="true" targetId="13ff-6045-e2f5-a7e3" type="selectionEntryGroup">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Pilon 1" id="88b7-a59d-366b-b94e" collapsible="true" collective="true" hidden="false">
+              <constraints>
+                <constraint id="46b2-74e4-cb3d-8981" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="d11e-9980-0ad5-73ef" collapsible="true" hidden="false">
+                  <entryLinks>
+                    <entryLink name="AIM-9J Sidewinder" id="9f42-45ff-72a3-50bd" hidden="false" import="true" targetId="ebee-e082-5981-ea74" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Aire-Tierra" id="7169-f920-fa09-3e85" collapsible="true" hidden="false">
+                  <entryLinks>
+                    <entryLink name="Rockets Hydra 70 Pod of 7x2.75&quot; FFAR" id="da85-763e-bbef-9908" hidden="false" import="true" targetId="63ae-fb3f-fd99-6c5e" type="selectionEntry"/>
+                    <entryLink name="250 lb Bomb ^ (x4)" id="e952-f159-1f0a-eae5" hidden="false" import="true" targetId="8aea-70af-c825-0a85" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 2" id="962a-0394-c0f0-22bd" collapsible="true" collective="true" hidden="false">
+              <constraints>
+                <constraint id="5d72-37d5-d024-63c1" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="c93a-0557-4fdc-3962" collapsible="true" hidden="false">
+                  <entryLinks>
+                    <entryLink name="AIM-9J Sidewinder" id="859c-fa2d-267b-4a59" hidden="false" import="true" targetId="ebee-e082-5981-ea74" type="selectionEntry"/>
+                    <entryLink name="AIM-120A/B AMRAAM" id="e4b3-3c03-28d7-b90e" hidden="false" import="true" targetId="de57-8ebe-5340-d0f7" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Aire-Tierra" id="28af-abe1-2671-1903" collapsible="true" hidden="false">
+                  <entryLinks>
+                    <entryLink name="250 lb Bomb ^ (x4)" id="a1c7-3602-6fd1-7cd8" hidden="false" import="true" targetId="8aea-70af-c825-0a85" type="selectionEntry"/>
+                    <entryLink name="Rockets Hydra 70 Pod of 7x2.75&quot; FFAR" id="5086-bc0f-4e5e-85f9" hidden="false" import="true" targetId="63ae-fb3f-fd99-6c5e" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 3" id="61c0-d481-8a61-8972" collapsible="true" collective="true" hidden="false">
+              <constraints>
+                <constraint id="1c7d-ed8d-5e36-6049" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <entryLinks>
+                <entryLink name="Contramedidas Electronicas (OTAN)" id="2afc-9cfa-848f-ee87" hidden="false" import="true" targetId="652d-e100-218e-9724" type="selectionEntryGroup"/>
+              </entryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="8965-45a9-1b20-4c9d" collapsible="true" hidden="false">
+                  <entryLinks>
+                    <entryLink name="AIM-9J Sidewinder" id="a6fc-4529-0cc8-6a1b" hidden="false" import="true" targetId="ebee-e082-5981-ea74" type="selectionEntry"/>
+                    <entryLink name="AIM-120A/B AMRAAM" id="c601-f0db-dc0b-1a8c" hidden="false" import="true" targetId="de57-8ebe-5340-d0f7" type="selectionEntry"/>
+                    <entryLink name="Skyflash" id="b7ab-15f6-5d1c-e152" hidden="false" import="true" targetId="e9a9-9f08-68b0-34cf" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Aire-Tierra" id="2537-c867-8922-b302" collapsible="true" hidden="false">
+                  <entryLinks>
+                    <entryLink name="AGM-65B Maverick" id="19c9-0184-1b94-35a1" hidden="false" import="true" targetId="e26c-7724-4277-6e45" type="selectionEntry"/>
+                    <entryLink name="250 lb Bomb ^ (x4)" id="7913-30ef-a6d0-a878" hidden="false" import="true" targetId="8aea-70af-c825-0a85" type="selectionEntry"/>
+                    <entryLink name="Rockets Hydra 70 Pod of 7x2.75&quot; FFAR" id="60b0-e3a5-f150-9367" hidden="false" import="true" targetId="63ae-fb3f-fd99-6c5e" type="selectionEntry"/>
+                    <entryLink name="AGM-65D Maverick" id="16ed-e9ea-ecee-80ac" hidden="false" import="true" targetId="8840-4e3b-a0b5-6e3a" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 4" id="d7cf-8698-6b95-a60d" collapsible="true" collective="true" hidden="false">
+              <constraints>
+                <constraint id="cd80-6849-bc5c-7653" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Tierra" id="c57f-2347-98f5-0edd" hidden="false">
+                  <entryLinks>
+                    <entryLink name="AGM-65B Maverick" id="dd29-7c06-2477-181d" hidden="false" import="true" targetId="e26c-7724-4277-6e45" type="selectionEntry"/>
+                    <entryLink name="250 lb Bomb ^ (x4)" id="4ec7-bdf5-20a4-a8ba" hidden="false" import="true" targetId="8aea-70af-c825-0a85" type="selectionEntry"/>
+                    <entryLink name="Rockets Hydra 70 Pod of 7x2.75&quot; FFAR" id="fc0c-49c8-2e25-7e63" hidden="false" import="true" targetId="63ae-fb3f-fd99-6c5e" type="selectionEntry"/>
+                    <entryLink name="AGM-65D Maverick" id="baa1-d749-8dac-4327" hidden="false" import="true" targetId="8840-4e3b-a0b5-6e3a" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 5" id="6ace-572e-7da7-8b1c" collapsible="true" collective="true" hidden="false">
+              <constraints>
+                <constraint id="7723-4a0f-b8f9-aef7" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <entryLinks>
+                <entryLink name="Tanque de combustible" id="929a-84b1-7969-9815" hidden="false" import="true" targetId="ea5e-699c-96cb-e6f7" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 6" id="8c1e-fb41-5d30-dbc9" collapsible="true" collective="true" hidden="false">
+              <constraints>
+                <constraint id="9e1d-c508-6463-a77e" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Tierra" id="2ddc-4004-866e-34a4" hidden="false">
+                  <entryLinks>
+                    <entryLink name="250 lb Bomb ^ (x4)" id="f31d-8dc3-db0b-f18f" hidden="false" import="true" targetId="8aea-70af-c825-0a85" type="selectionEntry"/>
+                    <entryLink name="Rockets Hydra 70 Pod of 7x2.75&quot; FFAR" id="0ac5-d705-b449-3306" hidden="false" import="true" targetId="63ae-fb3f-fd99-6c5e" type="selectionEntry"/>
+                    <entryLink name="AGM-65D Maverick" id="1e38-10c9-4bc8-243e" hidden="false" import="true" targetId="8840-4e3b-a0b5-6e3a" type="selectionEntry"/>
+                    <entryLink name="AGM-65B Maverick" id="aec1-59ff-44a3-c215" hidden="false" import="true" targetId="e26c-7724-4277-6e45" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 7" id="4f39-51f9-c3d1-2ffc" collapsible="true" collective="true" hidden="false">
+              <constraints>
+                <constraint id="704b-b223-aff1-04dc" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <entryLinks>
+                <entryLink name="Contramedidas Electronicas (OTAN)" id="4e5a-dcaf-760e-2c77" hidden="false" import="true" targetId="652d-e100-218e-9724" type="selectionEntryGroup"/>
+              </entryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="d316-de18-0549-5cc4" collapsible="true" hidden="false">
+                  <entryLinks>
+                    <entryLink name="AIM-9J Sidewinder" id="4506-7924-e302-eee1" hidden="false" import="true" targetId="ebee-e082-5981-ea74" type="selectionEntry"/>
+                    <entryLink name="AIM-120A/B AMRAAM" id="f766-0934-648d-587a" hidden="false" import="true" targetId="de57-8ebe-5340-d0f7" type="selectionEntry"/>
+                    <entryLink name="Skyflash" id="917d-faa0-11f3-239d" hidden="false" import="true" targetId="e9a9-9f08-68b0-34cf" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Aire-Tierra" id="e5cb-070d-a8af-e308" collapsible="true" hidden="false">
+                  <entryLinks>
+                    <entryLink name="250 lb Bomb ^ (x4)" id="9ebb-d237-7342-6de9" hidden="false" import="true" targetId="8aea-70af-c825-0a85" type="selectionEntry"/>
+                    <entryLink name="Rockets Hydra 70 Pod of 7x2.75&quot; FFAR" id="9160-68c4-0248-74c0" hidden="false" import="true" targetId="63ae-fb3f-fd99-6c5e" type="selectionEntry"/>
+                    <entryLink name="AGM-65D Maverick" id="c9b2-be63-4dc3-844f" hidden="false" import="true" targetId="8840-4e3b-a0b5-6e3a" type="selectionEntry"/>
+                    <entryLink name="AGM-65B Maverick" id="993d-da70-7608-604e" hidden="false" import="true" targetId="e26c-7724-4277-6e45" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 8" id="7638-a2fa-c0fd-0fc9" collapsible="true" collective="true" hidden="false">
+              <constraints>
+                <constraint id="c103-21c5-a486-33e1" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="5098-88f5-43ff-81e2" collapsible="true" hidden="false">
+                  <entryLinks>
+                    <entryLink name="AIM-9J Sidewinder" id="7bde-dd0e-26c9-88e7" hidden="false" import="true" targetId="ebee-e082-5981-ea74" type="selectionEntry"/>
+                    <entryLink name="AIM-120A/B AMRAAM" id="e1ea-af2d-5423-9fc8" hidden="false" import="true" targetId="de57-8ebe-5340-d0f7" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Aire-Tierra" id="a2a6-f328-32ca-4835" collapsible="true" hidden="false">
+                  <entryLinks>
+                    <entryLink name="250 lb Bomb ^ (x4)" id="aa74-6d5f-634c-a017" hidden="false" import="true" targetId="8aea-70af-c825-0a85" type="selectionEntry"/>
+                    <entryLink name="Rockets Hydra 70 Pod of 7x2.75&quot; FFAR" id="27cb-811a-fe96-c027" hidden="false" import="true" targetId="63ae-fb3f-fd99-6c5e" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pilon 9" id="3b2a-3524-29c5-5231" collapsible="true" collective="true" hidden="false">
+              <constraints>
+                <constraint id="0b22-3934-1d1f-b4a6" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Aire-Aire" id="3d3c-f436-f960-ff99" collapsible="true" hidden="false">
+                  <entryLinks>
+                    <entryLink name="AIM-9J Sidewinder" id="8a9f-893c-5da7-17de" hidden="false" import="true" targetId="ebee-e082-5981-ea74" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Aire-Tierra" id="a018-1325-b19f-5df2" collapsible="true" hidden="false">
+                  <entryLinks>
+                    <entryLink name="250 lb Bomb ^ (x4)" id="9ece-47b0-7661-8861" hidden="false" import="true" targetId="8aea-70af-c825-0a85" type="selectionEntry"/>
+                    <entryLink name="Rockets Hydra 70 Pod of 7x2.75&quot; FFAR" id="2939-20b6-a4cf-fa0d" hidden="false" import="true" targetId="63ae-fb3f-fd99-6c5e" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Cargado" id="09bf-628b-97ae-17ab" hidden="false" targetId="dd0c-1ac2-5bea-a9e4" type="profile"/>
+        <infoLink name="Ligeramente Cargado" id="9da5-8c88-65e5-a6b3" hidden="false" targetId="10e0-ab09-3b25-8d80" type="profile"/>
+      </infoLinks>
+      <profiles>
+        <profile name="JA-37 Jaktviggen" id="451b-038f-2565-60ee" hidden="false" typeId="4b46-8607-d6d7-b593" typeName="Aeronave">
+          <characteristics>
+            <characteristic name="Mn" typeId="e8bf-0ebd-7756-e33c">5</characteristic>
+            <characteristic name="Mx" typeId="5f6e-31c2-db64-82eb">23</characteristic>
+            <characteristic name="Pw" typeId="8341-e4bd-623a-3ad1">HP</characteristic>
+            <characteristic name="Acc1/Acc2" typeId="bf71-8a86-757c-5e7c">+3/+3</characteristic>
+            <characteristic name="Dec" typeId="b043-fe11-ef69-4f57">-4</characteristic>
+            <characteristic name="Ma" typeId="1307-88ae-ee70-3c7c">H</characteristic>
+            <characteristic name="Gn" typeId="b171-916a-4ab1-ff51">6d6</characteristic>
+            <characteristic name="Am" typeId="2d03-abee-3bdd-695e">7</characteristic>
+            <characteristic name="Bm" typeId="ce01-ca82-f06c-0d5a">+2</characteristic>
+            <characteristic name="DP" typeId="53b6-9553-455d-4abb">7</characteristic>
+            <characteristic name="Cf" typeId="16c2-b7e6-5db7-7e68">8</characteristic>
+            <characteristic name="Fl" typeId="4509-bc00-110c-183a">8</characteristic>
+            <characteristic name="ECM" typeId="676a-801b-f0a3-9cc6">-1</characteristic>
+            <characteristic name="Rdr" typeId="5ce8-5771-857e-04a1">5+</characteristic>
+            <characteristic name="Sz" typeId="7204-bfdd-ccd8-77c5">+0</characteristic>
+            <characteristic name="Sp" typeId="d29d-ff32-75aa-1a1b">+0</characteristic>
+            <characteristic name="Ld" typeId="bb2b-8dd8-456f-a06b">27</characteristic>
+            <characteristic name="Año" typeId="7fb1-e1cc-6c9c-9a54">1979</characteristic>
+            <characteristic name="Notas" typeId="f5eb-9c5a-bf5f-227f"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>

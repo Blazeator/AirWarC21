@@ -32,7 +32,7 @@
             <characteristic name="Impacto" typeId="51a4-d221-b738-4471">11+</characteristic>
             <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d10</characteristic>
             <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Ligero</characteristic>
-            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">5</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">⬜️⬜️⬜️⬜️⬜️</characteristic>
             <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">57 mm</characteristic>
             <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">Remolcado</characteristic>
             <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Bateria</characteristic>
@@ -55,7 +55,7 @@
             <characteristic name="Impacto" typeId="51a4-d221-b738-4471">11+</characteristic>
             <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d6</characteristic>
             <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Medio</characteristic>
-            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">4</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">⬜️⬜️⬜️⬜️</characteristic>
             <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">2x37 mm</characteristic>
             <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">SP</characteristic>
             <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Seccion</characteristic>
@@ -78,7 +78,7 @@
             <characteristic name="Impacto" typeId="51a4-d221-b738-4471">10+</characteristic>
             <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d6</characteristic>
             <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Ligero</characteristic>
-            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">5</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">⬜️⬜️⬜️⬜️⬜️</characteristic>
             <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">37 mm</characteristic>
             <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">Remolcado</characteristic>
             <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Bateria</characteristic>
@@ -102,11 +102,11 @@
             <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">22</characteristic>
             <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
             <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
-            <characteristic name="Municion" typeId="8089-1da9-79df-730e">6</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">⬜️⬜️⬜️⬜️⬜️⬜️</characteristic>
             <characteristic name="Impacto" typeId="da94-35f0-8476-e339">7+</characteristic>
             <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
             <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
-            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">⬜️⬜️⬜️⬜️⬜️</characteristic>
             <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
             <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1958</characteristic>
           </characteristics>
@@ -128,11 +128,11 @@
             <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">22</characteristic>
             <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
             <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
-            <characteristic name="Municion" typeId="8089-1da9-79df-730e">6</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">⬜️⬜️⬜️⬜️⬜️⬜️</characteristic>
             <characteristic name="Impacto" typeId="da94-35f0-8476-e339">7+</characteristic>
             <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
             <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
-            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">⬜️⬜️⬜️⬜️⬜️</characteristic>
             <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
             <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1984</characteristic>
           </characteristics>
@@ -146,11 +146,11 @@
             <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">22</characteristic>
             <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
             <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
-            <characteristic name="Municion" typeId="8089-1da9-79df-730e">6</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">⬜️⬜️⬜️⬜️⬜️⬜️</characteristic>
             <characteristic name="Impacto" typeId="da94-35f0-8476-e339">7+</characteristic>
             <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
             <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
-            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">⬜️⬜️⬜️⬜️⬜️</characteristic>
             <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
             <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1984</characteristic>
           </characteristics>
@@ -173,11 +173,11 @@
             <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">24</characteristic>
             <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
             <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
-            <characteristic name="Municion" typeId="8089-1da9-79df-730e">6</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">⬜️⬜️⬜️⬜️⬜️⬜️</characteristic>
             <characteristic name="Impacto" typeId="da94-35f0-8476-e339">6+</characteristic>
             <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
             <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
-            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">⬜️⬜️⬜️⬜️⬜️</characteristic>
             <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
             <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1992</characteristic>
           </characteristics>
@@ -218,11 +218,11 @@
             <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">9</characteristic>
             <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
             <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">2</characteristic>
-            <characteristic name="Municion" typeId="8089-1da9-79df-730e">4</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">⬜️⬜️⬜️⬜️</characteristic>
             <characteristic name="Impacto" typeId="da94-35f0-8476-e339">5+</characteristic>
             <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
             <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
-            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">1</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">⬜️</characteristic>
             <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
             <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1990</characteristic>
           </characteristics>
@@ -236,11 +236,11 @@
             <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">9</characteristic>
             <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
             <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
-            <characteristic name="Municion" typeId="8089-1da9-79df-730e">4</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">⬜️⬜️⬜️⬜️</characteristic>
             <characteristic name="Impacto" typeId="da94-35f0-8476-e339">5+</characteristic>
             <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
             <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
-            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">1</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">⬜️</characteristic>
             <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
             <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1990</characteristic>
           </characteristics>
@@ -267,7 +267,7 @@
             <characteristic name="Impacto" typeId="da94-35f0-8476-e339">6+</characteristic>
             <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
             <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
-            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">⬜️⬜️⬜️⬜️⬜️</characteristic>
             <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
             <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1994</characteristic>
           </characteristics>
@@ -289,11 +289,11 @@
             <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">22</characteristic>
             <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
             <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">2</characteristic>
-            <characteristic name="Municion" typeId="8089-1da9-79df-730e">8</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️</characteristic>
             <characteristic name="Impacto" typeId="da94-35f0-8476-e339">4+</characteristic>
             <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
             <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
-            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">⬜️⬜️</characteristic>
             <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
             <characteristic name="Año" typeId="b94b-4246-c8ee-9682">2003</characteristic>
           </characteristics>
@@ -307,11 +307,11 @@
             <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">22</characteristic>
             <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
             <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
-            <characteristic name="Municion" typeId="8089-1da9-79df-730e">8</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️</characteristic>
             <characteristic name="Impacto" typeId="da94-35f0-8476-e339">4+</characteristic>
             <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
             <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
-            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">⬜️⬜️</characteristic>
             <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
             <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1990</characteristic>
           </characteristics>
@@ -334,11 +334,11 @@
             <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">9</characteristic>
             <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
             <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
-            <characteristic name="Municion" typeId="8089-1da9-79df-730e">8</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️</characteristic>
             <characteristic name="Impacto" typeId="da94-35f0-8476-e339">6+</characteristic>
             <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
             <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
-            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">⬜️⬜️⬜️⬜️⬜️</characteristic>
             <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
             <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1989</characteristic>
           </characteristics>
@@ -360,11 +360,11 @@
             <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">28</characteristic>
             <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">4</characteristic>
             <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">3</characteristic>
-            <characteristic name="Municion" typeId="8089-1da9-79df-730e">4</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">⬜️⬜️⬜️⬜️</characteristic>
             <characteristic name="Impacto" typeId="da94-35f0-8476-e339">5+</characteristic>
             <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
             <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
-            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">1</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">⬜️</characteristic>
             <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
             <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1989</characteristic>
           </characteristics>
@@ -386,9 +386,9 @@
             <characteristic name="Dec" typeId="b043-fe11-ef69-4f57">-4</characteristic>
             <characteristic name="Ma" typeId="1307-88ae-ee70-3c7c">E</characteristic>
             <characteristic name="Gn" typeId="b171-916a-4ab1-ff51">5d6</characteristic>
-            <characteristic name="Am" typeId="2d03-abee-3bdd-695e">6</characteristic>
+            <characteristic name="Am" typeId="2d03-abee-3bdd-695e">⬜️⬜️⬜️⬜️⬜️⬜️</characteristic>
             <characteristic name="Bm" typeId="ce01-ca82-f06c-0d5a">+4</characteristic>
-            <characteristic name="DP" typeId="53b6-9553-455d-4abb">6</characteristic>
+            <characteristic name="DP" typeId="53b6-9553-455d-4abb">⬜️⬜️⬜️🔲🔲🔲</characteristic>
             <characteristic name="Cf" typeId="16c2-b7e6-5db7-7e68">8</characteristic>
             <characteristic name="Fl" typeId="4509-bc00-110c-183a">8</characteristic>
             <characteristic name="ECM" typeId="676a-801b-f0a3-9cc6">-2</characteristic>
@@ -653,9 +653,9 @@ L</characteristic>
             <characteristic name="Dec" typeId="b043-fe11-ef69-4f57">-4</characteristic>
             <characteristic name="Ma" typeId="1307-88ae-ee70-3c7c">H</characteristic>
             <characteristic name="Gn" typeId="b171-916a-4ab1-ff51">6d6</characteristic>
-            <characteristic name="Am" typeId="2d03-abee-3bdd-695e">5</characteristic>
+            <characteristic name="Am" typeId="2d03-abee-3bdd-695e">⬜️⬜️⬜️⬜️⬜️</characteristic>
             <characteristic name="Bm" typeId="ce01-ca82-f06c-0d5a">+4</characteristic>
-            <characteristic name="DP" typeId="53b6-9553-455d-4abb">8</characteristic>
+            <characteristic name="DP" typeId="53b6-9553-455d-4abb">⬜️⬜️⬜️⬜️🔲🔲🔲🔲</characteristic>
             <characteristic name="Cf" typeId="16c2-b7e6-5db7-7e68">8</characteristic>
             <characteristic name="Fl" typeId="4509-bc00-110c-183a">8</characteristic>
             <characteristic name="ECM" typeId="676a-801b-f0a3-9cc6">-</characteristic>
@@ -926,9 +926,9 @@ L</characteristic>
             <characteristic name="Dec" typeId="b043-fe11-ef69-4f57">-4</characteristic>
             <characteristic name="Ma" typeId="1307-88ae-ee70-3c7c">E</characteristic>
             <characteristic name="Gn" typeId="b171-916a-4ab1-ff51">6d6</characteristic>
-            <characteristic name="Am" typeId="2d03-abee-3bdd-695e">5</characteristic>
+            <characteristic name="Am" typeId="2d03-abee-3bdd-695e">⬜️⬜️⬜️⬜️⬜️</characteristic>
             <characteristic name="Bm" typeId="ce01-ca82-f06c-0d5a">+4</characteristic>
-            <characteristic name="DP" typeId="53b6-9553-455d-4abb">8</characteristic>
+            <characteristic name="DP" typeId="53b6-9553-455d-4abb">⬜️⬜️⬜️⬜️🔲🔲🔲🔲</characteristic>
             <characteristic name="Cf" typeId="16c2-b7e6-5db7-7e68">8</characteristic>
             <characteristic name="Fl" typeId="4509-bc00-110c-183a">8</characteristic>
             <characteristic name="ECM" typeId="676a-801b-f0a3-9cc6">-</characteristic>
