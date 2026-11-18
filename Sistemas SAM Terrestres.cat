@@ -1,0 +1,2147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue name="Sistemas SAM Terrestres" id="7625-0b5b-ec78-714f" battleScribeVersion="2.03" gameSystemId="sys-6b94-3646-c6d2-7038" gameSystemRevision="3" library="false" revision="1" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry name="LY-60 (Aspide derived)" id="5688-06b3-3981-508c" hidden="false" import="true" type="unit">
+      <comment>SARH</comment>
+      <categoryLinks>
+        <categoryLink name="China" id="3ee3-b191-a0c6-a292" hidden="false" primary="true" targetId="6e88-d068-f08c-d318"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="LY-60 (Aspide derived)" id="098d-5608-3403-6e20" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">SARH</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">3+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">28</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">4</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">3</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">⬜️⬜️⬜️⬜️</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">5+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">⬜️</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1989</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="HQ-2 (SA-2 copy)" id="3099-78b9-5cdc-3fad" hidden="false" import="true" type="unit">
+      <comment>CGR</comment>
+      <categoryLinks>
+        <categoryLink name="China" id="5858-2ecf-b8c5-1e30" hidden="false" primary="true" targetId="6e88-d068-f08c-d318"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="HQ-2 (SA-2 copy)" id="f525-fc12-ff8f-f276" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">CGR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">5+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">22</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">⬜️⬜️⬜️⬜️⬜️⬜️</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">7+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">⬜️⬜️⬜️⬜️⬜️</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1958</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="HQ-2A" id="f527-d698-0b6c-49b5" hidden="false" import="true" type="unit">
+      <comment>CGR / OG</comment>
+      <categoryLinks>
+        <categoryLink name="China" id="6f4d-8e66-4899-a958" hidden="false" primary="true" targetId="6e88-d068-f08c-d318"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="HQ-2A" id="d398-1d23-5ac7-e6ec" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <comment>CGR</comment>
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">CGR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">5+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">22</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">⬜️⬜️⬜️⬜️⬜️⬜️</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">7+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">⬜️⬜️⬜️⬜️⬜️</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1984</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="HQ-2A" id="c2a9-36ca-fb08-29db" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <comment>OG</comment>
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">OG</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">5+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">22</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">⬜️⬜️⬜️⬜️⬜️⬜️</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">7+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">⬜️⬜️⬜️⬜️⬜️</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1984</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="HQ-2B" id="9314-c411-4160-caaa" hidden="false" import="true" type="unit">
+      <comment>CGR / OG</comment>
+      <categoryLinks>
+        <categoryLink name="China" id="0af1-063b-75f9-3f39" hidden="false" primary="true" targetId="6e88-d068-f08c-d318"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="HQ-2B" id="9a00-ae32-e995-bb5c" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <comment>CGR</comment>
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">CGR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">5+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">24</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">⬜️⬜️⬜️⬜️⬜️⬜️</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">6+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">⬜️⬜️⬜️⬜️⬜️</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1992</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="HQ-2B" id="94ea-d165-fd11-ba5c" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <comment>OG</comment>
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">OG</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">5+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">24</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">6</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">6+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1992</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="HQ-7 (Crotale derived)" id="55f1-d8fc-8ac2-fcc8" hidden="false" import="true" type="unit">
+      <comment>CGR / OG</comment>
+      <categoryLinks>
+        <categoryLink name="China" id="5aa4-d14e-5f92-c655" hidden="false" primary="true" targetId="6e88-d068-f08c-d318"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="HQ-7 (Crotale derived)" id="2bdd-67b6-9281-5fad" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <comment>CGR</comment>
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">CGR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">3+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">9</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">2</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">⬜️⬜️⬜️⬜️</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">5+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">⬜️</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1990</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="HQ-7 (Crotale derived)" id="3495-94c8-00ed-b935" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <comment>OG</comment>
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">OG</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">9</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">⬜️⬜️⬜️⬜️</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">5+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">⬜️</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1990</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="HQ-15 (SA-10A copy)" id="35d0-1e95-df75-0848" hidden="false" import="true" type="unit">
+      <comment>CGR</comment>
+      <categoryLinks>
+        <categoryLink name="China" id="7d36-2801-2d8b-e2e2" hidden="false" primary="true" targetId="6e88-d068-f08c-d318"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="HQ-15 (SA-10A copy)" id="e66f-0f2f-609a-2047" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">CGR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">40</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">12</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">6</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">48</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">6+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">⬜️⬜️⬜️⬜️⬜️</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1994</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="HQ-17 (SA-15 copy)" id="8eba-6390-b878-f7d8" hidden="false" import="true" type="unit">
+      <comment>CGR / OG</comment>
+      <categoryLinks>
+        <categoryLink name="China" id="d6e3-9237-5feb-3f3d" hidden="false" primary="true" targetId="6e88-d068-f08c-d318"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="HQ-17 (SA-15 copy)" id="2f1d-e759-3219-b89b" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <comment>CGR</comment>
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">CGR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">2+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">22</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">2</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">4+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">⬜️⬜️</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">2003</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="HQ-17 (SA-15 copy)" id="edb5-7d9b-7817-40e7" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <comment>OG</comment>
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">OG</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">3+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">22</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">4+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">⬜️⬜️</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1990</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="HQ-61" id="21d4-d43b-a294-fbcd" hidden="false" import="true" type="unit">
+      <comment>SARH</comment>
+      <categoryLinks>
+        <categoryLink name="China" id="5848-d2df-caa4-3ee1" hidden="false" primary="true" targetId="6e88-d068-f08c-d318"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="HQ-61" id="2c22-e89e-7192-e8db" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">SARH</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">9</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">6+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">⬜️⬜️⬜️⬜️⬜️</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1989</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Avenger" id="cda5-203b-2e84-a84c" hidden="false" import="true" type="unit">
+      <comment>SAM IR</comment>
+      <categoryLinks>
+        <categoryLink name="Estados Unidos" id="d3ef-e458-9d01-fae2" hidden="false" primary="true" targetId="ed20-6f65-b416-21aa"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Avenger" id="2f07-e7d9-39d4-0a74" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">IR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">3+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">10</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">8</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">5+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">1</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1990</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Avenger" id="dbf1-1319-ece0-cbe7" hidden="false" import="true" type="unit">
+      <comment>AA OPT</comment>
+      <categoryLinks>
+        <categoryLink name="Estados Unidos" id="893c-f5b6-9dda-ca04" hidden="false" primary="true" targetId="ed20-6f65-b416-21aa"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Avenger" id="16ff-5f18-5e22-eada" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">4</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">10+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d4</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Ligero</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">3</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">1x12.7 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">SP</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Seccion</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1990</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Avenger (2004)" id="8bb0-a502-f7d1-639a" hidden="false" import="true" type="unit">
+      <comment>SAM IR</comment>
+      <categoryLinks>
+        <categoryLink name="Estados Unidos" id="a68b-fe47-12d9-a7a5" hidden="false" primary="true" targetId="ed20-6f65-b416-21aa"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Avenger (2004)" id="0e6e-3ba3-5f33-7d36" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">IR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">3+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">16</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">8</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">5+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">1</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">2004</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="FIM-43A Redeye" id="b66a-8b6c-dae5-906a" hidden="false" import="true" type="unit">
+      <comment>IR</comment>
+      <categoryLinks>
+        <categoryLink name="Estados Unidos" id="d843-5f21-deb4-653e" hidden="false" primary="true" targetId="ed20-6f65-b416-21aa"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="FIM-43A Redeye" id="3939-44d3-b6aa-6286" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">IR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">rear-60</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">10</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">4</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">6+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">1</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1968</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="FIM-92 RMP Blk II Stinger" id="c5d6-576a-c88b-139f" hidden="false" import="true" type="unit">
+      <comment>IR</comment>
+      <categoryLinks>
+        <categoryLink name="Estados Unidos" id="b4eb-c0e7-b8dd-eae3" hidden="false" primary="true" targetId="ed20-6f65-b416-21aa"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="FIM-92 RMP Blk II Stinger" id="959e-c2ae-4cc7-85cc" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">IR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">16</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">4</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">5+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">1</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">2004?</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="FIM-92A Stinger" id="7102-7dde-cca7-4054" hidden="false" import="true" type="unit">
+      <comment>IR</comment>
+      <categoryLinks>
+        <categoryLink name="Estados Unidos" id="c554-bd08-a7ea-1fa0" hidden="false" primary="true" targetId="ed20-6f65-b416-21aa"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="FIM-92A Stinger" id="7957-3440-3a94-0a67" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">IR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">10</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">4</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">5+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">1</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1982</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="LAV-AD" id="253d-ee46-560a-2123" hidden="false" import="true" type="unit">
+      <comment>IR</comment>
+      <categoryLinks>
+        <categoryLink name="Estados Unidos" id="8b8c-fcf6-13d8-da6c" hidden="false" primary="true" targetId="ed20-6f65-b416-21aa"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="LAV-AD" id="cb38-0ad5-e02b-229c" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">IR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">3+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">10</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">8</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">5+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1996</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="LAV-AD (2004)" id="8502-2c8d-3a2d-5d27" hidden="false" import="true" type="unit">
+      <comment>IR</comment>
+      <categoryLinks>
+        <categoryLink name="Estados Unidos" id="b6b5-ee0d-5b19-39be" hidden="false" primary="true" targetId="ed20-6f65-b416-21aa"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="LAV-AD (2004)" id="89a3-72c6-a256-77b8" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">IR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">3+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">16</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">8</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">5+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">(2004)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Linebacker (2004)" id="e0d8-e19f-1f84-434e" hidden="false" import="true" type="unit">
+      <comment>IR</comment>
+      <categoryLinks>
+        <categoryLink name="Estados Unidos" id="b981-df3d-d10e-82c5" hidden="false" primary="true" targetId="ed20-6f65-b416-21aa"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Linebacker (2004)" id="1825-b92d-5cd1-aeb2" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">IR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">3+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">16</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">4</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">5+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1997</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="MIM-14B Hercules" id="2b1a-2caf-3a6d-991d" hidden="false" import="true" type="unit">
+      <comment>CGR</comment>
+      <categoryLinks>
+        <categoryLink name="Estados Unidos" id="78f1-f055-0c4e-d1b4" hidden="false" primary="true" targetId="ed20-6f65-b416-21aa"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="MIM-14B Hercules" id="f543-1c82-e530-0f04" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">CGR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">36</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">4</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">4</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">7+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">2d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1958</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="MIM-14C Hercules" id="1862-cfb5-51a4-1c32" hidden="false" import="true" type="unit">
+      <comment>CGR</comment>
+      <categoryLinks>
+        <categoryLink name="Estados Unidos" id="c4a2-53cc-4e18-c738" hidden="false" primary="true" targetId="ed20-6f65-b416-21aa"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="MIM-14C Hercules" id="404f-7c8a-b531-9891" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">CGR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">36</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">4</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">4</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">7+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">2d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1965</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="MIM-23A Hawk" id="c970-e759-4f21-c77b" hidden="false" import="true" type="unit">
+      <comment>SARH</comment>
+      <categoryLinks>
+        <categoryLink name="Estados Unidos" id="621b-aa51-7231-5820" hidden="false" primary="true" targetId="ed20-6f65-b416-21aa"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="MIM-23A Hawk" id="e728-34c8-fd27-1a70" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">SARH</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">18</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">4</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">12</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">5+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">2d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1960</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="MIM-23B I-Hawk" id="2b4d-f370-c871-5d29" hidden="false" import="true" type="unit">
+      <comment>SARH</comment>
+      <categoryLinks>
+        <categoryLink name="Estados Unidos" id="f1a6-137f-3d87-0851" hidden="false" primary="true" targetId="ed20-6f65-b416-21aa"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="MIM-23B I-Hawk" id="3c94-a063-f11f-f672" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">SARH</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">18</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">9</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">4+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">2d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1974</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="MIM-72A Chaparral" id="d7b5-9e70-ced2-ed7a" hidden="false" import="true" type="unit">
+      <comment>IR</comment>
+      <categoryLinks>
+        <categoryLink name="Estados Unidos" id="e47f-6bce-1254-4ac1" hidden="false" primary="true" targetId="ed20-6f65-b416-21aa"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="MIM-72A Chaparral" id="d425-e14c-9a15-1da8" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">IR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">rear-60</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">12</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">4</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">9+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1968</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="MIM-72C Chaparral" id="0364-17bd-9b87-d48e" hidden="false" import="true" type="unit">
+      <comment>IR</comment>
+      <categoryLinks>
+        <categoryLink name="Estados Unidos" id="9225-acf1-8ee9-2f55" hidden="false" primary="true" targetId="ed20-6f65-b416-21aa"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="MIM-72C Chaparral" id="5ffc-ad43-0f01-9c76" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">IR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">16</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">4</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">6+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1978</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="MIM-104A Patriot" id="e534-ecd4-867a-f10d" hidden="false" import="true" type="unit">
+      <comment>CGR</comment>
+      <categoryLinks>
+        <categoryLink name="Estados Unidos" id="0572-498b-c723-be8f" hidden="false" primary="true" targetId="ed20-6f65-b416-21aa"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="MIM-104A Patriot" id="9d52-ee99-f914-ad3d" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">CGR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">2+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">32</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">6</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">6</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">24</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">2+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">2d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1986</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Linebacker" id="dbab-2b4c-e4bf-311c" hidden="false" import="true" type="unit">
+      <comment>IR</comment>
+      <categoryLinks>
+        <categoryLink name="Estados Unidos" id="78ba-d052-5868-02df" hidden="false" primary="true" targetId="ed20-6f65-b416-21aa"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Linebacker" id="d26e-b834-c45f-3313" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">IR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">3+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">10</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">4</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">5+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1997</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Starstreak (LML)" id="52a1-2563-4237-59b8" hidden="false" import="true" type="unit">
+      <comment>OG</comment>
+      <categoryLinks>
+        <categoryLink name="Reino Unido" id="9138-4e75-9e72-7c2f" hidden="false" primary="true" targetId="7b3b-7df2-52f8-d929"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Starstreak (LML)" id="a371-9cdb-28e3-2280" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">OG</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">16</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">3</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">5+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">1</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">2000</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Starstreak (shoulder)" id="7097-461c-dd9f-d535" hidden="false" import="true" type="unit">
+      <comment>OG</comment>
+      <categoryLinks>
+        <categoryLink name="Reino Unido" id="cd8c-4425-9fdb-e3ce" hidden="false" primary="true" targetId="7b3b-7df2-52f8-d929"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Starstreak (shoulder)" id="319d-f21a-4c24-8b93" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">OG</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">16</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">4</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">5+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">1</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">2000</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Starstreak (SP HVM)" id="9069-7040-b9b2-b71b" hidden="false" import="true" type="unit">
+      <comment>OG</comment>
+      <categoryLinks>
+        <categoryLink name="Reino Unido" id="01c4-1815-3548-5add" hidden="false" primary="true" targetId="7b3b-7df2-52f8-d929"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Starstreak (SP HVM)" id="0feb-e6f7-143c-be38" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">OG</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">16</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">8</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">5+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1997</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Tigercat" id="02db-e223-3177-f5fe" hidden="false" import="true" type="unit">
+      <comment>OG</comment>
+      <categoryLinks>
+        <categoryLink name="Reino Unido" id="2408-22eb-0944-8971" hidden="false" primary="true" targetId="7b3b-7df2-52f8-d929"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Tigercat" id="b99a-14f3-219e-f937" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">OG</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a"/>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">5</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">3</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339"/>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">1</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1962</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Roland 1/2" id="9d28-abea-275d-a386" hidden="false" import="true" type="unit">
+      <comment>CGR / OG</comment>
+      <categoryLinks>
+        <categoryLink name="Reino Unido" id="b0a1-54aa-0e2c-424c" hidden="false" primary="true" targetId="7b3b-7df2-52f8-d929"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Roland 1/2" id="36bf-76cf-abc7-08f2" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <comment>CGR</comment>
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">CGR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">3+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">9</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">2</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">7+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1981</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Roland 1/2" id="9d8b-6baa-3793-a0f1" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <comment>OG</comment>
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">OG</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">9</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">2</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">7+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1981</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Rapier 2000" id="f557-7a3d-e3fe-98cf" hidden="false" import="true" type="unit">
+      <comment>CGR / OG</comment>
+      <categoryLinks>
+        <categoryLink name="Reino Unido" id="372b-b7d1-3710-d7e3" hidden="false" primary="true" targetId="7b3b-7df2-52f8-d929"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Rapier 2000" id="d053-8122-0f16-65e8" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <comment>CGR</comment>
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">CGR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">3+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">6</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">2</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">8</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">4+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1995</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Rapier 2000" id="cf25-b324-ece5-6e45" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <comment>OG</comment>
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">OG</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">3+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">6</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">8</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">6+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1995</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Rapier" id="7b4e-63a7-efe9-ec97" hidden="false" import="true" type="unit">
+      <comment>CGR / OG</comment>
+      <categoryLinks>
+        <categoryLink name="Reino Unido" id="5d24-57f3-85b3-d552" hidden="false" primary="true" targetId="7b3b-7df2-52f8-d929"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Rapier" id="da71-191d-3aaa-35f1" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <comment>CGR</comment>
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">CGR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">3+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">6</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">2</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">8</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">6+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1971</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Rapier" id="0903-f3fc-105b-72f5" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <comment>OG</comment>
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">OG</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">3+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">6</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">8</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">8+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1971</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Javelin" id="d103-bf33-0d47-b670" hidden="false" import="true" type="unit">
+      <comment>OG</comment>
+      <categoryLinks>
+        <categoryLink name="Reino Unido" id="cb40-505a-7040-14aa" hidden="false" primary="true" targetId="7b3b-7df2-52f8-d929"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Javelin" id="caf2-81e6-6bf0-2a16" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">OG</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">12</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">4</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">7+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">1</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1984</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Blowpipe" id="0343-9fe3-a0b5-49e1" hidden="false" import="true" type="unit">
+      <comment>OG</comment>
+      <categoryLinks>
+        <categoryLink name="Reino Unido" id="65b1-b459-e21e-0817" hidden="false" primary="true" targetId="7b3b-7df2-52f8-d929"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Blowpipe" id="8895-078e-0b37-fcee" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">OG</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">12</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">4</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">6+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">1</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1976</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Bloodhound Mk2" id="22f3-47a8-d231-7492" hidden="false" import="true" type="unit">
+      <comment>SARH</comment>
+      <categoryLinks>
+        <categoryLink name="Reino Unido" id="9f9f-7c84-be83-5b52" hidden="false" primary="true" targetId="7b3b-7df2-52f8-d929"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Bloodhound Mk2" id="16f3-4da3-7bf0-cd95" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">SARH</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">56</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">8</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">7+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">2d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1964</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Bloodhound Mk2" id="29fc-fe6c-1ffd-a718" hidden="false" import="true" type="unit">
+      <comment>SARH</comment>
+      <categoryLinks>
+        <categoryLink name="Reino Unido" id="d150-7019-8254-b1cb" hidden="false" primary="true" targetId="7b3b-7df2-52f8-d929"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Bloodhound Mk2" id="4096-778e-2d2b-00cd" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">SARH</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">56</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">6</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">7+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">2d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1964</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Bloodhound Mk1" id="55d7-55d8-585f-0372" hidden="false" import="true" type="unit">
+      <comment>SARH</comment>
+      <categoryLinks>
+        <categoryLink name="Reino Unido" id="18a8-09db-0e60-6f1b" hidden="false" primary="true" targetId="7b3b-7df2-52f8-d929"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Bloodhound Mk1" id="8bac-12e5-431d-fbfa" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">SARH</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">5+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">34</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">8</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">8+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">2d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1958</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Bloodhound Mk1" id="ad1b-485d-90aa-0581" hidden="false" import="true" type="unit">
+      <comment>SARH</comment>
+      <categoryLinks>
+        <categoryLink name="Reino Unido" id="a3cd-406a-8a1a-c700" hidden="false" primary="true" targetId="7b3b-7df2-52f8-d929"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Bloodhound Mk1" id="1252-6f63-92c1-55ec" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">SARH</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">5+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">34</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">6</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">8+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">2d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1958</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SA-18 Grouse (9K38 Igla)" id="07df-379c-f95e-a344" hidden="false" import="true" type="unit">
+      <comment>IR</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="c5aa-574b-d6d8-a557" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SA-18 Grouse (9K38 Igla)" id="cf56-e198-b71a-6149" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">IR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">14</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">4</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">5+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">1</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1983</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="S-60" id="8f58-4b92-76c0-93ab" hidden="false" import="true" type="unit">
+      <comment>RDR / OPT</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="17d7-8f7d-2bc8-4677" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="S-60" id="318b-adb3-499a-39d6" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <comment>RDR</comment>
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Radar</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">10</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">9+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d10</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Ligero</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">5</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">1x57 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">Remolcado</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Bateria</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1946</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="S-60" id="abe7-2012-0c0b-3f52" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <comment>OPT</comment>
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">10</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">11+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d10</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Ligero</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">5</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">1x57 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">Remolcado</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Bateria</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1946</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SA-1 Guild (S-25 Berkut)" id="81ea-2aa0-4dd2-49c1" hidden="false" import="true" type="unit">
+      <comment>CGR</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="2272-9d44-8a84-ab13" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SA-1 Guild (S-25 Berkut)" id="38c1-2101-0dfd-2487" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">CGR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">6+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">20</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">20</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">10</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">60</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">8+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">2d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1954</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SA-2b Guideline (S-75 Desna)" id="1bff-7a3b-f290-29b5" hidden="false" import="true" type="unit">
+      <comment>CGR</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="9545-6910-a142-e201" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SA-2b Guideline (S-75 Desna)" id="5036-ada6-60e8-7bde" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">CGR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">5+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">22</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">3</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">6</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">7+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1958</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SA-2c Guideline (S-75M Volkhov)" id="ff54-52d4-08f1-d118" hidden="false" import="true" type="unit">
+      <comment>CGR</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="d238-80e5-a336-8dab" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SA-2c Guideline (S-75M Volkhov)" id="0cd1-b234-aad2-079f" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">CGR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">5+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">22</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">3</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">6</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">7+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1960</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SA-2e Guideline (S-75AK)" id="6f28-afa1-3fd5-4bed" hidden="false" import="true" type="unit">
+      <comment>CGR</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="0dc8-2054-86f1-6f32" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SA-2e Guideline (S-75AK)" id="66f7-1e43-1e40-68ad" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">CGR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">5+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">22</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">3</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">6</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">7+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1967</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SA-2f Guideline (S-75SM)" id="97d2-7c53-8629-913e" hidden="false" import="true" type="unit">
+      <comment>CGR / OG</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="6e75-98dd-07aa-96ee" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SA-2f Guideline (S-75SM)" id="d205-974d-4106-7b3e" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <comment>CGR</comment>
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">CGR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">5+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">22</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">3</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">6</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">7+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1968</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="SA-2f Guideline (S-75SM)" id="f055-0137-6702-5152" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <comment>OG</comment>
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">OG</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">5+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">22</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">6</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">7+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1968</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SA-3a Goa (S-125 Neva)" id="76a4-bf42-e9e5-10fc" hidden="false" import="true" type="unit">
+      <comment>CGR</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="dd69-464f-1a1d-373f" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SA-3a Goa (S-125 Neva)" id="23dc-b597-20b9-66d2" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">CGR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">20</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">3</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">8</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">7+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1961</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SA-3b Goa (S-125M Neva-M)" id="f1dd-86ee-a017-c5e0" hidden="false" import="true" type="unit">
+      <comment>CGR</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="f4bc-8f03-9db7-529f" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SA-3b Goa (S-125M Neva-M)" id="72af-dd4f-9b2c-e6fd" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">CGR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">20</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">3</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">8</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">7+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1964</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SA-4a Ganef (2K11 Krug)" id="b333-e370-bdca-0360" hidden="false" import="true" type="unit">
+      <comment>SARH</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="510d-1cbc-d68f-bdb7" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SA-4a Ganef (2K11 Krug)" id="76e8-45f4-6860-c950" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">SARH</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">32</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">6</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">7+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1963</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SA-4b Ganef (2K11M Krug-M)" id="623b-48ec-c445-5a59" hidden="false" import="true" type="unit">
+      <comment>SARH</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="80d6-9daa-30ce-c936" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SA-4b Ganef (2K11M Krug-M)" id="9be5-a728-c788-2bd4" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">SARH</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">32</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">6</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">7+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1973</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SA-5a Gammon (S-200A Angara)" id="ce4f-6dcf-0941-6a91" hidden="false" import="true" type="unit">
+      <comment>CGR</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="9f0a-4e3a-0093-06db" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SA-5a Gammon (S-200A Angara)" id="9c2a-223f-747e-615e" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">CGR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">48</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">6</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">7+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">2d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1960</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SA-5b Gammon (S-200M Vega-M)" id="0288-3f25-d0cc-d4b5" hidden="false" import="true" type="unit">
+      <comment>CGR</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="767f-de36-dca1-97f3" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Nuclear" id="9812-ed39-7b05-af7f" hidden="false" targetId="04bd-bff0-64f4-ab1f" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="SA-5b Gammon (S-200M Vega-M)" id="830e-e8fa-148b-2e06" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">CGR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">48</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">6</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">Nuclear</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">Nuclear</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1960</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SA-5c Gammon (S-200D Dubna)" id="9ec5-62ff-fd93-cff0" hidden="false" import="true" type="unit">
+      <comment>ARH</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="1077-8e67-31ae-73c9" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SA-5c Gammon (S-200D Dubna)" id="2c7f-3834-af8d-e7be" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">ARH</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">48</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">6</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">7+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">2d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1975</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SA-6a Gainful (2K12 Kub)" id="c19c-a47a-c56c-a894" hidden="false" import="true" type="unit">
+      <comment>SARH</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="f0e5-a024-a15f-3fc0" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SA-6a Gainful (2K12 Kub)" id="21ea-5894-068f-f3c0" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">SARH</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">18</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">3</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">12</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">5+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">2d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1966</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SA-6b Gainful (2K12 Kub)" id="cba5-6b90-e30f-93ef" hidden="false" import="true" type="unit">
+      <comment>OG / SARH</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="e485-4924-c648-d1bf" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SA-6b Gainful (2K12 Kub)" id="62ce-6af7-9e90-7b4b" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <comment>OG</comment>
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">OG</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">5+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">18</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">12</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">6+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">2d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1977</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="SA-6b Gainful (2K12 Kub)" id="8fef-259d-bd2d-fe0b" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <comment>SARH</comment>
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">SARH</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">18</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">3</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">12</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">5+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">2d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1977</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SA-7a Grail (9K32 Strela-2)" id="17eb-ff63-8d1c-861f" hidden="false" import="true" type="unit">
+      <comment>IR</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="f846-cd41-dd94-726a" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SA-7a Grail (9K32 Strela-2)" id="d70c-92ef-a1d9-d446" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">IR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">rear-60</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">10</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">4</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">8+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">1</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1966</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SA-7b Grail (9K32M Strela-2M)" id="a9cd-830e-9067-3d75" hidden="false" import="true" type="unit">
+      <comment>IR</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="93b9-badc-32f6-ac29" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SA-7b Grail (9K32M Strela-2M)" id="269d-b432-847c-434f" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">IR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">rear-60</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">10</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">4</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">8+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">1</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1972</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SA-8a Gecko (9K33 Osa)" id="3fa7-1813-21f5-c05a" hidden="false" import="true" type="unit">
+      <comment>SARH</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="2ab7-1207-6c75-28e0" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SA-8a Gecko (9K33 Osa)" id="809b-d6be-b2f5-506e" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">SARH</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">3+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">16</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">2</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">4</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">6+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1973</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SA-8b Gecko (9K33M2 Osa-AK)" id="5994-729a-caae-ffa5" hidden="false" import="true" type="unit">
+      <comment>OG / SARH</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="e702-eea7-c48b-d085" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SA-8b Gecko (9K33M2 Osa-AK)" id="7953-625d-18ae-d05d" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <comment>OG</comment>
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">OG</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">16</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">6</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">8+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1980</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="SA-8b Gecko (9K33M2 Osa-AK)" id="28e3-1450-a368-48ac" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <comment>SARH</comment>
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">SARH</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">3+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">16</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">2</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">6</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">6+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1980</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SA-9a Gaskin (9K31 Strela-1)" id="164a-9e8f-fee6-f66b" hidden="false" import="true" type="unit">
+      <comment>IR</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="70bf-1187-712d-bc3f" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SA-9a Gaskin (9K31 Strela-1)" id="1406-96bc-452d-74c6" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">IR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">rear-60</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">12</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">2</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">4</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">7+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1968</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SA-9b Gaskin (9K31 Strela-1)" id="56ea-def9-3eee-438f" hidden="false" import="true" type="unit">
+      <comment>IR</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="3a1d-73c3-9e62-5908" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SA-9b Gaskin (9K31 Strela-1)" id="fdcc-2d79-edc9-a54b" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">IR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">12</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">2</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">4</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">7+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1970</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SA-10a Grumble (S-300P / S-300PT)" id="e9d2-2c82-b872-d520" hidden="false" import="true" type="unit">
+      <comment>CGR</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="9d64-2c11-ac4e-a8b0" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SA-10a Grumble (S-300P / S-300PT)" id="cf96-2679-e8d1-c0d2" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">CGR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">3+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">40</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">12</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">6</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">32</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">6+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1978</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SA-10b Grumble (S-300PS / S-300PM)" id="ece1-2471-93bd-a014" hidden="false" import="true" type="unit">
+      <comment>ARH</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="35a7-99e8-139c-3237" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SA-10b Grumble (S-300PS / S-300PM)" id="0417-272b-8985-df54" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">ARH</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">3+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">40</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">12</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">6</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">32</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">6+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1985</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SA-11 Gadfly (9K37 Buk)" id="1f98-0fe5-9384-a7ac" hidden="false" import="true" type="unit">
+      <comment>OG / SARH</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="463b-4234-9bad-4881" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SA-11 Gadfly (9K37 Buk)" id="99fa-57a8-6082-02d7" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <comment>SARH</comment>
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">SARH</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">3+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">20</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">2</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">4</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">3+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">2d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1980</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="SA-11 Gadfly (9K37 Buk)" id="3a1f-b688-a8f8-5cf9" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <comment>OG</comment>
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">OG</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">6+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">20</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">4</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">5+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">2d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1980</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SA-11 Gadfly (improved) (9K37 Buk)" id="44ae-def8-6503-308d" hidden="false" import="true" type="unit">
+      <comment>OG / SARH</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="c3ff-8368-7837-905e" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SA-11 Gadfly (improved) (9K37 Buk)" id="0d70-e57e-6510-13ed" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <comment>OG</comment>
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">OG</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">20</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">4</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">5+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">2d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1980</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="SA-11 Gadfly (improved) (9K37 Buk)" id="4e8b-4a6a-281e-30cf" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <comment>SARH</comment>
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">SARH</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">3+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">26</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">2</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">4</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">3+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">2d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1995</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SA-12a Gladiator (S-300V)" id="6f09-52ad-8a7e-e579" hidden="false" import="true" type="unit">
+      <comment>CGR</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="cd2b-ea13-ec11-16cd" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SA-12a Gladiator (S-300V)" id="df00-8491-9753-a6aa" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">CGR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">2+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">46</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">6</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">6</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">24</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">3+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1987</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SA-12b Giant (S-300V)" id="ef8d-9d63-2023-9b1e" hidden="false" import="true" type="unit">
+      <comment>CGR</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="edfa-ab42-e08c-d135" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SA-12b Giant (S-300V)" id="efab-2013-b349-6504" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">CGR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">52</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">2</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">12</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">4+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">5</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Bateria</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1990</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SA-13 Gopher (9K35 Strela-10)" id="8743-25d4-4520-fa72" hidden="false" import="true" type="unit">
+      <comment>IR</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="8b15-0969-46e4-4539" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SA-13 Gopher (9K35 Strela-10)" id="c42b-3897-e517-07c9" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">IR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">3+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">12</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">4</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">4+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1980</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SA-14 Gremlin (9K34 Strela-3)" id="8e04-614d-e07e-9f8b" hidden="false" import="true" type="unit">
+      <comment>IR</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="b5fe-2972-ba3a-025d" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SA-14 Gremlin (9K34 Strela-3)" id="1356-3d87-b458-bf64" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">IR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">12</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">4</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">6+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">1</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1978</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SA-15 Gauntlet (Tor M-1)" id="8880-ec46-d8af-eced" hidden="false" import="true" type="unit">
+      <comment>CGR / OG</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="7e62-4709-dbd3-28d5" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SA-15 Gauntlet (Tor M-1)" id="2451-3fb7-7b2e-177d" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <comment>CGR</comment>
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">CGR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">2+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">22</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">2</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">8</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">4+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1990</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="SA-15 Gauntlet (Tor M-1)" id="5e46-832e-2e2a-f11c" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <comment>OG</comment>
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">OG</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">3+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">22</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">8</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">4+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1990</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SA-16 Gimlet (9K310 Igla)" id="b944-86bf-53da-72b8" hidden="false" import="true" type="unit">
+      <comment>IR</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="5047-b7c8-9557-6c5a" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SA-16 Gimlet (9K310 Igla)" id="8ad5-affc-0319-9b5c" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">IR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">al</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">12</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">4</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">6+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Ligero</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">1</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1981</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SA-17 Grizzly (Buk-M1/M2)" id="f7b3-2727-f13b-d668" hidden="false" import="true" type="unit">
+      <comment>OG / SARH</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="322a-baf4-ed66-0f84" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SA-17 Grizzly (Buk-M1/M2)" id="c0b0-4381-f256-7be4" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <comment>OG</comment>
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">OG</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">20</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">4</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">5+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">2d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1998</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="SA-17 Grizzly (Buk-M1/M2)" id="734e-0c7a-1911-e04f" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <comment>SARH</comment>
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">SARH</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">3+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">28</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">2</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">4</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">3+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">2d6</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1998</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SA-19 Grisom (2K22 Tunguska)" id="89c5-49e4-2cf8-251c" hidden="false" import="true" type="unit">
+      <comment>CGR / OG</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="3758-ef14-95bb-dd2e" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SA-19 Grisom (2K22 Tunguska)" id="e21b-000d-47b4-bf29" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <comment>CGR</comment>
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">CGR</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">3+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">8</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">2</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">8</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">5+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1995</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="SA-19 Grisom (2K22 Tunguska)" id="91ef-0f8f-86b8-dc88" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <comment>OG</comment>
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">OG</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">4+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">8</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">1</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">8</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">5+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1995</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="ADATS" id="3aaa-c495-9266-b5a8" hidden="false" import="true" type="unit">
+      <comment>OG / LG</comment>
+      <categoryLinks>
+        <categoryLink name="Suiza" id="967e-c318-4f3b-4772" hidden="false" primary="true" targetId="b0c0-a231-f8fa-19c0"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="ADATS" id="24c1-f6dc-4f4f-afdb" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <comment>OG</comment>
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">OG</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">3+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">18</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">8</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">5+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1989</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="ADATS" id="d759-b38d-d867-533f" hidden="false" typeId="2386-e6db-16e9-6fe2" typeName="SAM">
+          <comment>LG</comment>
+          <characteristics>
+            <characteristic name="Guiado" typeId="75b7-c429-4591-c6bb">LG</characteristic>
+            <characteristic name="Aspecto" typeId="492d-fd44-4328-d821">all</characteristic>
+            <characteristic name="Fijado" typeId="37e1-dc6d-2420-e96a">3+</characteristic>
+            <characteristic name="Alcance" typeId="b85b-c731-46d1-5144">18</characteristic>
+            <characteristic name="ROF" typeId="6407-9cd6-9140-53b4">2</characteristic>
+            <characteristic name="Objetivos" typeId="6a4b-1d66-27fd-e294">1</characteristic>
+            <characteristic name="Municion" typeId="8089-1da9-79df-730e">8</characteristic>
+            <characteristic name="Impacto" typeId="da94-35f0-8476-e339">5+</characteristic>
+            <characteristic name="Daño" typeId="29ff-de2e-2443-54f2">1d10</characteristic>
+            <characteristic name="Clase" typeId="d505-d52e-6947-8608">Medio</characteristic>
+            <characteristic name="DP" typeId="92b3-7f3b-6bee-ebc7">2</characteristic>
+            <characteristic name="Tamaño" typeId="05f1-00e4-7dc7-5b48">Individual</characteristic>
+            <characteristic name="Año" typeId="b94b-4246-c8ee-9682">1989</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>

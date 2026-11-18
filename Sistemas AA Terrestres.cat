@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue name="Sistemas AA Terrestres" id="6311-1ab1-d2cc-b405" battleScribeVersion="2.03" gameSystemId="sys-6b94-3646-c6d2-7038" gameSystemRevision="3" library="false" revision="1" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry name="FlakPz-1 Gepard" id="21a6-c361-5a65-92a6" hidden="false" import="true" type="unit">
+      <comment>RDR / OPT</comment>
+      <categoryLinks>
+        <categoryLink name="Alemania" id="139a-d6ef-5d6b-c3d7" hidden="false" primary="true" targetId="4dc9-6605-f3ed-0f29"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="FlakPz-1 Gepard" id="3073-6736-52ee-a778" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <comment>RDR</comment>
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Radar</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">9</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">8+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d10</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Medio</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">⬜️⬜️⬜️⬜️</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">2x35 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">SP</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Seccion</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1976</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="FlakPz-1 Gepard" id="6bef-b0e9-7648-5909" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <comment>OP</comment>
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">9</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">10+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d10</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Medio</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">⬜️⬜️⬜️⬜️</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">2x35 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">SP</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Seccion</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1976</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="RH-202 Rheinmetall" id="5ff6-10d0-ccf0-b746" hidden="false" import="true" type="unit">
+      <comment>OPT</comment>
+      <categoryLinks>
+        <categoryLink name="Alemania" id="27c0-38a9-fb41-7b7d" hidden="false" primary="true" targetId="4dc9-6605-f3ed-0f29"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="RH-202 Rheinmetall" id="fb20-4593-6f2e-d70f" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">6</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">10+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d6</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Ligero</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">⬜️⬜️⬜️⬜️⬜️</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">2x20 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">Remolcado</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Bateria</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1970</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Type 59" id="7b1d-5cd8-edf4-ced4" hidden="false" import="true" type="unit">
+      <comment>OPT</comment>
+      <categoryLinks>
+        <categoryLink name="China" id="4eae-d587-bfa8-af43" hidden="false" primary="true" targetId="6e88-d068-f08c-d318"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Type 59" id="b206-2913-0a2e-6d57" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">10</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">11+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d10</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Ligero</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">⬜️⬜️⬜️⬜️⬜️</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">57 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">Remolcado</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Bateria</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">?</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Type 63" id="7b91-00b8-eb77-bcf6" hidden="false" import="true" type="unit">
+      <comment>OPT</comment>
+      <categoryLinks>
+        <categoryLink name="China" id="3776-ad0e-a947-503a" hidden="false" primary="true" targetId="6e88-d068-f08c-d318"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Type 63" id="496f-75d1-6ae3-d51c" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">9</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">11+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d6</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Medio</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">⬜️⬜️⬜️⬜️</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">2x37 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">SP</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Seccion</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1950</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Type 74" id="6e36-2081-6347-f317" hidden="false" import="true" type="unit">
+      <comment>OPT</comment>
+      <categoryLinks>
+        <categoryLink name="China" id="30ae-a7bf-67cb-550a" hidden="false" primary="true" targetId="6e88-d068-f08c-d318"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Type 74" id="34c1-cb1e-49cd-98a9" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">9</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">10+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d6</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Ligero</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">⬜️⬜️⬜️⬜️⬜️</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">37 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">Remolcado</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Bateria</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">?</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="LAV-AD" id="e214-e426-69f2-7ad8" hidden="false" import="true" type="unit">
+      <comment>OPT</comment>
+      <categoryLinks>
+        <categoryLink name="Estados Unidos" id="65de-bd9b-9868-edd4" hidden="false" primary="true" targetId="ed20-6f65-b416-21aa"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="LAV-AD" id="4319-0bf6-de07-8827" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">7</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">11+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d6</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Medio</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">4</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">1x25 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">SP</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Seccion</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1997</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="M-42A1 Duster" id="44a2-40e8-37e7-db08" hidden="false" import="true" type="unit">
+      <comment>OPT</comment>
+      <categoryLinks>
+        <categoryLink name="Estados Unidos" id="a97d-e270-1e18-b5d3" hidden="false" primary="true" targetId="ed20-6f65-b416-21aa"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="M-42A1 Duster" id="4665-8dad-3f80-e9c1" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">9</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">10+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d10</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Medio</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">4</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">2x40 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">SP</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Seccion</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1951</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="M-163 Vulcan" id="5462-bfdb-9a55-3b25" hidden="false" import="true" type="unit">
+      <comment>OPT / RDR</comment>
+      <categoryLinks>
+        <categoryLink name="Estados Unidos" id="47fa-b511-ea82-ab18" hidden="false" primary="true" targetId="ed20-6f65-b416-21aa"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="M-163 Vulcan" id="1665-ced5-f2ae-9c45" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <comment>OPT</comment>
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">6</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">11+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d6</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Medio</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">4</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">1x20 mm Gat</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">SP</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Sección</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1963</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="M-163 Vulcan" id="a670-7e60-8bd9-7d4d" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <comment>RDR</comment>
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Radar</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">6</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">9+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d6</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Medio</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">4</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">1x20 mm Gat</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">SP</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Sección</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1963</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="M-167 Vulcan" id="7846-a1a5-7c65-629b" hidden="false" import="true" type="unit">
+      <comment>OPT / RDR</comment>
+      <categoryLinks>
+        <categoryLink name="Estados Unidos" id="4124-a98c-32dc-c8ae" hidden="false" primary="true" targetId="ed20-6f65-b416-21aa"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="M-167 Vulcan" id="4665-a8b9-8313-2395" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <comment>OPT</comment>
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">6</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">10+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d6</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Ligero</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">5</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">1x20 mm Gat</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">Remolcado</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Bateria</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1963</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="M-167 Vulcan" id="a334-5200-628d-498b" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <comment>RDR</comment>
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Radar</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">6</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">8+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d6</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Ligero</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">5</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">1x20 mm Gat</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">Remolcado</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Bateria</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1963</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="M6 Linebacker" id="7bbf-2576-ce58-4364" hidden="false" import="true" type="unit">
+      <comment>OPT</comment>
+      <categoryLinks>
+        <categoryLink name="Estados Unidos" id="9963-5397-f4e0-c7d0" hidden="false" primary="true" targetId="ed20-6f65-b416-21aa"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="M6 Linebacker" id="9ac3-fe67-968e-3bb5" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">7</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">11+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d4</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Medio</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">4</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">1x25 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">SP</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Seccion</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1998</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="M16 Quad-50 SP" id="bb36-dcb9-2009-fca3" hidden="false" import="true" type="unit">
+      <comment>OPT</comment>
+      <categoryLinks>
+        <categoryLink name="Estados Unidos" id="fb0c-c263-00a7-cc1c" hidden="false" primary="true" targetId="ed20-6f65-b416-21aa"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="M16 Quad-50 SP" id="79dd-e970-4206-1973" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">4</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">10+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d4</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Ligero</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">3</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">4x12.7 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">SP</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Seccion</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1943</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="M17 Quad-50 SP" id="1cd5-96d0-a026-e3fb" hidden="false" import="true" type="unit">
+      <comment>OPT</comment>
+      <categoryLinks>
+        <categoryLink name="Estados Unidos" id="af57-530d-5717-e00e" hidden="false" primary="true" targetId="ed20-6f65-b416-21aa"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="M17 Quad-50 SP" id="7516-fa2f-fa5d-4e28" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">4</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">10+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d4</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Ligero</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">3</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">4x12.7 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">SP</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Seccion</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1943</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="M55 Quad-50" id="9c10-1cb6-1985-b340" hidden="false" import="true" type="unit">
+      <comment>OPT</comment>
+      <categoryLinks>
+        <categoryLink name="Estados Unidos" id="192d-62a5-7260-a98c" hidden="false" primary="true" targetId="ed20-6f65-b416-21aa"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="M55 Quad-50" id="cc52-66f4-c802-94be" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">4</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">10+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d4</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Ligero</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">5</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">4x12.7 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">Remolcado</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Bateria</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1943</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="M55 Quad-50 SP" id="eff8-fa31-0439-bfca" hidden="false" import="true" type="unit">
+      <comment>OPT</comment>
+      <categoryLinks>
+        <categoryLink name="Estados Unidos" id="2e84-890e-b121-7d84" hidden="false" primary="true" targetId="ed20-6f65-b416-21aa"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="M55 Quad-50 SP" id="ce3d-08fd-3b87-f48a" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">4</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">10+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d4</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Ligero</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">3</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">4x12.7 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">SP</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Seccion</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1943</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="M117/M118" id="4941-5177-f059-7007" hidden="false" import="true" type="unit">
+      <comment>OPT / RDR</comment>
+      <categoryLinks>
+        <categoryLink name="Estados Unidos" id="c9c4-aafe-8ff3-d62d" hidden="false" primary="true" targetId="ed20-6f65-b416-21aa"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="M117/M118" id="ed6b-6639-ef7a-4aae" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <comment>OPT</comment>
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">10</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">11+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d10</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Ligero</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">5</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">1x90 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">Remolcado</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Bateria</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1"/>
+          </characteristics>
+        </profile>
+        <profile name="M117/M118" id="9d74-ad4d-3649-c551" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <comment>RDR</comment>
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Radar</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">10</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">9+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d10</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Ligero</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">5</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">1x90 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">Remolcado</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Bateria</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="2K22 Tunguska" id="650a-5e38-d1bd-36de" hidden="false" import="true" type="unit">
+      <comment>RDR / OPT</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="8219-a7e9-155d-3e84" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="2K22 Tunguska" id="ac29-f8eb-35bd-bf38" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <comment>RDR</comment>
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Radar</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">7</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">9+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d6</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Medio</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">4</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">2x30 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">SP</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Seccion</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1983</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="2K22 Tunguska" id="e912-c4dc-01ff-ef61" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <comment>OPT</comment>
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">7</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">11+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d6</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Medio</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">4</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">2x30 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">SP</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Seccion</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1983</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="12.7 mm" id="bc4d-0cab-8381-8f02" hidden="false" import="true" type="unit">
+      <comment>OPT</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="358d-2bb8-0c03-f03f" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="12.7 mm" id="b3ed-08a5-83ea-6864" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">OPtico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">4</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">11+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d4</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Ligero</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">5</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">1x12.7 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">Remolcado</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Bateria</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1938</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="14.5 mm" id="980d-f325-a0ee-d58b" hidden="false" import="true" type="unit">
+      <comment>OPT</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="cdc7-fc3c-6ad3-d70f" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="14.5 mm" id="4b76-7c18-f1c3-4deb" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">4</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">1+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d4</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Ligero</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">5</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">1x14.5 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">Remolcado</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Bateria</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1938</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="BTR-40 AA" id="e242-f901-b3ff-6d25" hidden="false" import="true" type="unit">
+      <comment>OPT</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="851d-03db-c78e-b6d1" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="BTR-40 AA" id="29c6-c41b-c1f9-44aa" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">4</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">10+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d4</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Medio</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">4</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">2x14.5 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">SP</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Seccion</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1950</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="BTR-152 AA" id="7397-3ced-952b-dd7c" hidden="false" import="true" type="unit">
+      <comment>OPT</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="03e1-eaa1-f73b-b38d" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="BTR-152 AA" id="18a6-5dbf-c408-a6fa" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">4</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">10+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d4</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Meido</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">4</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">2x14.5 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">SP</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Seccion</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1950</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="KS-18" id="440a-edd0-6248-4b62" hidden="false" import="true" type="unit">
+      <comment>RDR / OPT</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="816e-6935-4c14-7f6d" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="KS-18" id="c20f-e67d-1e88-3d7c" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <comment>RDR</comment>
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Radar</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">10</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">10+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d10</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Ligero</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">5</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">1x85 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">Remolcado</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Bateria</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1944</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="KS-18" id="b906-2411-e2a7-eb67" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <comment>OPT</comment>
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">10</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">12+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d10</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Ligero</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">5</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">1x85 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">Remolcado</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Bateria</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1944</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="KS-19" id="55c2-de1d-6f88-13c6" hidden="false" import="true" type="unit">
+      <comment>RDR / OPT</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="32c6-e3d5-3491-6036" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="KS-19" id="8a63-f243-8761-c695" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <comment>RDR</comment>
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Radar</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">12</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">10+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d10</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Ligero</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">5</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">1x100 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">Remolcado</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Bateria</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1949</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="KS-19" id="1553-f87f-9f8b-2263" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <comment>OPT</comment>
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">12</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">12+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d10</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Ligero</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">5</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">1x100 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">Remolcado</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Bateria</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1949</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="M38/39" id="8e87-30c1-a27e-6de4" hidden="false" import="true" type="unit">
+      <comment>OPT</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="a81b-33da-19b2-7a5a" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="M38/39" id="b204-c688-c547-5cae" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">9</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">10+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d6</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Ligero</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">5</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">1x37 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">Remolcado</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Bateria</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1938</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="ZPU-1" id="e02f-7e2e-fddb-86ff" hidden="false" import="true" type="unit">
+      <comment>OPT</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="5f98-cc1d-207f-88ec" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="ZPU-1" id="b076-2ca8-bd53-8aaf" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">5</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">11+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d4</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Ligero</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">5</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">1x14.5 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">Remolcado</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Bateria</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1943</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="ZPU-2" id="3ed5-3d27-b094-5e03" hidden="false" import="true" type="unit">
+      <comment>OPT</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="0c96-e016-5570-d115" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="ZPU-2" id="82b2-5665-a3b0-b41e" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">5</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">10+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d4</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Ligero</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">5</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">2x14.5 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">Remolcado</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Bateria</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1943</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="ZPU-4" id="afd0-ba9a-6a10-6540" hidden="false" import="true" type="unit">
+      <comment>OPT</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="bed9-bb42-a1ed-d7d7" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="ZPU-4" id="b7e9-ce50-913d-3fa7" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">5</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">9+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d4</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Ligero</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">3</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">4x14.5 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">SP</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Seccion</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1943</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="ZPU-4" id="da98-deb3-214f-fc40" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">5</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">9+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d4</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Ligero</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">5</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">4x14.5 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">Remolcado</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Bateria</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1943</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="ZSU-23-4 Shilka" id="3070-2b85-1796-f88c" hidden="false" import="true" type="unit">
+      <comment>RDR / OPT</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="27eb-3ed4-d145-e7c8" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="ZSU-23-4 Shilka" id="cb38-b9df-9d70-8a96" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <comment>RDR</comment>
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Radar</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">7</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">9+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d6</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Medio</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">4</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">4x23 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">SP</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Seccion</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1965</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="ZSU-23-4 Shilka" id="cce8-a882-f75a-6506" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <comment>OPT</comment>
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">7</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">11+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d6</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Medio</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">4</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">4x23 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">SP</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Seccion</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1965</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="ZSU-57-2" id="73e7-f55f-428e-885e" hidden="false" import="true" type="unit">
+      <comment>OPT</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="2719-2d85-9ba4-dec9" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="ZSU-57-2" id="9a97-ebc3-bb20-181a" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">5</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">10+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d10</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Medio</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">4</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">2x57 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">SP</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Seccion</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1957</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="ZU-23-2" id="c59b-be5b-a167-0055" hidden="false" import="true" type="unit">
+      <comment>OPT</comment>
+      <categoryLinks>
+        <categoryLink name="Rusia / URSS" id="84e2-0cab-8bf9-5556" hidden="false" primary="true" targetId="3c62-b7c7-c15d-4c1f"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="ZU-23-2" id="2bf6-4f7c-709e-7448" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">7</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">11+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d4</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Ligero</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">3</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">2x23 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">SP</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Seccion</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1965</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="ZU-23-2" id="a34c-f33e-11db-67ce" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">7</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">10+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d4</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Ligero</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">5</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">2x23 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">Remolcado</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Bateria</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1965</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="GAI-BO1 Oerlikon" id="eebd-0cba-d94f-8d4f" hidden="false" import="true" type="unit">
+      <comment>OPT</comment>
+      <categoryLinks>
+        <categoryLink name="Suiza" id="0c2b-5a53-79bc-8338" hidden="false" primary="true" targetId="b0c0-a231-f8fa-19c0"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="GAI-BO1 Oerlikon" id="38e1-94fb-6a80-c124" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">6</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">10+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d4</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Ligero</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">5</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">1x20 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">Remolcado</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Bateria</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1972</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="GBF-BOB Oerlikon" id="358c-5649-f030-9e7b" hidden="false" import="true" type="unit">
+      <comment>OPT</comment>
+      <categoryLinks>
+        <categoryLink name="Suiza" id="b2a7-377b-434e-d398" hidden="false" primary="true" targetId="b0c0-a231-f8fa-19c0"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="GBF-BOB Oerlikon" id="f15c-535c-5bf7-fb3e" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">9</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">8+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d10</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Ligero</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">5</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">2x35 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">Remolcado</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Bateria</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1980</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="GDF-001 Oerlikon" id="77dd-b741-ad80-bcff" hidden="false" import="true" type="unit">
+      <comment>RDR / OPT</comment>
+      <categoryLinks>
+        <categoryLink name="Suiza" id="3eb5-048a-48d7-a044" hidden="false" primary="true" targetId="b0c0-a231-f8fa-19c0"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="GDF-001 Oerlikon" id="43b7-fabc-141a-6954" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <comment>OPT</comment>
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Optico</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">9</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">11+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d6</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Ligero</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">5</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">2x35 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">Remolcado</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Bateria</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1962</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="GDF-001 Oerlikon" id="3c44-7d23-b49a-eac2" hidden="false" typeId="3b95-f4fa-ba05-1232" typeName="Cañones AA">
+          <comment>RDR</comment>
+          <characteristics>
+            <characteristic name="Control Disparo" typeId="7190-09e9-e40b-2b37">Radar</characteristic>
+            <characteristic name="Alcance" typeId="cd28-b7d4-7fd5-91c7">9</characteristic>
+            <characteristic name="Impacto" typeId="51a4-d221-b738-4471">9+</characteristic>
+            <characteristic name="Daño" typeId="7884-87ab-efda-bf85">1d6</characteristic>
+            <characteristic name="Objetivo" typeId="a8c4-033f-1edd-0b9c">Ligero</characteristic>
+            <characteristic name="DP" typeId="bc04-87e8-2fa0-900f">5</characteristic>
+            <characteristic name="Cañones x Calibre" typeId="46f0-a17d-8260-cced">2x35 mm</characteristic>
+            <characteristic name="Clase" typeId="7962-0d5a-d250-20c6">Remolcado</characteristic>
+            <characteristic name="Tamaño" typeId="fcc5-154f-5bc2-5b67">Bateria</characteristic>
+            <characteristic name="Año" typeId="6b62-fe7d-3462-24d1">1962</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue name="Objetivos Terrestres" id="7d7a-dab3-8838-cc3b" battleScribeVersion="2.03" gameSystemId="sys-6b94-3646-c6d2-7038" gameSystemRevision="3" library="false" revision="1" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <forceEntries>
+    <forceEntry name="Objetivos Terrestres" id="ef8a-9e6d-ed86-7c11" hidden="false">
+      <categoryLinks>
+        <categoryLink name="Objetivo Terrestre" id="622f-3215-c541-3ccf" hidden="false" targetId="61b0-52e5-cfc0-2031"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <selectionEntries>
+    <selectionEntry name="APC / IFV" id="5440-fdff-592d-5014" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Objetivo Terrestre" id="e88d-caa8-8a68-990e" hidden="false" primary="true" targetId="61b0-52e5-cfc0-2031"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="APC / IFV" id="5e91-91d9-c39e-afc2" hidden="false" typeId="d4cc-b5fe-0a05-1a8f" typeName="Objetivo Terrestre">
+          <characteristics>
+            <characteristic name="Clase" typeId="6a47-59f3-7502-3dc7">Medio</characteristic>
+            <characteristic name="DP" typeId="37d2-0831-258a-a03f">3</characteristic>
+            <characteristic name="Descripcion" typeId="14b5-c31c-37f4-2ccd">Sección o medio pelotón (2 vehículos)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Búnker" id="2634-3469-2c72-ce79" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Objetivo Terrestre" id="d620-af23-60ef-6776" hidden="false" primary="true" targetId="61b0-52e5-cfc0-2031"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Búnker" id="3171-487e-1cde-c078" hidden="false" typeId="d4cc-b5fe-0a05-1a8f" typeName="Objetivo Terrestre">
+          <characteristics>
+            <characteristic name="Clase" typeId="6a47-59f3-7502-3dc7">Medio</characteristic>
+            <characteristic name="DP" typeId="37d2-0831-258a-a03f">6</characteristic>
+            <characteristic name="Descripcion" typeId="14b5-c31c-37f4-2ccd">De 2 a 4 búnkeres defendidos por unos 16 hombres.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Camión" id="eefd-6ba4-46fd-caa8" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Objetivo Terrestre" id="b82f-3a62-618a-95db" hidden="false" primary="true" targetId="61b0-52e5-cfc0-2031"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Camión" id="0b5c-b862-92e1-57fa" hidden="false" typeId="d4cc-b5fe-0a05-1a8f" typeName="Objetivo Terrestre">
+          <characteristics>
+            <characteristic name="Clase" typeId="6a47-59f3-7502-3dc7">Ligero</characteristic>
+            <characteristic name="DP" typeId="37d2-0831-258a-a03f">2</characteristic>
+            <characteristic name="Descripcion" typeId="14b5-c31c-37f4-2ccd">3 a 5 camiones</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Cañón AA autopropulsado blindado" id="c8cc-4b70-8937-af6f" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Objetivo Terrestre" id="5a7d-4206-4741-086d" hidden="false" primary="true" targetId="61b0-52e5-cfc0-2031"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Cañón AA autopropulsado blindado" id="2591-b332-51d3-a9fe" hidden="false" typeId="d4cc-b5fe-0a05-1a8f" typeName="Objetivo Terrestre">
+          <characteristics>
+            <characteristic name="Clase" typeId="6a47-59f3-7502-3dc7">Medio</characteristic>
+            <characteristic name="DP" typeId="37d2-0831-258a-a03f">4</characteristic>
+            <characteristic name="Descripcion" typeId="14b5-c31c-37f4-2ccd">Sección o medio pelotón (2 vehículos)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Cañón AA autopropulsado sin blindaje" id="662e-c5dc-9814-2161" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Objetivo Terrestre" id="4bed-f095-307b-68f7" hidden="false" primary="true" targetId="61b0-52e5-cfc0-2031"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Cañón AA autopropulsado sin blindaje" id="3f21-6de3-0843-da92" hidden="false" typeId="d4cc-b5fe-0a05-1a8f" typeName="Objetivo Terrestre">
+          <characteristics>
+            <characteristic name="Clase" typeId="6a47-59f3-7502-3dc7">Ligero</characteristic>
+            <characteristic name="DP" typeId="37d2-0831-258a-a03f">3</characteristic>
+            <characteristic name="Descripcion" typeId="14b5-c31c-37f4-2ccd">Sección o medio pelotón (2 vehículos)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Cañones AA fijos o remolcados" id="2e74-ac46-ffb7-b83a" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Objetivo Terrestre" id="a805-08af-45be-4b14" hidden="false" primary="true" targetId="61b0-52e5-cfc0-2031"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Cañones AA fijos o remolcados" id="7ef5-012f-f57b-3ed6" hidden="false" typeId="d4cc-b5fe-0a05-1a8f" typeName="Objetivo Terrestre">
+          <characteristics>
+            <characteristic name="Clase" typeId="6a47-59f3-7502-3dc7">Ligero</characteristic>
+            <characteristic name="DP" typeId="37d2-0831-258a-a03f">5</characteristic>
+            <characteristic name="Descripcion" typeId="14b5-c31c-37f4-2ccd">Emplazamiento, el soporte RADAR está separado.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Edificio grande" id="00e0-8d2b-c767-f943" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Objetivo Terrestre" id="3c87-e521-a3b3-6430" hidden="false" primary="true" targetId="61b0-52e5-cfc0-2031"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Edificio grande" id="c4ee-514c-c48e-42f8" hidden="false" typeId="d4cc-b5fe-0a05-1a8f" typeName="Objetivo Terrestre">
+          <characteristics>
+            <characteristic name="Clase" typeId="6a47-59f3-7502-3dc7">Medio</characteristic>
+            <characteristic name="DP" typeId="37d2-0831-258a-a03f">3 a 10</characteristic>
+            <characteristic name="Descripcion" typeId="14b5-c31c-37f4-2ccd">Edificio industrial grande, edificio militar reforzado.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Edificio mediano" id="0cc5-1fa6-ff2c-1568" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Objetivo Terrestre" id="7bd7-27f4-085d-9183" hidden="false" primary="true" targetId="61b0-52e5-cfc0-2031"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Edificio mediano" id="fd6b-3e1e-c482-5df1" hidden="false" typeId="d4cc-b5fe-0a05-1a8f" typeName="Objetivo Terrestre">
+          <characteristics>
+            <characteristic name="Clase" typeId="6a47-59f3-7502-3dc7">Medio</characteristic>
+            <characteristic name="DP" typeId="37d2-0831-258a-a03f">3 a 10</characteristic>
+            <characteristic name="Descripcion" typeId="14b5-c31c-37f4-2ccd">Edificio industrial pequeño, gran edificio comercial.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Edificio pequeño" id="a67c-e92c-1f1e-1be6" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Objetivo Terrestre" id="023d-8c5e-daf4-8642" hidden="false" primary="true" targetId="61b0-52e5-cfc0-2031"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Edificio pequeño" id="c588-6f51-bc0b-ea79" hidden="false" typeId="d4cc-b5fe-0a05-1a8f" typeName="Objetivo Terrestre">
+          <characteristics>
+            <characteristic name="Clase" typeId="6a47-59f3-7502-3dc7">Ligero</characteristic>
+            <characteristic name="DP" typeId="37d2-0831-258a-a03f">1 a 5</characteristic>
+            <characteristic name="Descripcion" typeId="14b5-c31c-37f4-2ccd">Casa o choza de madera, pequeño edificio comercial.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Estacion RADAR terrestre" id="7f6a-ddf2-620f-aa3f" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Objetivo Terrestre" id="0bec-0e1a-b002-45b3" hidden="false" primary="true" targetId="61b0-52e5-cfc0-2031"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="RADAR" id="b97c-ffdd-f4dc-a553" hidden="false" typeId="d4cc-b5fe-0a05-1a8f" typeName="Objetivo Terrestre">
+          <characteristics>
+            <characteristic name="Clase" typeId="6a47-59f3-7502-3dc7">Ligero</characteristic>
+            <characteristic name="DP" typeId="37d2-0831-258a-a03f">1</characteristic>
+            <characteristic name="Descripcion" typeId="14b5-c31c-37f4-2ccd">RADAR para un emplazamiento fijo de cañones antiaéreos o SAM, debe colocarse a menos de 4&quot; del emplazamiento. También puede ser un RADAR de alerta temprana que no esté asociado a un emplazamiento.
+Puede apagarse en cualquier momento de la fase de movimiento. Si se apaga, no puede encenderse hasta pasadas cuatro fases (dos turnos completos)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Gran puente de acero u hormigón" id="e2b4-2161-5618-a057" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Objetivo Terrestre" id="705b-7e21-8ec6-a6be" hidden="false" primary="true" targetId="61b0-52e5-cfc0-2031"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Gran puente de acero u hormigón" id="ba96-3bef-8744-d9c1" hidden="false" typeId="d4cc-b5fe-0a05-1a8f" typeName="Objetivo Terrestre">
+          <characteristics>
+            <characteristic name="Clase" typeId="6a47-59f3-7502-3dc7">Pesado</characteristic>
+            <characteristic name="DP" typeId="37d2-0831-258a-a03f">10 a 20 por soporte.</characteristic>
+            <characteristic name="Descripcion" typeId="14b5-c31c-37f4-2ccd">Puente grande y largo de carretera o ferrocarril, sobre un gran rio o canal, capaz de soportar tráfico pesado.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Infanteria" id="6a26-6d5f-a52b-78b4" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Objetivo Terrestre" id="51e9-54eb-bfb5-0711" hidden="false" primary="true" targetId="61b0-52e5-cfc0-2031"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Infanteria" id="98c2-b570-202a-b713" hidden="false" typeId="d4cc-b5fe-0a05-1a8f" typeName="Objetivo Terrestre">
+          <characteristics>
+            <characteristic name="Clase" typeId="6a47-59f3-7502-3dc7">Ligero</characteristic>
+            <characteristic name="DP" typeId="37d2-0831-258a-a03f">3</characteristic>
+            <characteristic name="Descripcion" typeId="14b5-c31c-37f4-2ccd">Medio pelotón (unos 16 hombres)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Pista grande" id="8974-a336-f2c7-0188" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Objetivo Terrestre" id="5a42-072c-b480-8347" hidden="false" primary="true" targetId="61b0-52e5-cfc0-2031"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Pista grande" id="59c9-4d1e-b5b0-bb5b" hidden="false" typeId="d4cc-b5fe-0a05-1a8f" typeName="Objetivo Terrestre">
+          <characteristics>
+            <characteristic name="Clase" typeId="6a47-59f3-7502-3dc7">Medio</characteristic>
+            <characteristic name="DP" typeId="37d2-0831-258a-a03f">5 a 10</characteristic>
+            <characteristic name="Descripcion" typeId="14b5-c31c-37f4-2ccd">Pista de aterrizaje en un gran aeródromo comercial o militar.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Pista pequeña" id="ba47-8690-be01-d701" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Objetivo Terrestre" id="81e0-5a7a-3c2e-c213" hidden="false" primary="true" targetId="61b0-52e5-cfc0-2031"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Pista pequeña" id="b344-4214-9979-0171" hidden="false" typeId="d4cc-b5fe-0a05-1a8f" typeName="Objetivo Terrestre">
+          <characteristics>
+            <characteristic name="Clase" typeId="6a47-59f3-7502-3dc7">Medio</characteristic>
+            <characteristic name="DP" typeId="37d2-0831-258a-a03f">5 a 10</characteristic>
+            <characteristic name="Descripcion" typeId="14b5-c31c-37f4-2ccd">Pista de aterrizaje en pequeño aeródromo comercial o privado</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Puente de madera" id="b45b-5cba-4179-f4eb" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Objetivo Terrestre" id="4c77-5a57-4fae-6334" hidden="false" primary="true" targetId="61b0-52e5-cfc0-2031"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Puente de madera" id="fe44-3f83-d419-23be" hidden="false" typeId="d4cc-b5fe-0a05-1a8f" typeName="Objetivo Terrestre">
+          <characteristics>
+            <characteristic name="Clase" typeId="6a47-59f3-7502-3dc7">Ligero</characteristic>
+            <characteristic name="DP" typeId="37d2-0831-258a-a03f">3</characteristic>
+            <characteristic name="Descripcion" typeId="14b5-c31c-37f4-2ccd">Pequeño puente de madera para carretera, normalmente muy estrecho.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Puente de piedra u hormigón pequeño" id="8362-c5b5-7ca1-a2ba" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Objetivo Terrestre" id="9d58-4f93-cdca-1d44" hidden="false" primary="true" targetId="61b0-52e5-cfc0-2031"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Puente de piedra u hormigón pequeño" id="0f68-2adf-cc75-2c6d" hidden="false" typeId="d4cc-b5fe-0a05-1a8f" typeName="Objetivo Terrestre">
+          <characteristics>
+            <characteristic name="Clase" typeId="6a47-59f3-7502-3dc7">Medio</characteristic>
+            <characteristic name="DP" typeId="37d2-0831-258a-a03f">4 a 8</characteristic>
+            <characteristic name="Descripcion" typeId="14b5-c31c-37f4-2ccd">Puente pequeño sobre arroyo o canal, que soporta tráfico de vehículos ligeros.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Refugio de aeronaves reforzado" id="1c78-6eb1-f1c3-a5bf" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Objetivo Terrestre" id="9f8c-3681-4469-9207" hidden="false" primary="true" targetId="61b0-52e5-cfc0-2031"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Refugio de aeronaves reforzado" id="6a9a-e0e1-2626-e405" hidden="false" typeId="d4cc-b5fe-0a05-1a8f" typeName="Objetivo Terrestre">
+          <characteristics>
+            <characteristic name="Clase" typeId="6a47-59f3-7502-3dc7">Pesado</characteristic>
+            <characteristic name="DP" typeId="37d2-0831-258a-a03f">4 a 8</characteristic>
+            <characteristic name="Descripcion" typeId="14b5-c31c-37f4-2ccd"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SAM autopropulsado blindado" id="ad4d-bf76-d139-5102" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Objetivo Terrestre" id="c223-15be-961d-0898" hidden="false" primary="true" targetId="61b0-52e5-cfc0-2031"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SAM autopropulsado blindado" id="40fa-7d1c-f619-5c53" hidden="false" typeId="d4cc-b5fe-0a05-1a8f" typeName="Objetivo Terrestre">
+          <characteristics>
+            <characteristic name="Clase" typeId="6a47-59f3-7502-3dc7">Medio</characteristic>
+            <characteristic name="DP" typeId="37d2-0831-258a-a03f">2</characteristic>
+            <characteristic name="Descripcion" typeId="14b5-c31c-37f4-2ccd">Vehículo único</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SAM autopropulsado sin blindaje" id="48fa-78f4-f564-7334" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Objetivo Terrestre" id="911d-dd1d-f75c-7d9c" hidden="false" primary="true" targetId="61b0-52e5-cfc0-2031"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SAM autopropulsado sin blindaje" id="16d5-e7f7-6341-97db" hidden="false" typeId="d4cc-b5fe-0a05-1a8f" typeName="Objetivo Terrestre">
+          <characteristics>
+            <characteristic name="Clase" typeId="6a47-59f3-7502-3dc7">Ligero</characteristic>
+            <characteristic name="DP" typeId="37d2-0831-258a-a03f">1</characteristic>
+            <characteristic name="Descripcion" typeId="14b5-c31c-37f4-2ccd">Vehículo único</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SAM fijo o remolcado" id="4526-cfd7-8b4e-b149" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Objetivo Terrestre" id="a697-0ec9-7ac0-0b96" hidden="false" primary="true" targetId="61b0-52e5-cfc0-2031"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SAM fijo o remolcado" id="0f21-1eef-96c0-0e84" hidden="false" typeId="d4cc-b5fe-0a05-1a8f" typeName="Objetivo Terrestre">
+          <characteristics>
+            <characteristic name="Clase" typeId="6a47-59f3-7502-3dc7">Ligero</characteristic>
+            <characteristic name="DP" typeId="37d2-0831-258a-a03f">5</characteristic>
+            <characteristic name="Descripcion" typeId="14b5-c31c-37f4-2ccd">Emplazamiento, el soporte RADAR está separado.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Tanque" id="a125-4d0c-e2f7-92c4" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Objetivo Terrestre" id="8187-3d9d-1f20-2bec" hidden="false" primary="true" targetId="61b0-52e5-cfc0-2031"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Tanque" id="909c-e06b-7e8b-5e44" hidden="false" typeId="d4cc-b5fe-0a05-1a8f" typeName="Objetivo Terrestre">
+          <characteristics>
+            <characteristic name="Clase" typeId="6a47-59f3-7502-3dc7">Medio</characteristic>
+            <characteristic name="DP" typeId="37d2-0831-258a-a03f">4</characteristic>
+            <characteristic name="Descripcion" typeId="14b5-c31c-37f4-2ccd">Sección o medio pelotón (2 vehículos).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>
